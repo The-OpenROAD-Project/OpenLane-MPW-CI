@@ -1,0 +1,3 @@
+[submodule "designs/updown_caravel"]
+    path = designs/updown_caravel
+    url = https://github.com/The-OpenROAD-Project/updown_caravel
