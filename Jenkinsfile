@@ -24,6 +24,7 @@ pipeline {
                                     sh "python3 -m pip install --user pyyaml click";
                                     sh "./run.sh ${DESIGN}";
                                 }
+                                archiveArtifacts artifacts: "**/*.log, **/openroad_issue_reproducible/**/*";
                             }
                         }
                     }
@@ -32,9 +33,6 @@ pipeline {
         }
     }
     post {
-        always {
-            archiveArtifacts artifacts: "**/*.log, **/openroad_issue_reproducible/**/*";
-        }
         failure {
             emailext (
                     to: '$DEFAULT_RECIPIENTS',
