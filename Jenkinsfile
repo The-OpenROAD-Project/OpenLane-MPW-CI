@@ -21,6 +21,7 @@ pipeline {
                         steps {
                             script {
                                 stage("${DESIGN}") {
+                                    sh "python3 -m pip install --user pyyaml click";
                                     sh "./run.sh ${DESIGN}";
                                 }
                             }
