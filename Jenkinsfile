@@ -12,7 +12,7 @@ pipeline {
                 axes {
                     axis {
                         name "DESIGN";
-                        values "updown_caravel";
+                        values "updown_caravel", "subservient";
                     }
                 }
                 stages {
