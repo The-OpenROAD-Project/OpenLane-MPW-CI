@@ -33,7 +33,7 @@ pipeline {
     }
     post {
         always {
-            archiveArtifacts artifacts: "designs/**/*.log, designs/**/openroad_issue_reproducible/**/*";
+            archiveArtifacts artifacts: "**/*.log, **/openroad_issue_reproducible/**/*";
         }
         failure {
             emailext (
