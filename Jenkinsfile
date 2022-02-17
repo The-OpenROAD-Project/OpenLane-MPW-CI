@@ -23,7 +23,7 @@ pipeline {
                             script {
                                 stage("${DESIGN}") {
                                     sh "python3 -m pip install --user pyyaml click";
-                                    sh "./run.sh ${DESIGN}";
+                                    sh "./scripts/run-design.sh ${DESIGN}";
                                 }
                                 archiveArtifacts artifacts: "**/*.log, **/openroad_issue_reproducible/**/*";
                             }
