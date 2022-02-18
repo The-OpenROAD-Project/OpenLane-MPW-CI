@@ -4,3 +4,6 @@
 [submodule "designs/subservient"]
 	path = designs/subservient
 	url = https://github.com/The-OpenROAD-Project/mpw-subservient
+[submodule "designs/junga_soc_mpw4"]
+	path = designs/junga_soc_mpw4
+	url = https://github.com/hhj1107/junga_soc_mpw4

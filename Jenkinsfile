@@ -13,7 +13,7 @@ pipeline {
                 axes {
                     axis {
                         name "DESIGN";
-                        values "updown_caravel", "subservient";
+                        values "updown_caravel", "subservient", "junga_soc_mpw4";
                     }
                 }
                 stages {
