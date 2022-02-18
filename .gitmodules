@@ -4,3 +4,6 @@
 [submodule "designs/subservient"]
 	path = designs/subservient
 	url = https://github.com/The-OpenROAD-Project/mpw-subservient
+[submodule "designs/Fixed2Float"]
+	path = designs/Fixed2Float
+	url = https://github.com/dhayalakumarm/Fixed2Float_MPW3
