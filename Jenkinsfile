@@ -13,7 +13,7 @@ pipeline {
                 axes {
                     axis {
                         name "DESIGN";
-                        values "updown_caravel", "subservient", "Fixed2Float";
+                        values "updown_caravel", "subservient", "Fixed2Float", "jacaranda8", "mbist1", "mbist2", "wb_host";
                     }
                 }
                 stages {
