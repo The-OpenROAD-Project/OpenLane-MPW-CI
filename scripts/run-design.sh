@@ -1,6 +1,11 @@
+NICKNAME=""
 if [ $# -ne 1 ]; then
   echo "usage: $0 <DESIGN_NAME>"
-  exit 1
+  if [ $# -eq 2 ]; then
+  echo "usage: $0 <DESIGN_NAME> <DESIGN_REPO>"
+  NICKNAME=$2
+  fi
+  #exit 1
 fi
 
 design=${1}

@@ -7,3 +7,12 @@
 [submodule "designs/Fixed2Float"]
 	path = designs/Fixed2Float
 	url = https://github.com/dhayalakumarm/Fixed2Float_MPW3
+[submodule "designs/jacaranda8"]
+	path = designs/jacaranda8
+	url = https://github.com/cpu-dev/caravel_jacaranda-8
+[submodule "designs/mbist_ctrl"]
+	path = designs/mbist_ctrl
+	url = https://github.com/dineshannayya/mbist_ctrl
+[submodule "designs/FCNet_prj"]
+	path = designs/FCNet_prj
+	url = https://github.com/mxiangyue/caravel_user_project
