@@ -1,9 +1,4 @@
 # copy config files to design dir
-if [ -z "$NICKNAME" ]
-then
-      rsync --archive designs/${design}/. ${design_dir}
-else
-      rsync --archive designs/${NICKNAME}/. ${design_dir}
-fi
+rsync --archive designs/${design}/. ${design_dir}
 cp -f ./scripts/${design}/config.tcl ${design_dir}
 sed -i '/::env(DESIGN_IS_CORE)/d' ${design_dir}/openlane/computer/config.tcl
