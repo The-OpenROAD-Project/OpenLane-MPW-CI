@@ -5,5 +5,3 @@ sed -i '/::env(DESIGN_IS_CORE)/d' ${design_dir}/openlane/flexbex_core/config.tcl
 sed -i '/::env(ROUTING_CORES)/d' ${design_dir}/openlane/flexbex_core/config.tcl
 sed -i '/::env(GLB_RT_MAXLAYER)/d' ${design_dir}/openlane/flexbex_core/config.tcl
 sed -i '/::env(SYNTH_STRATEGY)/d' ${design_dir}/openlane/flexbex_core/config.tcl
-#sed -i '/::env(PL_RESIZER_HOLD_SLACK_MARGIN)/d' ${design_dir}/openlane/flexbex_core/config.tcl
-#sed -i '/::env(GLB_RESIZER_HOLD_SLACK_MARGIN)/d' ${design_dir}/openlane/flexbex_core/config.tcl
