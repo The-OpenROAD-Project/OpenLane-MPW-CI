@@ -16,3 +16,9 @@
 [submodule "designs/FCNet_prj"]
 	path = designs/FCNet_prj
 	url = https://github.com/mxiangyue/caravel_user_project
+[submodule "designs/soric_project"]
+	path = designs/soric_project
+	url = https://github.com/phthinh/soric_project
+[submodule "designs/junga_soc"]
+	path = designs/junga_soc
+	url = https://github.com/hhj1107/junga_soc_mpw4
