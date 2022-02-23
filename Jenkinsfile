@@ -13,7 +13,7 @@ pipeline {
                 axes {
                     axis {
                         name "DESIGN";
-                        values "updown_caravel", "subservient";
+                        values "updown_caravel", "subservient", "Fixed2Float", "jacaranda8", "mbist1", "mbist2", "wb_host";
                     }
                 }
                 stages {
@@ -22,6 +22,7 @@ pipeline {
                         steps {
                             script {
                                 stage("${DESIGN}") {
+                                    sh "python3 -m pip install --user pyyaml click";
                                     sh "./scripts/run-design.sh ${DESIGN}";
                                 }
                                 archiveArtifacts artifacts: "**/*.log, **/openroad_issue_reproducible/**/*";
