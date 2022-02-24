@@ -13,7 +13,7 @@ pipeline {
                 axes {
                     axis {
                         name "DESIGN";
-                        values "updown_caravel", "subservient", "Fixed2Float", "jacaranda8", "mbist1", "mbist2", "wb_host";
+                        values "updown_caravel", "subservient", "Fixed2Float", "jacaranda8", "mbist1", "mbist2", "wb_host", "collapsering_macro", "digitalcore_macro", "ringosc_macro", "accelerator_top", "peripheral_extender", "picorF0", "rotfpga";
                     }
                 }
                 stages {

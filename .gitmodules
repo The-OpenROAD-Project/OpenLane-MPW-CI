@@ -19,3 +19,18 @@
 [submodule "designs/soric_project"]
 	path = designs/soric_project
 	url = https://github.com/phthinh/soric_project
+[submodule "designs/randsack"]
+	path = designs/randsack
+	url = https://github.com/harrisonpham/randsack
+[submodule "designs/crypto_accelerator"]
+	path = designs/crypto_accelerator
+	url = https://github.com/asinghani/crypto-accelerator-chip-v2
+[submodule "designs/peripheral_extender"]
+	path = designs/peripheral_extender
+	url = https://github.com/siva12a/caravel_peripheral_extender
+[submodule "designs/picorF0"]
+	path = designs/picorF0
+	url = https://github.com/asinghani/caravel-picorF0
+[submodule "designs/rotfpga"]
+	path = designs/rotfpga
+	url = https://github.com/htfab/rotfpga
