@@ -34,6 +34,3 @@
 [submodule "designs/rotfpga"]
 	path = designs/rotfpga
 	url = https://github.com/htfab/rotfpga
-[submodule "designs/PWM_Generator"]
-	path = designs/PWM_Generator
-	url = https://github.com/Karthikeyan564/PWM_Generator
