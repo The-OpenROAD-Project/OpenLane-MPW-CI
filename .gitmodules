@@ -34,3 +34,12 @@
 [submodule "designs/rotfpga"]
 	path = designs/rotfpga
 	url = https://github.com/htfab/rotfpga
+[submodule "designs/FPU"]
+	path = designs/FPU
+	url = https://github.com/Lampro-Mellon/Caravel_FPU
+[submodule "designs/soc_io_expander"]
+	path = designs/soc_io_expander
+	url = https://github.com/siva12a/soc_io_expander
+[submodule "designs/yonga-lz4-decoder"]
+	path = designs/yonga-lz4-decoder
+	url = https://github.com/yongatek/caravel_yonga-lz4-decoder
