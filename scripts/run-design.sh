@@ -4,7 +4,7 @@ if [ $# -ne 1 ]; then
 fi
 
 design=${1}
-tag="2022.02.23_02.50.41"
+tag="2022.03.01_02.48.31"
 ol_dir="OpenLane-${tag}"
 design_dir="${ol_dir}/designs/${design}"
 url="https://github.com/The-OpenROAD-Project/OpenLane/archive/refs/tags/$tag.tar.gz"
