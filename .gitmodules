@@ -43,3 +43,18 @@
 [submodule "designs/yonga-lz4-decoder"]
 	path = designs/yonga-lz4-decoder
 	url = https://github.com/yongatek/caravel_yonga-lz4-decoder
+[submodule "designs/APPROX_MULT"]
+	path = designs/APPROX_MULT
+	url = https://github.com/The-OpenROAD-Project/mpw-APPROX_MULT
+[submodule "designs/RAD_HARD_ALU"]
+	path = designs/RAD_HARD_ALU
+	url = https://github.com/The-OpenROAD-Project/mpw-RAD_HARD_ALU
+[submodule "designs/kasirga_k0"]
+	path = designs/kasirga_k0
+	url = https://github.com/The-OpenROAD-Project/mpw-kasirga-k0
+[submodule "designs/space_controller"]
+	path = designs/space_controller
+	url = https://github.com/jaquerinte/space_controller
+[submodule "designs/junga_soc"]
+	path = designs/junga_soc
+	url = https://github.com/hhj1107/junga_soc_mpw4
