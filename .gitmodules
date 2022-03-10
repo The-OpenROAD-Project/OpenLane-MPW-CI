@@ -48,7 +48,8 @@
 	url = https://github.com/The-OpenROAD-Project/mpw-APPROX_MULT
 [submodule "designs/RAD_HARD_ALU"]
 	path = designs/RAD_HARD_ALU
-	url = https://github.com/The-OpenROAD-Project/mpw-RAD_HARD_ALU
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = SultanShadow/RAD_HARD_ALU
 [submodule "designs/kasirga_k0"]
 	path = designs/kasirga_k0
 	url = https://github.com/The-OpenROAD-Project/mpw-kasirga-k0
