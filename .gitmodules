@@ -59,3 +59,39 @@
 [submodule "designs/junga_soc"]
 	path = designs/junga_soc
 	url = https://github.com/hhj1107/junga_soc_mpw4
+[submodule "designs/counter_display_mv"]
+	path = designs/counter_display_mv
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = mattvenn/zero_to_asic_MPW2_rerun
+[submodule "designs/counter_mpw4_mv"]
+	path = designs/counter_mpw4_mv
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = mattvenn/zero_to_asic_mpw4
+[submodule "designs/koggestone_adder"]
+	path = designs/koggestone_adder
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = zakirhussainvlsi/caravel_koggestone_adder_project
+[submodule "designs/keyvalue_caravel"]
+	path = designs/keyvalue_caravel
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = giraypultar/keyvalue_caravel
+[submodule "designs/ks-guitar"]
+	path = designs/ks-guitar
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = htfab/ks-guitar
+[submodule "designs/ks-guitar-2s"]
+	path = designs/ks-guitar-2s
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = htfab/ks-guitar-2s
+[submodule "designs/counter_ICESOC"]
+	path = designs/counter_ICESOC
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = nguyendao-uom/ICESOC
+[submodule "designs/counter_REST"]
+	path = designs/counter_REST
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = aliahmedphd/REST
+[submodule "designs/counter_azadi"]
+	path = designs/counter_azadi
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = sajjadahmed677/Azadi_II
