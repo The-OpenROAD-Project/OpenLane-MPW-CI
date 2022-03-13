@@ -1,7 +1,7 @@
 pipeline {
     agent any;
     options {
-        timeout(time: 8, unit: "HOURS");
+        timeout(time: 16, unit: "HOURS");
     }
     environment {
         COMMIT_AUTHOR_EMAIL= sh (returnStdout: true, script: "git --no-pager show -s --format='%ae'").trim();
@@ -13,7 +13,40 @@ pipeline {
                 axes {
                     axis {
                         name "DESIGN";
-                        values "updown_caravel", "subservient", "Fixed2Float", "jacaranda8", "mbist1", "mbist2", "wb_host", "collapsering_macro", "digitalcore_macro", "ringosc_macro", "accelerator_top", "peripheral_extender", "picorF0", "rotfpga", "soric_soc", "crypto_core", "flexbex_core", "soc_io_expander", "yonga-lz4-decoder", "APPROX_MULT", "FPU", "RAD_HARD_ALU", "c0_system_macro", "wb_interconnect", "junga_soc", "counter_ICESOC", "counter_REST", "counter_azadi", "counter_display_mv", "counter_mpw4_mv", "keyvalue_caravel", "koggestone_adder", "ks-guitar", "ks-guitar-2s";
+                        values "accelerator_top",
+                               "APPROX_MULT",
+                               "c0_system_macro",
+                               "collapsering_macro",
+                               "counter_azadi",
+                               "counter_display_mv",
+                               "counter_ICESOC",
+                               "counter_mpw4_mv",
+                               "counter_REST",
+                               "crypto_core",
+                               "digitalcore_macro",
+                               "Fixed2Float",
+                               "flexbex_core",
+                               "FPU",
+                               "jacaranda8",
+                               "junga_soc",
+                               "keyvalue_caravel",
+                               "koggestone_adder",
+                               "ks-guitar",
+                               "ks-guitar-2s",
+                               "mbist1",
+                               "mbist2",
+                               "peripheral_extender",
+                               "picorF0",
+                               "RAD_HARD_ALU",
+                               "ringosc_macro",
+                               "rotfpga",
+                               "soc_io_expander",
+                               "soric_soc",
+                               "subservient",
+                               "updown_caravel",
+                               "wb_host",
+                               "wb_interconnect",
+                               "yonga-lz4-decoder";
                     }
                 }
                 stages {
