@@ -15,9 +15,9 @@ pipeline {
                         name "DESIGN";
                         values "accelerator_top",
                                "APPROX_MULT",
-			       "axi_dma_wrapper",
-			       "azadi_soc",
-			       "caravel_dsp",
+                               "axi_dma_wrapper",
+                               "azadi_soc",
+                               "caravel_dsp",
                                "c0_system_macro",
                                "collapsering_macro",
                                "counter_azadi",
