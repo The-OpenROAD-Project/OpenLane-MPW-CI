@@ -95,3 +95,47 @@
 	path = designs/counter_azadi
 	url = https://github.com/The-OpenROAD-Project/caravel_user_project
 	branch = sajjadahmed677/Azadi_II
+[submodule "designs/counter_alperen"]
+	path = designs/counter_alperen
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = alperenbolat0/caravel_user_project
+[submodule "designs/counter_eeuet"]
+	path = designs/counter_eeuet
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = eeuet/caravel_user_project
+[submodule "designs/multi_encoder"]
+	path = designs/multi_encoder
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = manikandan-phd/caravel_encoder
+[submodule "designs/SHA1_engine"]
+	path = designs/SHA1_engine
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = konradwilk/caravel_user_project
+[submodule "designs/wishbone_CAN"]
+	path = designs/wishbone_CAN
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = zaellis/caravel_user_project
+[submodule "designs/subservient_SOC"]
+	path = designs/subservient_SOC
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = MSPDUTTA/Subservient_SOC
+[submodule "designs/axi_dma_wrapper"]
+	path = designs/axi_dma_wrapper
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = pwang7/caravel_user_project
+[submodule "designs/caravel_dsp"]
+	path = designs/caravel_dsp
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = jayakumarjay-osh/caravel_dsp
+[submodule "designs/eFPGA_v3_wrapper"]
+	path = designs/eFPGA_v3_wrapper
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = nguyendao-uom/eFPGA_v3_caravel
+[submodule "designs/radiation_harden"]
+	path = designs/radiation_harden
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = jaquerinte/caravel_radiation_harden
+[submodule "designs/azadi_soc"]
+	path = designs/azadi_soc
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = merledu/caravel_azadi_soc
