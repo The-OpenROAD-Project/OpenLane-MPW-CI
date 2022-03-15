@@ -67,7 +67,7 @@ pipeline {
                                "wb_interconnect",
                                "wishbone_CAN",
                                "wb_mem_split",
-                               "yonga-lz4-decoder";
+                               "yonga-lz4-decoder",
                                "yonga-serv-accelerator";
                     }
                 }
