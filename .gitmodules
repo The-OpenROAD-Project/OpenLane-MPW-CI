@@ -139,3 +139,30 @@
 	path = designs/azadi_soc
 	url = https://github.com/The-OpenROAD-Project/caravel_user_project
 	branch = merledu/caravel_azadi_soc
+[submodule "designs/fuserisc"]
+	path = designs/fuserisc
+	url = https://github.com/andrewattwood/fuserisc
+[submodule "designs/GpioCtrl"]
+	path = designs/GpioCtrl
+	url = https://github.com/iDPro-github/openMpwGpioCtrl
+[submodule "designs/counter_rgb"]
+	path = designs/counter_rgb
+	url = https://github.com/mattvenn/zero_to_asic_mpw3
+[submodule "designs/sudoku-accelerator"]
+	path = designs/sudoku-accelerator
+	url = https://github.com/anall/sudoku-accelerator-caravel
+[submodule "designs/yonga-serv-accelerator"]
+	path = designs/yonga-serv-accelerator
+	url = https://github.com/yongatek/caravel_yonga-serv-accelerator
+[submodule "designs/treepram"]
+	path = designs/treepram
+	url = https://github.com/htfab/treepram
+[submodule "designs/sram_test"]
+	path = designs/sram_test
+	url = https://github.com/mtomlin5/caravel_sram_test
+[submodule "designs/PWM-Generator"]
+	path = designs/PWM-Generator
+	url = https://github.com/The-OpenROAD-Project/mpw-PWM-Generator
+[submodule "designs/vsdbabysoc"]
+	path = designs/vsdbabysoc
+	url = https://github.com/manili/vsdbabysoc_mpw3
