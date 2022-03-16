@@ -13,9 +13,6 @@
 [submodule "designs/mbist_ctrl"]
 	path = designs/mbist_ctrl
 	url = https://github.com/dineshannayya/mbist_ctrl
-[submodule "designs/FCNet_prj"]
-	path = designs/FCNet_prj
-	url = https://github.com/mxiangyue/caravel_user_project
 [submodule "designs/soric_project"]
 	path = designs/soric_project
 	url = https://github.com/phthinh/soric_project
@@ -166,3 +163,34 @@
 [submodule "designs/vsdbabysoc"]
 	path = designs/vsdbabysoc
 	url = https://github.com/manili/vsdbabysoc_mpw3
+[submodule "designs/counter_vsdsram"]
+	path = designs/counter_vsdsram
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = ShonTaware/vsdsram_caravel
+[submodule "designs/counter_efab"]
+	path = designs/counter_efab
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = abf149/caravel_user_project
+[submodule "designs/yonga-100m-ethernet"]
+	path = designs/yonga-100m-ethernet
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = BYCakar/caravel_yonga-100m-ethernet
+[submodule "designs/vsdmemsoc"]
+	path = designs/vsdmemsoc
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = manili/vsdmemsoc_mpw3
+[submodule "designs/FCNet_neuron"]
+	path = designs/FCNet_neuron
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = mxiangyue/caravel_user_project
+[submodule "designs/counter_hhj"]
+	path = designs/counter_hhj
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = hhj1107/caravel_user_project
+[submodule "designs/yifive_a2"]
+	path = designs/yifive_a2
+	url = https://github.com/The-OpenROAD-Project/mpw-yifive_a2
+[submodule "designs/wb_openram"]
+	path = designs/wb_openram
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = embelon/caravel_wb_openram
