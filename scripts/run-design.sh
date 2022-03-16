@@ -25,7 +25,7 @@ if [ ! -f "${ol_dir}/pdks-setup.done" ]; then
   done
   echo "[INFO] Starting PDKs setup..."
   touch "${ol_dir}/pdks-setup.lock"
-  make -C ${ol_dir} OPENLANE_IMAGE_NAME=${docker_image} pdk -j 1 NPROC=1
+  make -C ${ol_dir} OPENLANE_IMAGE_NAME=${docker_image} pdk-with-sram -j 1 NPROC=1
   echo "[INFO] PDKs setup complete."
   touch "${ol_dir}/pdks-setup.done"
   rm "${ol_dir}/pdks-setup.lock"
