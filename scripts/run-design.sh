@@ -1,38 +1,31 @@
-if [ $# -ne 1 ]; then
-  echo "usage: $0 <DESIGN_NAME>"
-  exit 1
-fi
+#!/usr/bin/env bash
 
-design=${1}
-tag="2022.03.02_02.59.05"
-ol_dir="OpenLane-${tag}"
-design_dir="${ol_dir}/designs/${design}"
-url="https://github.com/The-OpenROAD-Project/OpenLane/archive/refs/tags/$tag.tar.gz"
-docker_image="efabless/openlane:${tag}"
+set -xeuo pipefail
 
-# get latest image
-docker pull ${docker_image}
+case $# in
+  1 )
+    repo="${1}"
+    design="${repo}"
+    ;;
+  2 )
+    repo="${1}"
+    design="${2}"
+    ;;
+  * )
+    echo "usage: $0 [<REPO>] <DESIGN_NAME>"
+    exit 1
+    ;;
+esac
 
-# download OL
-curl -L ${url} | tar -xzC .
+repo_dir="designs/${repo}"
+design_dir="OpenLane/designs/${design}"
 
-# install pdk
-if [ ! -f "${ol_dir}/pdks-setup.done" ]; then
-  echo "[INFO] PDKs not set."
-  while [ -f "${ol_dir}/pdks-setup.lock" ]; do
-    echo "[INFO] PDKs setup already running, waiting for process to finish..."
-    sleep 10
-  done
-  echo "[INFO] Starting PDKs setup..."
-  touch "${ol_dir}/pdks-setup.lock"
-  make -C ${ol_dir} OPENLANE_IMAGE_NAME=${docker_image} pdk-with-sram -j 1 NPROC=1
-  echo "[INFO] PDKs setup complete."
-  touch "${ol_dir}/pdks-setup.done"
-  rm "${ol_dir}/pdks-setup.lock"
-fi
+echo "[INFO] Setup flow for design ${repo}/${design}."
+git config -f .gitmodules "submodule.${repo_dir}.shallow" true
+git submodule update --init --recursive "${repo_dir}"
+rsync --archive "${repo_dir}/." "${design_dir}"
+cp -f "./scripts/${design}/config.tcl" "${design_dir}"
+source "./scripts/${design}/setup-flow.sh"
 
-# run commands to prepare design for OL flow
-source ./scripts/${design}/setup-flow.sh
-
-# run OL flow
-make -C ${ol_dir} OPENLANE_IMAGE_NAME=${docker_image} QUICK_RUN_DESIGN=${design} quick_run
+echo "[INFO] Start OpenLane flow"
+make -C OpenLane QUICK_RUN_DESIGN="${design}" quick_run

@@ -5,26 +5,28 @@ pipeline {
     }
     environment {
         COMMIT_AUTHOR_EMAIL= sh (returnStdout: true, script: "git --no-pager show -s --format='%ae'").trim();
+        TAG = "2022.03.02_02.59.05";
+        OPENLANE_IMAGE_NAME = "efabless/openlane:${TAG}";
         ROUTING_CORES = 32;
     }
     stages {
+        stage("Setup PDK and OpenLane") {
+            steps {
+                sh "./scripts/setup-ci.sh ${TAG}";
+                stash name: "data", includes: 'OpenLane/**/*';
+            }
+        }
         stage("Run Tests") {
             matrix {
                 axes {
                     axis {
                         name "DESIGN";
-                        values "accelerator_top",
-                               "APPROX_MULT",
+                        values "APPROX_MULT",
                                "axi_dma_wrapper",
                                "azadi_soc",
                                "caravel_dsp",
-                               "clk_buf",
-                               "clk_skew_adjust",
-                               "c0_system_macro",
-                               "core_sram",
-                               "collapsering_macro",
-                               "counter_azadi",
                                "counter_alperen",
+                               "counter_azadi",
                                "counter_display_mv",
                                "counter_eeuet",
                                "counter_efab",
@@ -34,55 +36,63 @@ pipeline {
                                "counter_REST",
                                "counter_rgb",
                                "counter_vsdsram",
-                               "crypto_core",
-                               "digitalcore_macro",
+                               "crypto_accelerator accelerator_top",
                                "eFPGA_v3_wrapper",
-                               "eFPGA_CPU_TOP",
                                "FCNet_neuron",
                                "Fixed2Float",
-                               "flexbex_core",
                                "FPU",
+                               "fuserisc core_sram",
+                               "fuserisc eFPGA_CPU_TOP",
+                               "fuserisc wb_mem_split",
                                "GpioCtrl",
-                               "glbl_cfg",
                                "jacaranda8",
                                "junga_soc",
+                               "kasirga_k0 c0_system_macro",
                                "keyvalue_caravel",
                                "koggestone_adder",
                                "ks-guitar",
                                "ks-guitar-2s",
-                               "mbist1",
-                               "mbist2",
+                               "mbist_ctrl mbist1",
+                               "mbist_ctrl mbist2",
+                               "mbist_ctrl wb_host",
+                               "mbist_ctrl wb_interconnect",
                                "multi_encoder",
-                               "PWM-Generator",
                                "peripheral_extender",
                                "picorF0",
+                               "PWM-Generator",
                                "RAD_HARD_ALU",
                                "radiation_harden",
-                               "ringosc_macro",
-                               "rvmyth_core",
+                               "randsack collapsering_macro",
+                               "randsack digitalcore_macro",
+                               "randsack ringosc_macro",
                                "rotfpga",
-                               "sdram",
-                               "spi_master",
+                               "SHA1_engine",
                                "soc_io_expander",
-                               "soric_soc",
-                               "syntacore",
+                               "soric_project crypto_core",
+                               "soric_project flexbex_core",
+                               "soric_project soric_soc",
+                               "space_controller",
                                "sram_test",
                                "subservient",
                                "subservient_SOC",
                                "sudoku-accelerator",
                                "treepram",
                                "updown_caravel",
-                               "uart_i2cm_usb",
+                               "vsdbabysoc vsdbabysoc_wrapper",
                                "vsdbabysoc",
-                               "vsdbabysoc_wrapper",
+                               "vsdmemsoc rvmyth_core",
                                "vsdmemsoc",
-                               "wb_host",
-                               "wb_interconnect",
-                               "wishbone_CAN",
-                               "wb_mem_split",
                                "wb_openram",
-                               "yonga-lz4-decoder",
+                               "wishbone_CAN",
+                               "yifive_a2 clk_buf",
+                               "yifive_a2 clk_skew_adjust",
+                               "yifive_a2 glbl_cfg",
+                               "yifive_a2 sdram",
+                               "yifive_a2 spi_master",
+                               "yifive_a2 syntacore",
+                               "yifive_a2 uart_i2cm_usb",
                                "yonga-100m-ethernet",
+                               "yonga-lz4-decoder",
                                "yonga-serv-accelerator";
                     }
                 }
@@ -90,6 +100,7 @@ pipeline {
                     stage("Test") {
                         agent any;
                         steps {
+                            unstash "data";
                             script {
                                 stage("${DESIGN}") {
                                     sh "./scripts/run-design.sh ${DESIGN}";
