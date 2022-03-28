@@ -1,10 +1,9 @@
 pipeline {
     agent any;
     options {
-        timeout(time: 16, unit: "HOURS");
+        timeout(time: 8, unit: "HOURS");
     }
     environment {
-        COMMIT_AUTHOR_EMAIL= sh (returnStdout: true, script: "git --no-pager show -s --format='%ae'").trim();
         TAG = "2022.03.02_02.59.05";
         OPENLANE_IMAGE_NAME = "efabless/openlane:${TAG}";
         ROUTING_CORES = 32;
@@ -12,7 +11,7 @@ pipeline {
     stages {
         stage("Setup PDK and OpenLane") {
             steps {
-                sh "./scripts/setup-ci.sh ${TAG}";
+                sh "nice ./scripts/setup-ci.sh ${TAG}";
                 stash name: "data", includes: 'OpenLane/**/*';
             }
         }
@@ -96,6 +95,9 @@ pipeline {
                                "yonga-serv-accelerator";
                     }
                 }
+                options {
+                    lock( label: "mpw-job", quantity: 1 )
+                }
                 stages {
                     stage("Test") {
                         agent any;
@@ -103,9 +105,13 @@ pipeline {
                             unstash "data";
                             script {
                                 stage("${DESIGN}") {
-                                    sh "./scripts/run-design.sh ${DESIGN}";
+                                    sh "nice ./scripts/run-design.sh ${DESIGN}";
                                 }
-                                archiveArtifacts artifacts: "**/*.log, **/openroad_issue_reproducible/**/*";
+                                post {
+                                    failure {
+                                        archiveArtifacts artifacts: "**/*.log, **/openroad_issue_reproducible/**/*";
+                                    }
+                                }
                             }
                         }
                     }
