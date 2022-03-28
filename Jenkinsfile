@@ -95,6 +95,9 @@ pipeline {
                                "yonga-serv-accelerator";
                     }
                 }
+                options {
+                    lock( label: "mpw-job", quantity: 1 )
+                }
                 stages {
                     stage("Test") {
                         agent any;
