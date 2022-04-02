@@ -14,5 +14,5 @@ curl -L "https://github.com/The-OpenROAD-Project/OpenLane/archive/refs/tags/${1}
   | tar --strip 1 -xzC OpenLane
 
 echo "[INFO] Starting PDKs setup..."
-make -C OpenLane pdk-with-sram -j 1 NPROC=1
+make OPENLANE_DOCKER_TAG=$1 -C OpenLane pdk-with-sram -j 1 NPROC=1
 echo "[INFO] PDKs setup complete."
