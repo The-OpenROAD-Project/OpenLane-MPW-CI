@@ -4,14 +4,12 @@ pipeline {
         timeout(time: 8, unit: "HOURS");
     }
     environment {
-        TAG = "2022.03.02_02.59.05";
-        OPENLANE_IMAGE_NAME = "efabless/openlane:${TAG}";
         ROUTING_CORES = 32;
     }
     stages {
         stage("Setup PDK and OpenLane") {
             steps {
-                sh "nice ./scripts/setup-ci.sh ${TAG}";
+                sh "nice ./scripts/setup-ci.sh";
                 stash name: "data", includes: 'OpenLane/**/*';
             }
         }
