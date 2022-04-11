@@ -23,6 +23,7 @@ design_dir="OpenLane/designs/${design}"
 echo "[INFO] Setup flow for design ${repo}/${design}."
 git config -f .gitmodules "submodule.${repo_dir}.shallow" true
 git submodule update --init --recursive "${repo_dir}"
+git config -f .gitmodules --unset "submodule.${repo_dir}.shallow"
 rsync --archive "${repo_dir}/." "${design_dir}"
 cp -f "./scripts/${design}/config.tcl" "${design_dir}"
 source "./scripts/${design}/setup-flow.sh"
