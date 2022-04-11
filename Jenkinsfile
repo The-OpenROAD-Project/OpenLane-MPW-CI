@@ -55,6 +55,7 @@ pipeline {
                                "mbist_ctrl mbist2",
                                "mbist_ctrl wb_host",
                                "mbist_ctrl wb_interconnect",
+                               "mpw5_L1cache",
                                "multi_encoder",
                                "peripheral_extender",
                                "picorF0",

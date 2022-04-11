@@ -197,3 +197,8 @@
 	path = designs/wb_openram
 	url = https://github.com/The-OpenROAD-Project/caravel_user_project
 	branch = embelon/caravel_wb_openram
+[submodule "designs/mpw5_L1cache"]
+	path = designs/mpw5_L1cache
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = shivanishah269/mpw5_L1cache
+	shallow = true
