@@ -201,4 +201,7 @@
 	path = designs/mpw5_L1cache
 	url = https://github.com/The-OpenROAD-Project/caravel_user_project
 	branch = shivanishah269/mpw5_L1cache
-	shallow = true
+[submodule "designs/secure-memory"]
+	path = designs/secure-memory
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = Procenne-Digital-Design/secure-memory
