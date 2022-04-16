@@ -36,5 +36,7 @@ curl -L "https://github.com/The-OpenROAD-Project/OpenLane/archive/refs/tags/${OP
   | tar --strip 1 -xzC OpenLane
 
 echo "[INFO] Starting PDKs setup..."
-make -C OpenLane pdk-with-sram -j 1 NPROC=1
+python3 -m pip install --user --upgrade --no-cache-dir pip
+python3 -m pip install --user --upgrade --no-cache-dir volare
+PDK_ROOT=$(pwd)/pdks python3 -m volare enable_or_build -t NULL -j$(nproc) $(python3 OpenLane/dependencies/tool.py open_pdks -f commit)
 echo "[INFO] PDKs setup complete."
