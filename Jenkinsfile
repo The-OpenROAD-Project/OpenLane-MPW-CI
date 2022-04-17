@@ -10,7 +10,7 @@ pipeline {
         stage("Setup PDK and OpenLane") {
             steps {
                 sh "nice ./scripts/setup-ci.sh";
-                stash name: "data", includes: 'OpenLane/**/*';
+                stash name: "data", includes: 'OpenLane/**/*,caravel/**/*';
             }
         }
         stage("Run Tests") {

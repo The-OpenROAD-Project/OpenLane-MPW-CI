@@ -43,5 +43,5 @@ rm -rf caravel
 mkdir -p caravel
 curl -L "https://github.com/efabless/caravel/archive/refs/tags/mpw-5c.tar.gz" \
   | tar --strip 1 -xzC caravel
-export CARAVEL_ROOT="$(pwd)/caravel"
-echo "[INFO] Caravel setup complete."
+export CARAVEL_ROOT="${pwd}/caravel"
+echo "[INFO] Caravel setup complete and CARAVEL_ROOT=${CARAVEL_ROOT}."
