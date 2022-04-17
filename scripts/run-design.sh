@@ -30,7 +30,7 @@ if [[ -d "${repo_dir}/caravel/openlane" ]]
 then
     echo "[INFO] caravel directory exists in the repo."
 else
-    echo "[INFO] carvel directory missing in the repo and copying from local"
+    echo "[INFO] carvel directory missing in the repo and copying from local."
     cp -rf "./caravel" "${repo_dir}/"
 fi
 echo "[INFO] Repo dir ${repo_dir}"
