@@ -34,3 +34,7 @@ rm -rf OpenLane
 mkdir -p OpenLane
 curl -L "https://github.com/The-OpenROAD-Project/OpenLane/archive/refs/tags/${OPENLANE_DOCKER_TAG}.tar.gz" \
   | tar --strip 1 -xzC OpenLane
+
+echo "[INFO] Starting PDKs setup..."
+make -C OpenLane pdk
+echo "[INFO] PDKs setup complete."

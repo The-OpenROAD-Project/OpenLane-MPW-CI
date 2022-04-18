@@ -20,13 +20,6 @@ esac
 repo_dir="designs/${repo}"
 design_dir="OpenLane/designs/${design}"
 
-echo "[INFO] Starting PDKs setup..."
-python3 -m pip install --user --upgrade --no-cache-dir pip
-python3 -m pip install --user --upgrade --no-cache-dir volare
-python3 -m volare enable_or_build -t NULL -j$(nproc) \
-  $(python3 OpenLane/dependencies/tool.py open_pdks -f commit)
-echo "[INFO] PDKs setup complete."
-
 echo "[INFO] Setup flow for design ${repo}/${design}."
 git config -f .gitmodules "submodule.${repo_dir}.shallow" true
 git submodule update --init --recursive "${repo_dir}"
