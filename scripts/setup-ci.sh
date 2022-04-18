@@ -38,5 +38,9 @@ curl -L "https://github.com/The-OpenROAD-Project/OpenLane/archive/refs/tags/${OP
 echo "[INFO] Starting PDKs setup..."
 python3 -m pip install --user --upgrade --no-cache-dir pip
 python3 -m pip install --user --upgrade --no-cache-dir volare
-PDK_ROOT=$(pwd)/pdks python3 -m volare enable_or_build -t NULL -j$(nproc) $(python3 OpenLane/dependencies/tool.py open_pdks -f commit)
+PDK_ROOT=$(pwd)/OpenLane/pdks python3 -m \
+  volare enable_or_build \
+         -t NULL \
+         -j$(nproc) \
+         $(python3 OpenLane/dependencies/tool.py open_pdks -f commit)
 echo "[INFO] PDKs setup complete."
