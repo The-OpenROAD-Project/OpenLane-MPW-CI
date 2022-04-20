@@ -51,4 +51,10 @@ else
   echo "[INFO] Using OpenLane image ${OPENLANE_DOCKER_IMAGE} from environment."
 fi
 
+echo "set ::env(PL_RESIZER_SETUP_SLACK_MARGIN) 1"  >> "${design_dir}/config.tcl"
+echo "set ::env(PL_RESIZER_HOLD_SLACK_MARGIN) 1"   >> "${design_dir}/config.tcl"
+echo "set ::env(GLB_RESIZER_SETUP_SLACK_MARGIN) 1" >> "${design_dir}/config.tcl"
+echo "set ::env(GLB_RESIZER_HOLD_SLACK_MARGIN) 1"  >> "${design_dir}/config.tcl"
+echo "set ::env(SYNTH_CLOCK_UNCERTAINITY) 1"       >> "${design_dir}/config.tcl"
+
 make -C OpenLane QUICK_RUN_DESIGN="${design}" quick_run
