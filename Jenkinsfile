@@ -1,18 +1,9 @@
 pipeline {
     agent any;
-    options {
-        timeout(time: 8, unit: "HOURS");
-    }
     environment {
         ROUTING_CORES = 32;
     }
     stages {
-        stage("Setup PDK and OpenLane") {
-            steps {
-                sh "nice ./scripts/setup-ci.sh";
-                stash name: "data", includes: 'OpenLane/**/*,caravel/**/*';
-            }
-        }
         stage("Run Tests") {
             matrix {
                 axes {
@@ -90,7 +81,7 @@ pipeline {
                                "vsdmemsoc rvmyth_core",
                                "vsdmemsoc",
                                "wb_openram",
-                               "wishbone_CAN",
+                               // "wishbone_CAN", // removed due to runtime
                                "yifive_a2 clk_buf",
                                "yifive_a2 clk_skew_adjust",
                                "yifive_a2 glbl_cfg",
@@ -108,11 +99,14 @@ pipeline {
                 }
                 stages {
                     stage("Test") {
+                        options {
+                            timeout(time: 4, unit: "HOURS");
+                        }
                         agent any;
                         steps {
-                            unstash "data";
                             script {
                                 stage("${DESIGN}") {
+                                    sh "nice ./scripts/setup-ci.sh";
                                     sh "nice ./scripts/run-design.sh ${DESIGN}";
                                 }
                                 post {
