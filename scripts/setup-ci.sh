@@ -36,5 +36,5 @@ curl -L "https://github.com/The-OpenROAD-Project/OpenLane/archive/refs/tags/${OP
   | tar --strip 1 -xzC OpenLane
 
 echo "[INFO] Starting PDKs setup..."
-make -C OpenLane pdk
+make -C OpenLane pdk-with-sram || make -C OpenLane pdk
 echo "[INFO] PDKs setup complete."
