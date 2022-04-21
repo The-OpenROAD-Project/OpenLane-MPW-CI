@@ -197,3 +197,33 @@
 	path = designs/wb_openram
 	url = https://github.com/The-OpenROAD-Project/caravel_user_project
 	branch = embelon/caravel_wb_openram
+[submodule "designs/mpw5_L1cache"]
+	path = designs/mpw5_L1cache
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = shivanishah269/mpw5_L1cache
+[submodule "designs/secure-memory"]
+	path = designs/secure-memory
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = Procenne-Digital-Design/secure-memory
+[submodule "designs/pwm_openmpw"]
+	path = designs/pwm_openmpw
+	url = https://github.com/SerdarUnal132/pwm_openmpw
+[submodule "designs/mpw5_prga"]
+	path = designs/mpw5_prga
+	url = https://github.com/getziadz/caravel_mpw5_prga
+[submodule "designs/NAND_Flash5"]
+	path = designs/NAND_Flash5
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = BrandonOng22/caravel_user_project
+[submodule "designs/PSRAM_PRANG"]
+	path = designs/PSRAM_PRANG
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = steve-aurifexlabs/mpw5
+[submodule "designs/counter_TestSOC"]
+	path = designs/counter_TestSOC
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = acizmarik/caravel_user_project
+[submodule "designs/IIC_AudioDAC"]
+	path = designs/IIC_AudioDAC
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = hpretl/iic-audiodac-v1
