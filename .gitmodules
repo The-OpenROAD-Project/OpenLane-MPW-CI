@@ -227,3 +227,23 @@
 	path = designs/IIC_AudioDAC
 	url = https://github.com/The-OpenROAD-Project/caravel_user_project
 	branch = hpretl/iic-audiodac-v1
+[submodule "designs/alu_xor"]
+	path = designs/alu_xor
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = Janavind/My_alu_xor
+[submodule "designs/UETRV_Ecore"]
+	path = designs/UETRV_Ecore
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = ee-uet/UETRV-ECORE
+[submodule "designs/FMAC"]
+	path = designs/FMAC
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = KashifInayat/F-MAC
+[submodule "designs/GPS_Baseband"]
+	path = designs/GPS_Baseband
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = ISL-ECE-CEG-AU/GPS_Baseband
+[submodule "designs/async_fib2"]
+	path = designs/async_fib2
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = 6Kotnk/async_fib2
