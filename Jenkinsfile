@@ -122,7 +122,8 @@ pipeline {
                                 }
                                 post {
                                     failure {
-                                        archiveArtifacts artifacts: "**/*.log, **/openroad_issue_reproducible/**/*";
+                                        sh "echo Had a failure";
+                                        archiveArtifacts artifacts: "**/runs/**/*";
                                     }
                                 }
                             }

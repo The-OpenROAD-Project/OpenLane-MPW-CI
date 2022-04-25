@@ -33,6 +33,7 @@ else
     echo "[INFO] carvel directory missing in the repo and copying from local."
     cp -rf "./caravel" "${repo_dir}/"
 fi
+export CARAVEL_ROOT="${repo_dir}/caravel"
 echo "[INFO] Repo dir ${repo_dir}"
 source "./scripts/${design}/setup-flow.sh"
 

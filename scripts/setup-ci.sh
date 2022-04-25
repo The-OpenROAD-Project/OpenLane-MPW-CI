@@ -36,12 +36,11 @@ curl -L "https://github.com/The-OpenROAD-Project/OpenLane/archive/refs/tags/${OP
   | tar --strip 1 -xzC OpenLane
 
 echo "[INFO] Starting PDKs setup..."
-make -C OpenLane pdk-with-sram || make -C OpenLane pdk -j 1 NPROC=1
+make -C OpenLane pdk-with-sram -j 1 NPROC=1 || make -C OpenLane pdk -j 1 NPROC=1
 echo "[INFO] PDKs setup complete."
 echo "[INFO] Starting Caravel setup..."
 rm -rf caravel
 mkdir -p caravel
 curl -L "https://github.com/efabless/caravel/archive/refs/tags/mpw-5c.tar.gz" \
   | tar --strip 1 -xzC caravel
-export CARAVEL_ROOT="$(pwd)/caravel"
-echo "[INFO] Caravel setup complete and CARAVEL_ROOT=${CARAVEL_ROOT}."
+echo "[INFO] Caravel setup complete and CARAVEL_ROOT=$(pwd)/caravel."
