@@ -4,8 +4,10 @@ pipeline {
         ROUTING_CORES = 32;
     }
     stages {
+
         stage("Run Tests") {
             matrix {
+
                 axes {
                     axis {
                         name "DESIGN";
@@ -105,6 +107,7 @@ pipeline {
                                "yonga-serv-accelerator";
                     }
                 }
+
                 options {
                     lock( label: "mpw-job", quantity: 1 )
                 }
@@ -120,19 +123,20 @@ pipeline {
                                     sh "nice ./scripts/setup-ci.sh";
                                     sh "nice ./scripts/run-design.sh ${DESIGN}";
                                 }
-                                post {
-                                    failure {
-                                        sh "echo Had a failure";
-                                        archiveArtifacts artifacts: "**/runs/**/*";
-                                    }
-                                }
+                            }
+                        }
+                        post {
+                            failure {
+                                archiveArtifacts artifacts: "**/runs/**/*";
                             }
                         }
                     }
                 }
+
             }
         }
     }
+
     post {
         failure {
             script {
@@ -157,4 +161,5 @@ pipeline {
             }
         }
     }
+
 }
