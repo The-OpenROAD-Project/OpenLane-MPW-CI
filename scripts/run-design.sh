@@ -26,8 +26,13 @@ git submodule update --init --recursive "${repo_dir}"
 git config -f .gitmodules --unset "submodule.${repo_dir}.shallow"
 rsync --archive "${repo_dir}/." "${design_dir}"
 cp -f "./scripts/${design}/config.tcl" "${design_dir}"
-rm -rf "${design_dir}/caravel"
-cp -rf "./caravel" "${design_dir}/."
+if [[ -d "${design_dir}/caravel/openlane" ]]
+then
+    echo "[INFO] caravel directory exists in the repo."
+else
+    echo "[INFO] carvel directory missing in the repo and copying from local."
+    cp -rf "./caravel" "${design_dir}/."
+fi
 export CARAVEL_ROOT="${design_dir}/caravel"
 echo "[INFO] Repo dir ${repo_dir}"
 source "./scripts/${design}/setup-flow.sh"

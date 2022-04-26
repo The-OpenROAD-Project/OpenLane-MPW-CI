@@ -56,7 +56,7 @@ pipeline {
                                "mbist_ctrl wb_interconnect",
                                "mpw5_L1cache",
                                "mpw5_prga mpw5_prga_tile_clb",
-                               "mpw5_prga",
+                               // "mpw5_prga", //removed due to runtime
                                "multi_encoder",
                                "peripheral_extender",
                                "picorF0",
