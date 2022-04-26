@@ -41,6 +41,6 @@ echo "[INFO] PDKs setup complete."
 echo "[INFO] Starting Caravel setup..."
 rm -rf caravel
 mkdir -p caravel
-curl -L "https://github.com/efabless/caravel/archive/refs/tags/mpw-5c.tar.gz" \
+curl -L "https://github.com/efabless/caravel/archive/refs/tags/mpw-5d.tar.gz" \
   | tar --strip 1 -xzC caravel
 echo "[INFO] Caravel setup complete and CARAVEL_ROOT=$(pwd)/caravel."
