@@ -4,8 +4,10 @@ pipeline {
         ROUTING_CORES = 32;
     }
     stages {
+
         stage("Run Tests") {
             matrix {
+
                 axes {
                     axis {
                         name "DESIGN";
@@ -54,7 +56,7 @@ pipeline {
                                "mbist_ctrl wb_interconnect",
                                "mpw5_L1cache",
                                "mpw5_prga mpw5_prga_tile_clb",
-                               "mpw5_prga",
+                               // "mpw5_prga", //removed due to runtime
                                "multi_encoder",
                                "peripheral_extender",
                                "picorF0",
@@ -105,6 +107,7 @@ pipeline {
                                "yonga-serv-accelerator";
                     }
                 }
+
                 options {
                     lock( label: "mpw-job", quantity: 1 )
                 }
@@ -120,18 +123,20 @@ pipeline {
                                     sh "nice ./scripts/setup-ci.sh";
                                     sh "nice ./scripts/run-design.sh ${DESIGN}";
                                 }
-                                post {
-                                    failure {
-                                        archiveArtifacts artifacts: "**/*.log, **/openroad_issue_reproducible/**/*";
-                                    }
-                                }
+                            }
+                        }
+                        post {
+                            failure {
+                                archiveArtifacts artifacts: "**/runs/**/*";
                             }
                         }
                     }
                 }
+
             }
         }
     }
+
     post {
         failure {
             script {
@@ -156,4 +161,5 @@ pipeline {
             }
         }
     }
+
 }
