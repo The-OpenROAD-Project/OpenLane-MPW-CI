@@ -1,9 +1,11 @@
 [submodule "designs/updown_caravel"]
 	path = designs/updown_caravel
-	url = https://github.com/The-OpenROAD-Project/mpw-updown_caravel
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = lulu9312/updown_caravel
 [submodule "designs/subservient"]
 	path = designs/subservient
-	url = https://github.com/The-OpenROAD-Project/mpw-subservient
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = klasnordmark/caravel_user_project/subservient_mpw4
 [submodule "designs/Fixed2Float"]
 	path = designs/Fixed2Float
 	url = https://github.com/dhayalakumarm/Fixed2Float_MPW3
@@ -45,14 +47,16 @@
 	url = https://github.com/yongatek/caravel_yonga-lz4-decoder
 [submodule "designs/APPROX_MULT"]
 	path = designs/APPROX_MULT
-	url = https://github.com/The-OpenROAD-Project/mpw-APPROX_MULT
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = SultanShadow/APPROX_MULT
 [submodule "designs/RAD_HARD_ALU"]
 	path = designs/RAD_HARD_ALU
 	url = https://github.com/The-OpenROAD-Project/caravel_user_project
 	branch = SultanShadow/RAD_HARD_ALU
 [submodule "designs/kasirga_k0"]
 	path = designs/kasirga_k0
-	url = https://github.com/The-OpenROAD-Project/mpw-kasirga-k0
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = kasirgalabs/kasirga-k0
 [submodule "designs/space_controller"]
 	path = designs/space_controller
 	url = https://github.com/jaquerinte/space_controller
@@ -162,7 +166,8 @@
 	url = https://github.com/mtomlin5/caravel_sram_test
 [submodule "designs/PWM-Generator"]
 	path = designs/PWM-Generator
-	url = https://github.com/The-OpenROAD-Project/mpw-PWM-Generator
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = Karthikeyan564/PWM_Generator
 [submodule "designs/vsdbabysoc"]
 	path = designs/vsdbabysoc
 	url = https://github.com/manili/vsdbabysoc_mpw3
@@ -192,7 +197,8 @@
 	branch = hhj1107/caravel_user_project
 [submodule "designs/yifive_a2"]
 	path = designs/yifive_a2
-	url = https://github.com/The-OpenROAD-Project/mpw-yifive_a2
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = Univisiontechnocon-com/yifive_a2
 [submodule "designs/wb_openram"]
 	path = designs/wb_openram
 	url = https://github.com/The-OpenROAD-Project/caravel_user_project
