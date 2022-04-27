@@ -2,6 +2,11 @@
 
 This repository contains scripts to run stable MPW shuttle designs.
 
+## CI results
+
+You can find the results for the main branch
+[here](https://jenkins.openroad.tools/blue/organizations/jenkins/OpenLane-MPW-CI-Public/branches/).
+
 ## Adding new designs to CI
 
 ### Add project as a submodule
