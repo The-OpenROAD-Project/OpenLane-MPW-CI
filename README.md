@@ -1,4 +1,5 @@
 # OpenLane MPW CI
+[![Build Status](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/main/badge/icon)](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/main/)
 
 This repository contains scripts to run stable MPW shuttle designs.
 
