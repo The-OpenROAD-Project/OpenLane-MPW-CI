@@ -253,3 +253,15 @@
 	path = designs/async_fib2
 	url = https://github.com/The-OpenROAD-Project/caravel_user_project
 	branch = 6Kotnk/async_fib2
+[submodule "designs/azadi_soc_iii"]
+	path = designs/azadi_soc_iii
+	url = https://github.com/merledu/caravel_azadi_soc_iii
+[submodule "designs/marmot_asic"]
+	path = designs/marmot_asic
+	url = https://github.com/Hagiwara-shc/marmot_asic
+[submodule "designs/qf100"]
+	path = designs/qf100
+	url = https://github.com/q3k/qf100
+[submodule "designs/mpw-5c-C0"]
+	path = designs/mpw-5c-C0
+	url = https://github.com/kasirgalabs/mpw-5c-C0
