@@ -1,6 +1,15 @@
 # OpenLane MPW CI
 
-This repository contains scripts to run stable MPW shuttle designs.
+## Description
+The OpenLane MPW CI repo contains a regression test to ensure that new versions of OpenLane and OpenROAD continue to work on the efabless MPW designs.
+[Efabless](https://platform.efabless.com/projects/public) MPW shuttle Pre-Check has passed on these digital designs. These designs use openlane as 
+part of macro hardening`(user_proj_example)` or design wrapping`(user_project_wrapper)`.
+
+Following MPW shuttle designs included as part of CI:
+[MPW-2](https://platform.efabless.com/projects/shuttle_name/MPW-2) |
+[MPW-3](https://platform.efabless.com/projects/shuttle_name/MPW-3) |
+[MPW-4](https://platform.efabless.com/projects/shuttle_name/MPW-4) |
+[MPW-5](https://platform.efabless.com/projects/shuttle_name/MPW-5)
 
 ## Adding new designs to CI
 
