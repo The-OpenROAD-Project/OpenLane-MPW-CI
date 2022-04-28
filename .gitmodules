@@ -265,3 +265,27 @@
 [submodule "designs/mpw-5c-C0"]
 	path = designs/mpw-5c-C0
 	url = https://github.com/kasirgalabs/mpw-5c-C0
+[submodule "designs/Actuator_Controller"]
+	path = designs/Actuator_Controller
+	url = https://github.com/jasteve4/ActuatorController
+[submodule "designs/mpw5_raster_engine"]
+	path = designs/mpw5_raster_engine
+	url = https://github.com/vanilyaliyogurt/raster_engine_mpw5
+[submodule "designs/mpw5_open_eFPGA"]
+	path = designs/mpw5_open_eFPGA
+	url = https://github.com/nguyendao-uom/open_eFPGA
+[submodule "designs/junga_soc_mpw5"]
+	path = designs/junga_soc_mpw5
+	url = https://github.com/hhj1107/junga_soc_mpw5
+[submodule "designs/systolic_array"]
+	path = designs/systolic_array
+	url = https://github.com/vsdevaraddi/caravel_user_project
+[submodule "designs/asicle"]
+	path = designs/asicle
+	url = https://github.com/htfab/asicle
+[submodule "designs/mpw5_4ft4"]
+	path = designs/mpw5_4ft4
+	url = https://github.com/andars/caravel-4ft4
+[submodule "designs/hack_soc_wrapper"]
+	path = designs/hack_soc_wrapper
+	url = https://github.com/mbalestrini/caravel_hack_soc
