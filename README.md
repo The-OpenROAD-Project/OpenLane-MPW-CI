@@ -1,4 +1,5 @@
 # OpenLane MPW CI
+[![Build Status](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/main/badge/icon)](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/main/)
 
 ## Description
 The OpenLane MPW CI repo contains a regression test to ensure that new versions of OpenLane and OpenROAD continue to work on the efabless MPW designs.
@@ -10,6 +11,11 @@ Following MPW shuttle designs included as part of CI:
 [MPW-3](https://platform.efabless.com/projects/shuttle_name/MPW-3) |
 [MPW-4](https://platform.efabless.com/projects/shuttle_name/MPW-4) |
 [MPW-5](https://platform.efabless.com/projects/shuttle_name/MPW-5)
+
+## CI results
+
+You can find the results for the main branch
+[here](https://jenkins.openroad.tools/blue/organizations/jenkins/OpenLane-MPW-CI-Public/branches/).
 
 ## Adding new designs to CI
 
