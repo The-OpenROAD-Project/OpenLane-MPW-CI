@@ -23,8 +23,8 @@ pipeline {
                                "alu_xor alu_xor_wrapper",
                                "async_fib2",
                                "asicle",
-                               "azadi_soc",
-                               "azadi_soc_iii",
+                               //"azadi_soc", //Removed due to Jenkins OverLimit
+                               //"azadi_soc_iii", //Removed due to Jenkins OverLimit
                                "ChirstmasTreeController",
                                "caravel_dsp",
                                "counter_alperen",
@@ -40,7 +40,7 @@ pipeline {
                                "counter_TestSOC",
                                "counter_vsdsram",
                                "crypto_accelerator accelerator_top",
-                               "eFPGA_v3_wrapper",
+                               //"eFPGA_v3_wrapper", //Removed due to Jenkins OverLimit
                                "FCNet_neuron",
                                "Fixed2Float",
                                "FMAC",
@@ -50,8 +50,8 @@ pipeline {
                                "fuserisc eFPGA_CPU_TOP",
                                "fuserisc wb_mem_split",
                                "GpioCtrl",
-                               "GPS_Baseband",
-                               "GPS_Baseband GPS_Baseband_wrapper",
+                               //"GPS_Baseband", //Removed due to Jenkins OverLimit
+                               //"GPS_Baseband GPS_Baseband_wrapper", //Removed due to Jenkins OverLimit
                                "hack_soc_wrapper",
                                "IIC_AudioDAC",
                                "jacaranda8",
@@ -78,7 +78,7 @@ pipeline {
                                "mpw5_prga mpw5_prga_tile_clb",
                                // "mpw5_prga", //removed due to runtime
                                "mpw5_raster_engine",
-                               "multi_encoder",
+                               // "multi_encoder", //Removed due to Jenkins OverLimit
                                "peripheral_extender",
                                "picorF0",
                                "PSRAM_PRANG",
@@ -117,7 +117,7 @@ pipeline {
                                "soric_project flexbex_core",
                                "soric_project soric_soc",
                                "space_controller",
-                               "sram_test",
+                               //"sram_test", //Removed due to Jenkins OverLimit
                                "subservient",
                                "subservient_SOC",
                                "sudoku-accelerator",
@@ -127,22 +127,22 @@ pipeline {
                                "UETRV_Ecore UETRV_counter",
                                "UETRV_Ecore UETRV_Motor_Top",
                                "UETRV_Ecore UETRV_Wishbone_InterConnect",
-                               "UETRV_Ecore UETRV_wrapper",
+                               //"UETRV_Ecore UETRV_wrapper", //Removed due to Jenkins OverLimit
                                "updown_caravel",
-                               "vsdbabysoc vsdbabysoc_wrapper",
+                               //"vsdbabysoc vsdbabysoc_wrapper", //Removed due to Jenkins OverLimit
                                "vsdbabysoc",
                                "vsdmemsoc rvmyth_core",
-                               "vsdmemsoc",
-                               "wb_openram",
+                               //"vsdmemsoc", //Removed due to Jenkins OverLimit
+                               //"wb_openram", //Removed due to Jenkins OverLimit
                                // "wishbone_CAN", // removed due to runtime
                                "yifive_a2 clk_buf",
                                "yifive_a2 clk_skew_adjust",
                                "yifive_a2 glbl_cfg",
                                "yifive_a2 sdram",
                                "yifive_a2 spi_master",
-                               "yifive_a2 syntacore",
+                               //"yifive_a2 syntacore", //Removed due to Jenkins OverLimit
                                "yifive_a2 uart_i2cm_usb",
-                               "yonga-100m-ethernet",
+                               //"yonga-100m-ethernet", //Removed due to Jenkins OverLimit
                                "yonga-lz4-decoder",
                                "yonga-serv-accelerator";
                     }
