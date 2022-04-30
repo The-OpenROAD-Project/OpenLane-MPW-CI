@@ -27,18 +27,18 @@ pipeline {
                                //"azadi_soc_iii", //Removed due to Jenkins OverLimit
                                "ChirstmasTreeController",
                                "caravel_dsp",
-                               "counter_alperen",
-                               "counter_azadi",
-                               "counter_display_mv",
-                               "counter_eeuet",
-                               "counter_efab",
-                               "counter_hhj",
-                               "counter_ICESOC",
-                               "counter_mpw4_mv",
-                               "counter_REST",
-                               "counter_rgb",
-                               "counter_TestSOC",
-                               "counter_vsdsram",
+                               //"counter_alperen", //Removed due to Jenkins OverLimit
+                               //"counter_azadi", //Removed due to Jenkins OverLimit
+                               //"counter_display_mv", //Removed due to Jenkins OverLimit
+                               //"counter_eeuet", //Removed due to Jenkins OverLimit
+                               //"counter_efab", //Removed due to Jenkins OverLimit
+                               //"counter_hhj", //Removed due to Jenkins OverLimit
+                               //"counter_ICESOC", //Removed due to Jenkins OverLimit
+                               //"counter_mpw4_mv", //Removed due to Jenkins OverLimit
+                               //"counter_REST", //Removed due to Jenkins OverLimit
+                               //"counter_rgb", //Removed due to Jenkins OverLimit
+                               //"counter_TestSOC", //Removed due to Jenkins OverLimit
+                               //"counter_vsdsram", //Removed due to Jenkins OverLimit
                                "crypto_accelerator accelerator_top",
                                //"eFPGA_v3_wrapper", //Removed due to Jenkins OverLimit
                                "FCNet_neuron",
