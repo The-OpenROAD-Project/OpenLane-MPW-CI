@@ -1,8 +1,8 @@
 # OpenLane MPW CI
-Build Status - [![mpw-2](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/mpw-2/job/main/badge/icon)](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/mpw-2/job/main/)
-[![mpw-3](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/mpw-3/job/main/badge/icon)](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/mpw-3/job/main/)
-[![mpw-4](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/mpw-4/job/main/badge/icon)](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/mpw-4/job/main/)
-[![mpw-5](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/mpw-5/job/main/badge/icon)](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/mpw-5/job/main/)
+[![mpw-2](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/mpw-2/job/main/badge/icon/?subject=MPW-2)](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/mpw-2/job/main/)
+[![mpw-3](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/mpw-3/job/main/badge/icon/?subject=MPW-3)](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/mpw-3/job/main/)
+[![mpw-4](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/mpw-4/job/main/badge/icon/?subject=MPW-4)](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/mpw-4/job/main/)
+[![mpw-5](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/mpw-5/job/main/badge/icon/?subject=MPW-5)](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/mpw-5/job/main/)
 
 ## Description
 The OpenLane MPW CI repo contains a regression test to ensure that new versions of OpenLane and OpenROAD continue to work on the efabless MPW designs.
