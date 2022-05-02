@@ -1,5 +1,8 @@
 # OpenLane MPW CI
-[![Build Status](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/main/badge/icon)](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/main/)
+Build Status - [![mpw-2](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/mpw-2/job/main/badge/icon)](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/mpw-2/job/main/)
+[![mpw-3](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/mpw-3/job/main/badge/icon)](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/mpw-3/job/main/)
+[![mpw-4](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/mpw-4/job/main/badge/icon)](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/mpw-4/job/main/)
+[![mpw-5](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/mpw-5/job/main/badge/icon)](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/mpw-5/job/main/)
 
 ## Description
 The OpenLane MPW CI repo contains a regression test to ensure that new versions of OpenLane and OpenROAD continue to work on the efabless MPW designs.
@@ -14,8 +17,8 @@ Following MPW shuttle designs included as part of CI:
 
 ## CI results
 
-You can find the results for the main branch
-[here](https://jenkins.openroad.tools/blue/organizations/jenkins/OpenLane-MPW-CI-Public/branches/).
+You can find the results for each shuttle
+[here](https://jenkins.openroad.tools/blue/pipelines/?search=mpw).
 
 ## Adding new designs to CI
 
