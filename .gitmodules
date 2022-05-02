@@ -289,3 +289,26 @@
 [submodule "designs/hack_soc_wrapper"]
 	path = designs/hack_soc_wrapper
 	url = https://github.com/mbalestrini/caravel_hack_soc
+[submodule "designs/rng_chaos"]
+	path = designs/rng_chaos
+	url = https://github.com/onurkrts/RNG
+[submodule "designs/riscduino_qcore"]
+	path = designs/riscduino_qcore
+	url = https://github.com/dineshannayya/riscduino_qcore
+[submodule "designs/ChirstmasTreeController"]
+	path = designs/ChirstmasTreeController
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = JulienOury/ChristmasTreeController
+[submodule "designs/riscduino_dcore"]
+	path = designs/riscduino_dcore
+	url = https://github.com/dineshannayya/riscduino_dcore
+[submodule "designs/riscduino"]
+	path = designs/riscduino
+	url = https://github.com/dineshannayya/riscduino
+[submodule "designs/logic_bist"]
+	path = designs/logic_bist
+	url = https://github.com/dineshannayya/logic_bist
+[submodule "designs/mpw5_microwatt"]
+	path = designs/mpw5_microwatt
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = antonblanchard/microwatt-mpw5
