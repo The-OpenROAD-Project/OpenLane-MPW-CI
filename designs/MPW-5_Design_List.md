@@ -237,8 +237,8 @@ shuttle digital design list currently in the CI.
          [qf_mkLanaiFrontend](../scripts/qf_mkLanaiFrontend) |
          [qf_mkQF100Fabric](../scripts/qf_mkQF100Fabric) |
          [qf_mkQF100GPIO](../scripts/qf_mkQF100GPIO) |
-         [qf_mkQF100KSC](../scripts/qf_mkQF100KSC) | [
-         qf_mkQF100SPI](../scripts/ qf_mkQF100SPI) |
+         [qf_mkQF100KSC](../scripts/qf_mkQF100KSC) | 
+         [qf_mkQF100SPI](../scripts/qf_mkQF100SPI) |
          [qf_wrapper](../scripts/qf_wrapper)
 
 -   mpw-5c-C0
