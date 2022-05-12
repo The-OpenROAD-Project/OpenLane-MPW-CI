@@ -30,6 +30,8 @@ Add the design repository as a submodule.
 git submodule add <PROJECT_URL> ./designs/<PROJECT_NAME>
 ```
 
+Also you can view current CI design description [here](./designs/README.md)
+
 ### Create configuration files
 
 For each design in your project, you will need to create a folder under [scripts](./scripts).

@@ -51,14 +51,6 @@ shuttle digital design list currently in the CI.
          ported to a myriad of platforms including retro computers and
          microcontrollers with tight constraints. But have you played
          it on raw silicon yet?
-    -   Executable CI Script: [asicle](../scripts/asicle)-   `asicle`
-    -   Project Name: Asicle
-    -   Project Owner: Tamas Hubai
-    -   Project Number: [788](https://platform.efabless.com/projects/788)
-    -   Description: Okay, so Wordle took the net by storm and was
-         ported to a myriad of platforms including retro computers and
-         microcontrollers with tight constraints. But have you played
-         it on raw silicon yet?
     -   Executable CI Script: [asicle](../scripts/asicle)
 
 -   `async_fib2`
@@ -112,7 +104,7 @@ shuttle digital design list currently in the CI.
     -   Project Owner: Jayakumar Janarthanam
     -   Project Number: [180](https://platform.efabless.com/projects/180)
     -   Description: DSP Functions
-    -   Executable CI Script: [caravel_dsp[(../scripts/caravel_dsp)
+    -   Executable CI Script: [caravel_dsp](../scripts/caravel_dsp)
 
 -   `ChirstmasTreeController`
     -   Project Name: ChristmasTreeController
@@ -261,13 +253,13 @@ shuttle digital design list currently in the CI.
          exact fabric description.
     -   Executable CI Script: [eFPGA_v3_wrapper](../scripts/eFPGA_v3_wrapper)
 
--   `FCNet_prj`
+-   `FCNet_neuron`
     -   Project Name: pre-trained neural network for MNIST
     -   Project Owner: mxiangyue
     -   Project Number: [486](https://platform.efabless.com/projects/486)
     -   Description: This project implements a pre-trained neural
          network for hand-written digits from MNIST dataset.
-    -   Executable CI Script: [FCNet_prj](../scripts/FCNet_prj)
+    -   Executable CI Script: [FCNet_neuron](../scripts/FCNet_neuron)
 
 -   `Fixed2Float`
     -   Project Name: Fixed2Float_Converter
@@ -320,7 +312,7 @@ shuttle digital design list currently in the CI.
     -   Project Number: [382](https://platform.efabless.com/projects/382)
     -   Description: Digital test design with simple GPIO control for
          toolchain testing
-    -   Executable CI Script: [GpioCtr](../scripts/ GpioCtrl)
+    -   Executable CI Script: [GpioCtr](../scripts/GpioCtrl)
 
 -   `GPS_Baseband`
     -   Project Name: PICO Design Resubmission MPW5
@@ -372,7 +364,7 @@ shuttle digital design list currently in the CI.
 -   `junga_soc_mpw5`
     -   Project Name: junga_soc_mpw5
     -   Project Owner: Lena Hwang
-    -   Project Number: [611](https://platform.efabless.com/projects/780)
+    -   Project Number: [780](https://platform.efabless.com/projects/780)
     -   Description: Simple vexriscv based SoC
     -   Executable CI Script: [junga_soc_mpw5](../scripts/junga_soc_mpw5)
 
@@ -422,7 +414,7 @@ shuttle digital design list currently in the CI.
     -   Project Number: [566](https://platform.efabless.com/projects/566)
     -   Description: Logic BIST with Scan Chain to detect struck at
          fault
-    -   Executable CI Script: [logic_bist](../scripts/logic_bist)
+    -   Executable CI Script:
 
 -   `logic_bist`
     -   Project Name: LBIST-MBIST
@@ -465,7 +457,7 @@ shuttle digital design list currently in the CI.
     -   Executable CI Script: [mbist1](../scripts/mbist1) |
          [mbist2](../scripts/mbist2) |
          [wb_host](../scripts/wb_host) |
-         [wb_interconnect](../scripts../wb_interconnect)
+         [wb_interconnect](../scripts/wb_interconnect)
 
 -   `mpw5_4ft4`
     -   Project Name: 4ft4
@@ -627,7 +619,9 @@ shuttle digital design list currently in the CI.
     -   Project Number: [451](https://platform.efabless.com/projects/451)
     -   Description: Random number generators and PUFs. Also a few
          simple peripherals to output the random values (PWM, etc).
-    -   Executable CI Script: [randsack](../scripts/randsack)
+    -   Executable CI Script: [collapsering_macro](../scripts/collapsering_macro) |
+         [digitalcore_macro](../scripts/digitalcore_macro) |
+         [ringosc_macro](../scripts/ringosc_macro)
 
 -   `riscduino`
     -   Project Name: riscduino-SCore(S2)
@@ -688,7 +682,7 @@ shuttle digital design list currently in the CI.
 -   soc_io_expander
     -   Project Name: io_expander
     -   Project Owner: Siva Prasad
-    -   Project Number: [147]](https://platform.efabless.com/projects/147)
+    -   Project Number: [147](https://platform.efabless.com/projects/147)
     -   Description: A gpio expander for the caravel harness to realize
          a small microcontroller
     -   Executable CI Script: [soc_io_expander](../scripts/soc_io_expander)
@@ -796,7 +790,7 @@ shuttle digital design list currently in the CI.
     -   Project Number: [519](https://platform.efabless.com/projects/519)
     -   Description: VSDBabySoC is a small SoC including PLL, DAC, and a
          RISCV-based processor named RVMYTH.
-    -   Executable CI Script: [vsdbabysoc](../scripts/vsdbaby_soc) |
+    -   Executable CI Script: [vsdbabysoc](../scripts/vsdbabysoc) |
          [vsdbabysoc_wrapper](../scripts/vsdbabysoc_wrapper)
 
 -   `vsdmemsoc`
