@@ -15,6 +15,9 @@ Following MPW shuttle designs included as part of CI:
 [MPW-4](https://platform.efabless.com/projects/shuttle_name/MPW-4) |
 [MPW-5](https://platform.efabless.com/projects/shuttle_name/MPW-5)
 
+
+Also you can view current CI design description [here](./designs/README.md).
+
 ## CI results
 
 You can find the results for each shuttle
