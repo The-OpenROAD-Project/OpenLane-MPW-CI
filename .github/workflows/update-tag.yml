@@ -1,0 +1,47 @@
+# Try to update OpenLane tag to the latest release every night at 10pm UTC
+
+name: OpenLane and OpenROAD Latest.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 22 * * *'
+
+jobs:
+
+  latest_tag:
+    runs-on: ubuntu-latest
+    steps:
+
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 1
+
+      - uses: actions/checkout@v3
+        with:
+          repository: The-OpenROAD-Project/OpenLane
+          fetch-depth: 0
+          path: openlane
+
+      - run: |
+          cd openlane
+          OPENLANE_TAG=$(git ls-remote --tags --sort=creatordate | tail -n 1 | cut -d/ -f3)
+          echo "OPENLANE_TAG=$OPENLANE_TAG" >> $GITHUB_ENV
+          echo $OPENLANE_TAG > ../openlane-tag
+
+      - uses: peter-evans/create-pull-request@v4
+        id: cpr
+        with:
+          add-paths: openlane-tag
+          title: '[BOT] Update OpenLane tag.'
+          body: |
+            This is an automated PR. See the individual commits for details.
+          commit-message: |
+            [BOT] Update OpenLane stable tag -> ${{ env.OPENLANE_TAG }}
+          branch: update-openlane-tag
+          delete-branch: true
+
+      - if: ${{ steps.cpr.outputs.pull-request-number }}
+        run: |
+          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
+          echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"
