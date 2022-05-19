@@ -75,7 +75,9 @@ pipeline {
                         steps {
                             script {
                                 stage("${DESIGN}") {
-                                    sh "nice ./scripts/setup-ci.sh";
+                                    retry(3) {
+                                        sh "nice ./scripts/setup-ci.sh";
+                                    }
                                     sh "nice ./scripts/run-design.sh ${DESIGN}";
                                 }
                             }
