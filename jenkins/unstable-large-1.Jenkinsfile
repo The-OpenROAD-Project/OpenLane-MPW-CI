@@ -19,9 +19,6 @@ pipeline {
                     }
                 }
 
-                options {
-                    lock( label: "mpw-job", quantity: 1 )
-                }
                 stages {
                     stage("Test") {
                         options {
