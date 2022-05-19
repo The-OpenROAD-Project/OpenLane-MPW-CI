@@ -11,35 +11,41 @@ pipeline {
                 axes {
                     axis {
                         name "DESIGN";
-                        values "APPROX_MULT",
-                               "counter_azadi", 
-                               "counter_display_mv", 
-                               "counter_ICESOC", 
-                               "counter_mpw4_mv", 
-                               "counter_REST", 
-                               "junga_soc",
-                               "kasirga_k0 c0_system_macro",
-                               "keyvalue_caravel",
-                               "koggestone_adder",
-                               "ks-guitar",
-                               "ks-guitar-2s",
-                               "RAD_HARD_ALU",
-                               "randsack collapsering_macro",
-                               "randsack digitalcore_macro",
-                               "randsack ringosc_macro",
-                               "soric_project crypto_core",
-                               "soric_project flexbex_core",
-                               "soric_project soric_soc",
-                               "space_controller",
-                               "subservient",
-                               "updown_caravel",
-                               "yifive_a2 clk_buf",
-                               "yifive_a2 clk_skew_adjust",
-                               "yifive_a2 glbl_cfg",
-                               "yifive_a2 sdram",
-                               "yifive_a2 spi_master",
-                               "yifive_a2 syntacore", 
-                               "yifive_a2 uart_i2cm_usb";
+                        values 'qf100 qf_mkLanaiFrontend',
+                               'qf100 qf_mkQF100Fabric',
+                               'qf100 qf_mkQF100GPIO',
+                               'qf100 qf_mkQF100KSC',
+                               'qf100 qf_mkQF100SPI',
+                               'RAD_HARD_ALU',
+                               'riscduino_dcore rdd_ycr2_iconnect',
+                               'riscduino_qcore rdq_pinmux',
+                               'riscduino_qcore rdq_qspim_top',
+                               'riscduino_qcore rdq_uart_i2cm_usb_spi_top',
+                               'riscduino_qcore rdq_ycr_intf',
+                               'rng_chaos',
+                               'rotfpga',
+                               'secure-memory secure-memory-proj',
+                               'secure-memory secure-memory-wrapper',
+                               'secure-memory trng_wb_wrapper',
+                               'soc_io_expander',
+                               'soric_project soric_soc',
+                               'space_controller',
+                               'subservient',
+                               'sudoku-accelerator',
+                               'systolic_array',
+                               'UETRV_Ecore UETRV_Core',
+                               'UETRV_Ecore UETRV_counter',
+                               'UETRV_Ecore UETRV_Motor_Top',
+                               'updown_caravel',
+                               'vsdbabysoc',
+                               'vsdmemsoc rvmyth_core',
+                               'yifive_a2 clk_buf',
+                               'yifive_a2 clk_skew_adjust',
+                               'yifive_a2 glbl_cfg',
+                               'yifive_a2 sdram',
+                               'yifive_a2 spi_master',
+                               'yifive_a2 uart_i2cm_usb',
+                               'yonga-lz4-decoder';
                     }
                 }
 
@@ -49,7 +55,7 @@ pipeline {
                 stages {
                     stage("Test") {
                         options {
-                            timeout(time: 4, unit: "HOURS");
+                            timeout(time: 2, unit: "HOURS");
                         }
                         agent any;
                         steps {
