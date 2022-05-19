@@ -11,50 +11,34 @@ pipeline {
                 axes {
                     axis {
                         name "DESIGN";
-                        values "counter_efab", 
-                               "counter_hhj", 
-                               "counter_rgb", 
-                               "counter_vsdsram", 
-                               "crypto_accelerator accelerator_top",
-                               "FCNet_neuron",
-                               "Fixed2Float",
-                               "GpioCtrl",
-                               "jacaranda8",
-                               "mbist_ctrl mbist1",
-                               "mbist_ctrl mbist2",
-                               "mbist_ctrl wb_host",
-                               "mbist_ctrl wb_interconnect",
-                               "peripheral_extender",
-                               "picorF0",
-                               "PWM-Generator",
-                               "rotfpga",
-                               "sram_test", 
-                               "sudoku-accelerator",
-                               "treepram",
-                               "vsdbabysoc vsdbabysoc_wrapper", 
-                               "vsdbabysoc",
-                               "vsdmemsoc rvmyth_core",
-                               "vsdmemsoc", 
-                               "wb_openram", 
-                               "yonga-100m-ethernet",
-                               "yonga-lz4-decoder",
-                               "yonga-serv-accelerator";
+                        values 'crypto_accelerator accelerator_top',
+                               'FCNet_neuron',
+                               'junga_soc_mpw5',
+                               'marmot_asic',
+                               'mpw5_raster_engine',
+                               'pwm_openmpw',
+                               'riscduino rd_yifive',
+                               'riscduino_qcore rdq_ycr4_iconnect',
+                               'riscduino_qcore rdq_ycr_core_top',
+                               'soric_project crypto_core',
+                               'soric_project flexbex_core',
+                               'treepram',
+                               'UETRV_Ecore UETRV_Wishbone_InterConnect';
                     }
                 }
 
-                options {
-                    lock( label: "mpw-job", quantity: 1 )
-                }
                 stages {
                     stage("Test") {
                         options {
-                            timeout(time: 4, unit: "HOURS");
+                            timeout(time: 8, unit: "HOURS");
                         }
                         agent any;
                         steps {
                             script {
                                 stage("${DESIGN}") {
-                                    sh "nice ./scripts/setup-ci.sh";
+                                    retry(3) {
+                                        sh "nice ./scripts/setup-ci.sh";
+                                    }
                                     sh "nice ./scripts/run-design.sh ${DESIGN}";
                                 }
                             }
