@@ -1,4 +1,12 @@
 cd [file dirname [file normalize [info script]]]
 set ::env(CARAVEL_ROOT) "[pwd]/caravel"
 set ::env(DESIGN_IS_CORE) 1
+set ::env(FP_PDN_MACRO_HOOKS) "\
+	core vccd1 vssd, \
+	wb_inter_connect vccd1 vssd1, \
+	m1 vccd1 vssd1, \
+	m2 vccd1 vssd1, \
+	m3 vccd1 vssd1, \
+	imem vccd1 vssd1, \
+	dmem vccd1 vssd1"
 source openlane/user_project_wrapper/config.tcl
