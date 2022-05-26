@@ -13,14 +13,14 @@ pipeline {
                         name "DESIGN";
                         values 'FMAC FMAC_wrapper',
                                'hack_soc_wrapper',
-			       'mpw5_microwatt Microwatt_FP_DFFRFile',
+                               'mpw5_microwatt Microwatt_FP_DFFRFile',
                                'mpw5_microwatt Microwatt_multiply_add',
                                'qf100 qf_mkLanaiFrontend',
                                'qf100 qf_mkQF100Fabric',
                                'qf100 qf_mkQF100GPIO',
                                'qf100 qf_mkQF100KSC',
                                'qf100 qf_mkQF100SPI',
-			       'qf100 qf_mkLanaiCPU',
+                               'qf100 qf_mkLanaiCPU',
                                'qf100 qf_mkQF100FlashController',
                                'RAD_HARD_ALU',
                                'riscduino_dcore rdd_ycr2_iconnect',
@@ -36,7 +36,7 @@ pipeline {
                                'soc_io_expander',
                                'soric_project soric_soc',
                                'space_controller',
-			       'sram_test',
+                               'sram_test',
                                'subservient',
                                'sudoku-accelerator',
                                'systolic_array',
@@ -55,7 +55,7 @@ pipeline {
                                'yifive_a2 syntacore',
                                'yifive_a2 uart_i2cm_usb',
                                'yonga-lz4-decoder',
-			       'yonga-100m-ethernet',
+                               'yonga-100m-ethernet',
                                'yonga-serv-accelerator';
                     }
                 }
