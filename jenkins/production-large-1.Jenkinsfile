@@ -23,7 +23,8 @@ pipeline {
                                'soric_project crypto_core',
                                'soric_project flexbex_core',
                                'treepram',
-                               'UETRV_Ecore UETRV_Wishbone_InterConnect';
+                               'UETRV_Ecore UETRV_Wishbone_InterConnect',
+                               'wishbone_CAN';
                     }
                 }
 

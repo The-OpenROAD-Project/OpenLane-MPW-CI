@@ -12,10 +12,10 @@ pipeline {
                     axis {
                         name "DESIGN";
                         values 'azadi_soc',
+                               'IIC_AudioDAC',
                                'ks-guitar',
                                'mpw5_prga',
-                               'qf100 qf_wrapper',
-                               'wishbone_CAN';
+                               'qf100 qf_wrapper';
                     }
                 }
 
