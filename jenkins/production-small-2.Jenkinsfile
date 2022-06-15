@@ -13,8 +13,8 @@ pipeline {
                         name "DESIGN";
                         values 'FMAC FMAC_wrapper',
                                'hack_soc_wrapper',
-                               'mpw5_microwatt Microwatt_FP_DFFRFile',
-                               'mpw5_microwatt Microwatt_multiply_add',
+                               'mpw6_microwatt Microwatt_FP_DFFRFile',
+                               'mpw6_microwatt Microwatt_multiply_add',
                                'qf100 qf_mkLanaiFrontend',
                                'qf100 qf_mkQF100Fabric',
                                'qf100 qf_mkQF100GPIO',

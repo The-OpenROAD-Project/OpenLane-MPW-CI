@@ -13,7 +13,7 @@ pipeline {
                         name "DESIGN";
                         values 'asicle',
                                'axi_dma_wrapper',
-                               'azadi_soc_iii',
+                               'azadi_soc_iii_dft',
                                'eFPGA_v3_wrapper',
                                'fuserisc core_sram',
                                'GPS_Baseband GPS_Baseband_wrapper',

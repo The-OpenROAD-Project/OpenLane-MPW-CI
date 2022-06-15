@@ -214,9 +214,6 @@
 [submodule "designs/pwm_openmpw"]
 	path = designs/pwm_openmpw
 	url = https://github.com/SerdarUnal132/pwm_openmpw
-[submodule "designs/mpw5_prga"]
-	path = designs/mpw5_prga
-	url = https://github.com/getziadz/caravel_mpw5_prga
 [submodule "designs/NAND_Flash5"]
 	path = designs/NAND_Flash5
 	url = https://github.com/The-OpenROAD-Project/caravel_user_project
@@ -253,9 +250,6 @@
 	path = designs/async_fib2
 	url = https://github.com/The-OpenROAD-Project/caravel_user_project
 	branch = 6Kotnk/async_fib2
-[submodule "designs/azadi_soc_iii"]
-	path = designs/azadi_soc_iii
-	url = https://github.com/merledu/caravel_azadi_soc_iii
 [submodule "designs/marmot_asic"]
 	path = designs/marmot_asic
 	url = https://github.com/Hagiwara-shc/marmot_asic
@@ -308,7 +302,13 @@
 [submodule "designs/logic_bist"]
 	path = designs/logic_bist
 	url = https://github.com/dineshannayya/logic_bist
-[submodule "designs/mpw5_microwatt"]
-	path = designs/mpw5_microwatt
-	url = https://github.com/The-OpenROAD-Project/caravel_user_project
-	branch = antonblanchard/microwatt-mpw5
+[submodule "designs/mpw6_prga"]
+	path = designs/mpw6_prga
+	url = https://github.com/leon575777642/caravel_mpw5_prga
+	branch = prga-mpw-6c
+[submodule "designs/mpw6_microwatt"]
+	path = designs/mpw6_microwatt
+	url = https://github.com/antonblanchard/microwatt-mpw6
+[submodule "designs/azadi_soc_iii_dft"]
+	path = designs/azadi_soc_iii_dft
+	url = https://github.com/merledu/caravel_azadi_soc_iii_dft
