@@ -658,10 +658,10 @@ based designs details with following order:
          efabless Shuttle program.
     -   Executable CI Script: [rdq_uart_i2c_usb_spi_top](../scripts/rdq_uart_i2c_usb_spi_top) |
          [rdq_qspim_top](../scripts/rdq_qspim_top) |
-	 [rdq_pinmux](../scripts/rdq_pinmux) |
-	 [rdq_ycr4_iconnect](../scripts/rdq_ycr4_iconnect) |
-	 [rdq_ycr_core_top](../scripts/rdq_ycr_core_top) |
-	 [rdq_ycr_intf](../scripts/rdq_ycr_intf) 
+         [rdq_pinmux](../scripts/rdq_pinmux) |
+         [rdq_ycr4_iconnect](../scripts/rdq_ycr4_iconnect) |
+         [rdq_ycr_core_top](../scripts/rdq_ycr_core_top) |
+         [rdq_ycr_intf](../scripts/rdq_ycr_intf) 
 
 -   `rng_chaos`
     -   Project Name: RNG CHAOS
