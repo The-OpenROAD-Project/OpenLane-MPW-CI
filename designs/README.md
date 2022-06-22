@@ -94,10 +94,10 @@ based designs details with following order:
          PWM, and timer.
     -   Executable CI Script: [azadi_soc](../scripts/azadi_soc)
 
--   `azadi_soc_iii`
-    -   Project Name: Azadi_III
+-   `azadi_soc_iii_dft`
+    -   Project Name: Azadi_DFT
     -   Project Owner: Rameen Anwar
-    -   Project Number: [755](https://platform.efabless.com/projects/755)
+    -   Project Number: [845](https://platform.efabless.com/projects/845)
     -   Description: The Azadi-III includes the following peripherals.
          PWM 2-Channel, OpenRAM 1KB x 4 for ICCM 1KB x 4 for DCCM Ibex
          core(named as brq_core) FPU (single-precision) TileLink (UL)
@@ -106,7 +106,7 @@ based designs details with following order:
          precision floating point unit and RISCV compliant debug module
          for on chip debugging and some standard peripherals for
          communicating with other devices.
-    -   Executable CI Script: [azadi_soc_iii](../scripts/azadi_soc_iii)
+    -   Executable CI Script: [azadi_soc_iii_dft](../scripts/azadi_soc_iii_dft)
 
 -   `caravel_dsp`
     -   Project Name: caravel_dsp2
@@ -490,10 +490,10 @@ based designs details with following order:
          associative 256B L1 cache as user project area in caravel SoC.
     -   Executable CI Script: [mpw5_L1cache](../scripts/mpw5_L1cache)
 
--   `mpw5_microwatt`
-    -   Project Name: Microwatt MPW5
+-   `mpw6_microwatt`
+    -   Project Name: Microwatt MPW6
     -   Project Owner: Anton Blanchard
-    -   Project Number: [795](https://platform.efabless.com/projects/)
+    -   Project Number: [840](https://platform.efabless.com/projects/840)
     -   Description: Microwatt is a 64 bit OpenPOWER core written in
          VHDL. It includes an IEEE 754 double-precision binary
          floating-point unit as well as supervisor support that allows
@@ -512,17 +512,17 @@ based designs details with following order:
          OpenLane flow.
     -   Executable CI Script: [mpw5_open_eFPGA](../scripts/mpw5_open_eFPGA)
 
--   `mpw5_prga`
+-   `mpw6_prga`
     -   Project Name: ORDER_PRGA
     -   Project Owner: Georgios T
-    -   Project Number: [742](https://platform.efabless.com/projects/742)
+    -   Project Number: [968](https://platform.efabless.com/projects/968)
     -   Description: A 512-LUT4 FPGA generated using PRGA (Princeton
          Reconfigurable Gate Array); An 8x8 array of CLBs, each
          containing 8 LUT4s and 8 DFFs and a local programmable
          crossbar for intra-CLB routing; 24-track routing channel with
          L1 tracks; Capable of implementing 16 out of 30 ISCAS'89
          circuits.
-    -   Executable CI Script: [mpw5_prga_tile_clb](../scripts/mpw5_prga_tile_clb)
+    -   Executable CI Script: [mpw6_prga_tile_clb](../scripts/mpw6_prga_tile_clb)
 
 -   `mpw5_raster_engine`
     -   Project Name: Raster_engine
@@ -643,11 +643,25 @@ based designs details with following order:
 -   `riscduino_dcore`
     -   Project Name: riscduino-DCore
     -   Project Owner: Dinesh Annaya
-    -   Project Number: [718](https://platform.efabless.com/projects/718)
+    -   Project Number: [838](https://platform.efabless.com/projects/838)
     -   Description: Riscduino is a Dual 32 bit RISC V based SOC design
          pin compatible to arudino platform and this soc targeted for
          efabless Shuttle program.
     -   Executable CI Script: [rdd_ycr2_iconnect](../scripts/rdd_ycr2_iconnect)
+
+-   `riscduino_qcore`
+    -   Project Name: Riscduino-QCore
+    -   Project Owner: Dinesh Annaya
+    -   Project Number: [839](https://platform.efabless.com/projects/839)
+    -   Description: Riscduino is a Dual 32 bit RISC V based SOC design
+         pin compatible to arudino platform and this soc targeted for
+         efabless Shuttle program.
+    -   Executable CI Script: [rdq_uart_i2c_usb_spi_top](../scripts/rdq_uart_i2c_usb_spi_top) |
+         [rdq_qspim_top](../scripts/rdq_qspim_top) |
+         [rdq_pinmux](../scripts/rdq_pinmux) |
+         [rdq_ycr4_iconnect](../scripts/rdq_ycr4_iconnect) |
+         [rdq_ycr_core_top](../scripts/rdq_ycr_core_top) |
+         [rdq_ycr_intf](../scripts/rdq_ycr_intf) 
 
 -   `rng_chaos`
     -   Project Name: RNG CHAOS

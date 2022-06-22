@@ -14,7 +14,7 @@ pipeline {
                         values 'azadi_soc',
                                'IIC_AudioDAC',
                                'ks-guitar',
-                               'mpw5_prga',
+                               'mpw6_prga',
                                'qf100 qf_wrapper';
                     }
                 }
