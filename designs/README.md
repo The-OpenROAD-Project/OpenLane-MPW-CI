@@ -683,16 +683,16 @@ based designs details with following order:
     -   Executable CI Script: [rd_yifive](../scripts/rd_yifive)
 
 -   `mpw5_riscduino_dcore`
-    -   Project Name: riscduino-DCore
+    -   Project Name: Riscduino-DCore
     -   Project Owner: Dinesh Annaya
-    -   Project Number: [714](https://platform.efabless.com/projects/714)
+    -   Project Number: [718](https://platform.efabless.com/projects/718)
     -   Description: Riscduino is a Dual 32 bit RISC V based SOC design
          pin compatible to arudino platform and this soc targeted for
          efabless Shuttle program.
     -   Executable CI Script: [rdd_ycr2_iconnect](../scripts/rdd_ycr2_iconnect)
 
 -   `riscduino_dcore`
-    -   Project Name: riscduino-DCore
+    -   Project Name: Riscduino-DCore
     -   Project Owner: Dinesh Annaya
     -   Project Number: [838](https://platform.efabless.com/projects/838)
     -   Description: Riscduino is a Dual 32 bit RISC V based SOC design
