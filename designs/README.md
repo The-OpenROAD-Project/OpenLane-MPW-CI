@@ -512,6 +512,19 @@ based designs details with following order:
          OpenLane flow.
     -   Executable CI Script: [mpw5_open_eFPGA](../scripts/mpw5_open_eFPGA)
 
+-   `mpw5_prga`
+    -   Project Name: ORDER_PRGA
+    -   Project Owner: Georgios T
+    -   Project Number: [742](https://platform.efabless.com/projects/742)
+    -   Description: A 512-LUT4 FPGA generated using PRGA (Princeton
+         Reconfigurable Gate Array); An 8x8 array of CLBs, each
+         containing 8 LUT4s and 8 DFFs and a local programmable
+         crossbar for intra-CLB routing; 24-track routing channel with
+         L1 tracks; Capable of implementing 16 out of 30 ISCAS'89
+         circuits.
+    -   Executable CI Script: [mpw5_prga](../scripts/mpw5_prga) | 
+         [mpw5_prga_tile_clb](../scripts/mpw5_prga_tile_clb)         
+
 -   `mpw6_prga`
     -   Project Name: ORDER_PRGA
     -   Project Owner: Georgios T
@@ -522,7 +535,8 @@ based designs details with following order:
          crossbar for intra-CLB routing; 24-track routing channel with
          L1 tracks; Capable of implementing 16 out of 30 ISCAS'89
          circuits.
-    -   Executable CI Script: [mpw6_prga_tile_clb](../scripts/mpw6_prga_tile_clb)
+    -   Executable CI Script: [mpw5_prga](../scripts/mpw5_prga) |
+         [mpw6_prga_tile_clb](../scripts/mpw6_prga_tile_clb)
 
 -   `mpw5_raster_engine`
     -   Project Name: Raster_engine
