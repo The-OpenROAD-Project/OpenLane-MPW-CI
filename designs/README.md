@@ -515,8 +515,8 @@ based designs details with following order:
          (integer and floating point), the 2 cache RAMs (icache and
          dcache) and the 4kB main RAM.
     -   Executable CI Script:
-         [Microwatt_FP_DFFRFile](../scripts/mpw5_Microwatt_FP_DFFRFile) |
-         [Microwatt_multiply_add](../scripts/mpw5_Microwatt_multiply_add)
+         [mpw5_Microwatt_FP_DFFRFile](../scripts/mpw5_Microwatt_FP_DFFRFile) |
+         [mpw5_Microwatt_multiply_add](../scripts/mpw5_Microwatt_multiply_add)
 
 -   `mpw6_microwatt`
     -   Project Name: Microwatt MPW6
@@ -681,6 +681,15 @@ based designs details with following order:
     -   Description: A arduino pin compatible Single RISCV 32 Bit core
          Project
     -   Executable CI Script: [rd_yifive](../scripts/rd_yifive)
+
+-   `mpw5_riscduino_dcore`
+    -   Project Name: riscduino-DCore
+    -   Project Owner: Dinesh Annaya
+    -   Project Number: [714](https://platform.efabless.com/projects/714)
+    -   Description: Riscduino is a Dual 32 bit RISC V based SOC design
+         pin compatible to arudino platform and this soc targeted for
+         efabless Shuttle program.
+    -   Executable CI Script: [rdd_ycr2_iconnect](../scripts/rdd_ycr2_iconnect)
 
 -   `riscduino_dcore`
     -   Project Name: riscduino-DCore

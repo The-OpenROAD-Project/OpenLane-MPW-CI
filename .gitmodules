@@ -322,3 +322,6 @@
 	path = designs/mpw5_microwatt
 	url = https://github.com/The-OpenROAD-Project/caravel_user_project
 	branch = antonblanchard/microwatt-mpw5
+[submodule "designs/mpw5_riscduino_dcore"]
+	path = designs/mpw5_riscduino_dcore
+	url = https://github.com/dineshannayya/riscduino_dcore
