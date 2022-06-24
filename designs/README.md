@@ -95,7 +95,7 @@ based designs details with following order:
     -   Executable CI Script: [azadi_soc](../scripts/azadi_soc)
 
 -   `azadi_soc_iii`
-    -   Project Name: Azadi_DFT
+    -   Project Name: Azadi_III
     -   Project Owner: Rameen Anwar
     -   Project Number: [755](https://platform.efabless.com/projects/755)
     -   Description: The Azadi-III includes the following peripherals.
@@ -503,6 +503,20 @@ based designs details with following order:
     -   Description: Integrated a smaller version of the 4-way set
          associative 256B L1 cache as user project area in caravel SoC.
     -   Executable CI Script: [mpw5_L1cache](../scripts/mpw5_L1cache)
+
+-   `mpw5_microwatt`
+    -   Project Name: Microwatt MPW5
+    -   Project Owner: Anton Blanchard
+    -   Project Number: [795](https://platform.efabless.com/projects/795)
+    -   Description: Microwatt is a 64 bit OpenPOWER core written in
+         VHDL. It includes an IEEE 754 double-precision binary
+         floating-point unit as well as supervisor support that allows
+         it to run Linux. There are hard macros for the 2 multipliers
+         (integer and floating point), the 2 cache RAMs (icache and
+         dcache) and the 4kB main RAM.
+    -   Executable CI Script:
+         [Microwatt_FP_DFFRFile](../scripts/mpw5_Microwatt_FP_DFFRFile) |
+         [Microwatt_multiply_add](../scripts/mpw5_Microwatt_multiply_add)
 
 -   `mpw6_microwatt`
     -   Project Name: Microwatt MPW6

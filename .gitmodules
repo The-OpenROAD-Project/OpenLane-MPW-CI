@@ -318,3 +318,7 @@
 [submodule "designs/azadi_soc_iii"]
 	path = designs/azadi_soc_iii
 	url = https://github.com/merledu/caravel_azadi_soc_iii
+[submodule "designs/mpw5_microwatt"]
+	path = designs/mpw5_microwatt
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = antonblanchard/microwatt-mpw5
