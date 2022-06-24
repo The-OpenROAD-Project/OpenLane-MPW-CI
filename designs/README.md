@@ -94,6 +94,20 @@ based designs details with following order:
          PWM, and timer.
     -   Executable CI Script: [azadi_soc](../scripts/azadi_soc)
 
+-   `azadi_soc_iii`
+    -   Project Name: Azadi_DFT
+    -   Project Owner: Rameen Anwar
+    -   Project Number: [755](https://platform.efabless.com/projects/755)
+    -   Description: The Azadi-III includes the following peripherals.
+         PWM 2-Channel, OpenRAM 1KB x 4 for ICCM 1KB x 4 for DCCM Ibex
+         core(named as brq_core) FPU (single-precision) TileLink (UL)
+         UART QSPI SPI GPIOs Design Goals: Azadi-III is aimed to extend
+         the base ibex core(RV32IMC) with a fully functional single
+         precision floating point unit and RISCV compliant debug module
+         for on chip debugging and some standard peripherals for
+         communicating with other devices.
+    -   Executable CI Script: [azadi_soc_iii](../scripts/azadi_soc_iii)
+
 -   `azadi_soc_iii_dft`
     -   Project Name: Azadi_DFT
     -   Project Owner: Rameen Anwar

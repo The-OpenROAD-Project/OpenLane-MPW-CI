@@ -315,3 +315,6 @@
 [submodule "designs/mpw5_prga"]
 	path = designs/mpw5_prga
 	url = https://github.com/leon575777642/caravel_mpw5_prga
+[submodule "designs/azadi_soc_iii"]
+	path = designs/azadi_soc_iii
+	url = https://github.com/merledu/caravel_azadi_soc_iii
