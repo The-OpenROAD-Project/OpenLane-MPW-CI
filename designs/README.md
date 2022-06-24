@@ -451,7 +451,7 @@ based designs details with following order:
          [LBIST_mbist_top1](../scripts/LBIST_mbist_top1) |
          [LBIST_mbist_top2](../scripts/LBIST_mbist_top2)
 
--   `marmot_asic`
+-   `mpw5_marmot_asic`
     -   Project Name: Power Monitoring Microcontroller ASIC MARMOT
     -   Project Owner: Shumpei Kawasaki
     -   Project Number: [759](https://platform.efabless.com/projects/759)
@@ -465,6 +465,16 @@ based designs details with following order:
          high-frequency sampling output of the analog-to-digital
          converter connected to the current sensor in power rails of
          IoT power supply.
+    -   Executable CI Script: [marmot_asic](../scripts/marmot_asic)
+
+-   `marmot_asic`
+    -   Project Name: MARMOT RISC-V SOC
+    -   Project Owner: Shumpei Kawasaki
+    -   Project Number: [853](https://platform.efabless.com/projects/853)
+    -   Description: A RISC-V ASIC (CSP60), a part of security function, 
+         will be prototyped using Google's free shuttle. The GDS layout was
+         completed in March, 2022. ber of the same year, the ASIC will be
+         integrated into the logic board on the flexible board.
     -   Executable CI Script: [marmot_asic](../scripts/marmot_asic)
 
 -   `mbist_ctrl`
