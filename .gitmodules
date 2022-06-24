@@ -325,3 +325,6 @@
 [submodule "designs/mpw5_riscduino_dcore"]
 	path = designs/mpw5_riscduino_dcore
 	url = https://github.com/dineshannayya/riscduino_dcore
+[submodule "designs/mpw5_riscduino_qcore"]
+	path = designs/mpw5_riscduino_qcore
+	url = https://github.com/dineshannayya/riscduino_qcore

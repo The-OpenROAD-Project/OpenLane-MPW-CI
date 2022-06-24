@@ -700,6 +700,20 @@ based designs details with following order:
          efabless Shuttle program.
     -   Executable CI Script: [rdd_ycr2_iconnect](../scripts/rdd_ycr2_iconnect)
 
+-   `mpw5_riscduino_qcore`
+    -   Project Name: Riscduino-QCore
+    -   Project Owner: Dinesh Annaya
+    -   Project Number: [782](https://platform.efabless.com/projects/782)
+    -   Description: Riscduino is a Dual 32 bit RISC V based SOC design
+         pin compatible to arudino platform and this soc targeted for
+         efabless Shuttle program.
+    -   Executable CI Script: [rdq_uart_i2c_usb_spi_top](../scripts/rdq_uart_i2c_usb_spi_top) |
+         [rdq_qspim_top](../scripts/rdq_qspim_top) |
+         [rdq_pinmux](../scripts/rdq_pinmux) |
+         [rdq_ycr4_iconnect](../scripts/rdq_ycr4_iconnect) |
+         [rdq_ycr_core_top](../scripts/rdq_ycr_core_top) |
+         [rdq_ycr_intf](../scripts/rdq_ycr_intf)
+
 -   `riscduino_qcore`
     -   Project Name: Riscduino-QCore
     -   Project Owner: Dinesh Annaya
