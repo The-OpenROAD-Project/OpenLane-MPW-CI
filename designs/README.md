@@ -573,7 +573,7 @@ based designs details with following order:
          crossbar for intra-CLB routing; 24-track routing channel with
          L1 tracks; Capable of implementing 16 out of 30 ISCAS'89
          circuits.
-    -   Executable CI Script: [mpw5_prga](../scripts/mpw5_prga) |
+    -   Executable CI Script: [mpw6_prga](../scripts/mpw6_prga) |
          [mpw6_prga_tile_clb](../scripts/mpw6_prga_tile_clb)
 
 -   `mpw5_raster_engine`
@@ -717,7 +717,7 @@ based designs details with following order:
     -   Description: Riscduino is a Dual 32 bit RISC V based SOC design
          pin compatible to arudino platform and this soc targeted for
          efabless Shuttle program.
-    -   Executable CI Script: [rdq_uart_i2c_usb_spi_top](../scripts/rdq_uart_i2c_usb_spi_top) |
+    -   Executable CI Script: [rdq_uart_i2cm_usb_spi_top](../scripts/rdq_uart_i2cm_usb_spi_top) |
          [rdq_qspim_top](../scripts/rdq_qspim_top) |
          [rdq_pinmux](../scripts/rdq_pinmux) |
          [rdq_ycr4_iconnect](../scripts/rdq_ycr4_iconnect) |
@@ -731,7 +731,7 @@ based designs details with following order:
     -   Description: Riscduino is a Dual 32 bit RISC V based SOC design
          pin compatible to arudino platform and this soc targeted for
          efabless Shuttle program.
-    -   Executable CI Script: [rdq_uart_i2c_usb_spi_top](../scripts/rdq_uart_i2c_usb_spi_top) |
+    -   Executable CI Script: [rdq_uart_i2cm_usb_spi_top](../scripts/rdq_uart_i2cm_usb_spi_top) |
          [rdq_qspim_top](../scripts/rdq_qspim_top) |
          [rdq_pinmux](../scripts/rdq_pinmux) |
          [rdq_ycr4_iconnect](../scripts/rdq_ycr4_iconnect) |
