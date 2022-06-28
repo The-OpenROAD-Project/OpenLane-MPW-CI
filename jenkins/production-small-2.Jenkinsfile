@@ -64,7 +64,7 @@ pipeline {
                 stages {
                     stage("Test") {
                         options {
-                            timeout(time: 2, unit: "HOURS");
+                            timeout(time: 3, unit: "HOURS");
                         }
                         agent any;
                         steps {
