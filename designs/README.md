@@ -94,6 +94,20 @@ based designs details with following order:
          PWM, and timer.
     -   Executable CI Script: [azadi_soc](../scripts/azadi_soc)
 
+-   `azadi_soc_iii`
+    -   Project Name: Azadi_III
+    -   Project Owner: Rameen Anwar
+    -   Project Number: [755](https://platform.efabless.com/projects/755)
+    -   Description: The Azadi-III includes the following peripherals.
+         PWM 2-Channel, OpenRAM 1KB x 4 for ICCM 1KB x 4 for DCCM Ibex
+         core(named as brq_core) FPU (single-precision) TileLink (UL)
+         UART QSPI SPI GPIOs Design Goals: Azadi-III is aimed to extend
+         the base ibex core(RV32IMC) with a fully functional single
+         precision floating point unit and RISCV compliant debug module
+         for on chip debugging and some standard peripherals for
+         communicating with other devices.
+    -   Executable CI Script: [azadi_soc_iii](../scripts/azadi_soc_iii)
+
 -   `azadi_soc_iii_dft`
     -   Project Name: Azadi_DFT
     -   Project Owner: Rameen Anwar
@@ -437,7 +451,7 @@ based designs details with following order:
          [LBIST_mbist_top1](../scripts/LBIST_mbist_top1) |
          [LBIST_mbist_top2](../scripts/LBIST_mbist_top2)
 
--   `marmot_asic`
+-   `mpw5_marmot_asic`
     -   Project Name: Power Monitoring Microcontroller ASIC MARMOT
     -   Project Owner: Shumpei Kawasaki
     -   Project Number: [759](https://platform.efabless.com/projects/759)
@@ -451,6 +465,16 @@ based designs details with following order:
          high-frequency sampling output of the analog-to-digital
          converter connected to the current sensor in power rails of
          IoT power supply.
+    -   Executable CI Script: [marmot_asic](../scripts/marmot_asic)
+
+-   `marmot_asic`
+    -   Project Name: MARMOT RISC-V SOC
+    -   Project Owner: Shumpei Kawasaki
+    -   Project Number: [853](https://platform.efabless.com/projects/853)
+    -   Description: A RISC-V ASIC (CSP60), a part of security function, 
+         will be prototyped using Google's free shuttle. The GDS layout was
+         completed in March, 2022. ber of the same year, the ASIC will be
+         integrated into the logic board on the flexible board.
     -   Executable CI Script: [marmot_asic](../scripts/marmot_asic)
 
 -   `mbist_ctrl`
@@ -490,6 +514,20 @@ based designs details with following order:
          associative 256B L1 cache as user project area in caravel SoC.
     -   Executable CI Script: [mpw5_L1cache](../scripts/mpw5_L1cache)
 
+-   `mpw5_microwatt`
+    -   Project Name: Microwatt MPW5
+    -   Project Owner: Anton Blanchard
+    -   Project Number: [795](https://platform.efabless.com/projects/795)
+    -   Description: Microwatt is a 64 bit OpenPOWER core written in
+         VHDL. It includes an IEEE 754 double-precision binary
+         floating-point unit as well as supervisor support that allows
+         it to run Linux. There are hard macros for the 2 multipliers
+         (integer and floating point), the 2 cache RAMs (icache and
+         dcache) and the 4kB main RAM.
+    -   Executable CI Script:
+         [mpw5_Microwatt_FP_DFFRFile](../scripts/mpw5_Microwatt_FP_DFFRFile) |
+         [mpw5_Microwatt_multiply_add](../scripts/mpw5_Microwatt_multiply_add)
+
 -   `mpw6_microwatt`
     -   Project Name: Microwatt MPW6
     -   Project Owner: Anton Blanchard
@@ -512,6 +550,19 @@ based designs details with following order:
          OpenLane flow.
     -   Executable CI Script: [mpw5_open_eFPGA](../scripts/mpw5_open_eFPGA)
 
+-   `mpw5_prga`
+    -   Project Name: ORDER_PRGA
+    -   Project Owner: Georgios T
+    -   Project Number: [742](https://platform.efabless.com/projects/742)
+    -   Description: A 512-LUT4 FPGA generated using PRGA (Princeton
+         Reconfigurable Gate Array); An 8x8 array of CLBs, each
+         containing 8 LUT4s and 8 DFFs and a local programmable
+         crossbar for intra-CLB routing; 24-track routing channel with
+         L1 tracks; Capable of implementing 16 out of 30 ISCAS'89
+         circuits.
+    -   Executable CI Script: [mpw5_prga](../scripts/mpw5_prga) | 
+         [mpw5_prga_tile_clb](../scripts/mpw5_prga_tile_clb)         
+
 -   `mpw6_prga`
     -   Project Name: ORDER_PRGA
     -   Project Owner: Georgios T
@@ -522,7 +573,8 @@ based designs details with following order:
          crossbar for intra-CLB routing; 24-track routing channel with
          L1 tracks; Capable of implementing 16 out of 30 ISCAS'89
          circuits.
-    -   Executable CI Script: [mpw6_prga_tile_clb](../scripts/mpw6_prga_tile_clb)
+    -   Executable CI Script: [mpw6_prga](../scripts/mpw6_prga) |
+         [mpw6_prga_tile_clb](../scripts/mpw6_prga_tile_clb)
 
 -   `mpw5_raster_engine`
     -   Project Name: Raster_engine
@@ -640,14 +692,37 @@ based designs details with following order:
          Project
     -   Executable CI Script: [rd_yifive](../scripts/rd_yifive)
 
+-   `mpw5_riscduino_dcore`
+    -   Project Name: Riscduino-DCore
+    -   Project Owner: Dinesh Annaya
+    -   Project Number: [718](https://platform.efabless.com/projects/718)
+    -   Description: Riscduino is a Dual 32 bit RISC V based SOC design
+         pin compatible to arudino platform and this soc targeted for
+         efabless Shuttle program.
+    -   Executable CI Script: [rdd_ycr2_iconnect](../scripts/rdd_ycr2_iconnect)
+
 -   `riscduino_dcore`
-    -   Project Name: riscduino-DCore
+    -   Project Name: Riscduino-DCore
     -   Project Owner: Dinesh Annaya
     -   Project Number: [838](https://platform.efabless.com/projects/838)
     -   Description: Riscduino is a Dual 32 bit RISC V based SOC design
          pin compatible to arudino platform and this soc targeted for
          efabless Shuttle program.
     -   Executable CI Script: [rdd_ycr2_iconnect](../scripts/rdd_ycr2_iconnect)
+
+-   `mpw5_riscduino_qcore`
+    -   Project Name: Riscduino-QCore
+    -   Project Owner: Dinesh Annaya
+    -   Project Number: [782](https://platform.efabless.com/projects/782)
+    -   Description: Riscduino is a Dual 32 bit RISC V based SOC design
+         pin compatible to arudino platform and this soc targeted for
+         efabless Shuttle program.
+    -   Executable CI Script: [rdq_uart_i2cm_usb_spi_top](../scripts/rdq_uart_i2cm_usb_spi_top) |
+         [rdq_qspim_top](../scripts/rdq_qspim_top) |
+         [rdq_pinmux](../scripts/rdq_pinmux) |
+         [rdq_ycr4_iconnect](../scripts/rdq_ycr4_iconnect) |
+         [rdq_ycr_core_top](../scripts/rdq_ycr_core_top) |
+         [rdq_ycr_intf](../scripts/rdq_ycr_intf)
 
 -   `riscduino_qcore`
     -   Project Name: Riscduino-QCore
@@ -656,7 +731,7 @@ based designs details with following order:
     -   Description: Riscduino is a Dual 32 bit RISC V based SOC design
          pin compatible to arudino platform and this soc targeted for
          efabless Shuttle program.
-    -   Executable CI Script: [rdq_uart_i2c_usb_spi_top](../scripts/rdq_uart_i2c_usb_spi_top) |
+    -   Executable CI Script: [rdq_uart_i2cm_usb_spi_top](../scripts/rdq_uart_i2cm_usb_spi_top) |
          [rdq_qspim_top](../scripts/rdq_qspim_top) |
          [rdq_pinmux](../scripts/rdq_pinmux) |
          [rdq_ycr4_iconnect](../scripts/rdq_ycr4_iconnect) |

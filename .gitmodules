@@ -312,3 +312,22 @@
 [submodule "designs/azadi_soc_iii_dft"]
 	path = designs/azadi_soc_iii_dft
 	url = https://github.com/merledu/caravel_azadi_soc_iii_dft
+[submodule "designs/mpw5_prga"]
+	path = designs/mpw5_prga
+	url = https://github.com/leon575777642/caravel_mpw5_prga
+[submodule "designs/azadi_soc_iii"]
+	path = designs/azadi_soc_iii
+	url = https://github.com/merledu/caravel_azadi_soc_iii
+[submodule "designs/mpw5_microwatt"]
+	path = designs/mpw5_microwatt
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = antonblanchard/microwatt-mpw5
+[submodule "designs/mpw5_riscduino_dcore"]
+	path = designs/mpw5_riscduino_dcore
+	url = https://github.com/dineshannayya/riscduino_dcore
+[submodule "designs/mpw5_riscduino_qcore"]
+	path = designs/mpw5_riscduino_qcore
+	url = https://github.com/dineshannayya/riscduino_qcore
+[submodule "designs/mpw5_marmot_asic"]
+	path = designs/mpw5_marmot_asic
+	url = https://github.com/Hagiwara-shc/marmot_asic
