@@ -54,6 +54,7 @@ pipeline {
                                'yifive_a2 spi_master',
                                'yifive_a2 syntacore',
                                'yifive_a2 uart_i2cm_usb',
+                               'yonga-can-controller',
                                'yonga-lz4-decoder',
                                'yonga-100m-ethernet',
                                'yonga-serv-accelerator';

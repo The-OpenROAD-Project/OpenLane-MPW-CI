@@ -20,6 +20,7 @@ pipeline {
                                'riscduino rd_yifive',
                                'riscduino_qcore rdq_ycr4_iconnect',
                                'riscduino_qcore rdq_ycr_core_top',
+                               'SonarOnChip8',
                                'soric_project crypto_core',
                                'soric_project flexbex_core',
                                'treepram',

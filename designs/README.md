@@ -777,13 +777,23 @@ based designs details with following order:
          cycles provide the digest values.
     -   Executable CI Script: [SHA1_engine](../scripts/SHA1_engine)
 
--   soc_io_expander
+-   `soc_io_expander`
     -   Project Name: io_expander
     -   Project Owner: Siva Prasad
     -   Project Number: [147](https://platform.efabless.com/projects/147)
     -   Description: A gpio expander for the caravel harness to realize
          a small microcontroller
     -   Executable CI Script: [soc_io_expander](../scripts/soc_io_expander)
+
+-   `SonarOnChip8`
+    -   Project Name: SonarOnChip8
+    -   Project Owner: Mauricio Alejandro Montanares Sepúlveda
+    -   Project Number: [871](https://platform.efabless.com/projects/871)
+    -   Description: The project implements a digital system for signal
+         processing to capture and process acoustics signals from 36 MEMS
+         microphones with an extended frequency range up to 85 kHz
+         (low ultrasonic band).
+    -   Executable CI Script: [SonarOnChip8](../scripts/SonarOnChip8)
 
 -   `soric_project`
     -   Project Name: SORIC
@@ -931,7 +941,15 @@ based designs details with following order:
          of Alex Forencich's 100Mbps Ethernet design.
     -   Executable CI Script: [yonga-100m-ethernet](../scripts/yonga-100m-ethernet)
 
--   yonga-lz4-decoder
+-   `yonga-can-controller`
+    -   Project Name: YONGA-CAN Controller
+    -   Project Owner: Abdullah YILDIZ
+    -   Project Number: [962](https://platform.efabless.com/projects/962)
+    -   Description: YONGA-CAN Controller is a partial implementation of 
+         CAN 2.0B standard.
+    -   Executable CI Script:  [yonga-can-controller](../scripts/yonga-can-controller)
+
+-   `yonga-lz4-decoder`
     -   Project Name: YONGA-LZ4 Decoder
     -   Project Owner: Abdullah YILDIZ
     -   Project Number: [162](https://platform.efabless.com/projects/162)

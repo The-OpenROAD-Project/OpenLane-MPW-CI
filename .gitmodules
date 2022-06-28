@@ -331,3 +331,9 @@
 [submodule "designs/mpw5_marmot_asic"]
 	path = designs/mpw5_marmot_asic
 	url = https://github.com/Hagiwara-shc/marmot_asic
+[submodule "designs/SonarOnChip8"]
+	path = designs/SonarOnChip8
+	url = https://github.com/HALxmont/SonarOnChip8
+[submodule "designs/yonga-can-controller"]
+	path = designs/yonga-can-controller
+	url = https://github.com/yongatek/caravel_yonga-can-controller
