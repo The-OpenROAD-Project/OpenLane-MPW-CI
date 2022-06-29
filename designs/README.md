@@ -635,6 +635,15 @@ based designs details with following order:
     -   Description: NIL
     -   Executable CI Script: [PWM-Generator](../scripts/PWM-Generator)
 
+-   `pong-chip`
+    -   Project Name: Motius Pong
+    -   Project Owner: Kev
+    -   Project Number: [990](https://platform.efabless.com/projects/990)
+    -   Description: This is a simple hardware design of the first computer
+         game: PONG. This chip interface a proximity sensor and a VGA with
+         which a player is able to play pong.
+    -   Executable CI Script: [pong-chip](../scripts/pong-chip)
+
 -   `pwm_openmpw`
     -   Project Name: PWM
     -   Project Owner: Serdar Ünal
@@ -765,6 +774,13 @@ based designs details with following order:
     -   Executable CI Script: [secure-memory-proj](../scripts/secure-memory-proj) |
          [trng_wb_wrapper](../scripts/trng_wb_wrapper) |
          [secure-memory-wrapper](../scripts/secure-memory-wrapper)
+
+-   `seven_segments`
+    -   Project Name: seven segment seconds
+    -   Project Owner: Matt Venn
+    -   Project Number: [963](https://platform.efabless.com/projects/963)
+    -   Description: walkthrough tutorial for Efabless
+    -   Executable CI Script: [seven_segments](../scripts/seven_segments)
 
 -   `SHA1_engine`
     -   Project Name: SHA1_engine

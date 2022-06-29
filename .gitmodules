@@ -337,3 +337,9 @@
 [submodule "designs/yonga-can-controller"]
 	path = designs/yonga-can-controller
 	url = https://github.com/yongatek/caravel_yonga-can-controller
+[submodule "designs/seven_segments"]
+	path = designs/seven_segments
+	url = https://github.com/mattvenn/caravel_walkthrough
+[submodule "designs/pong-chip"]
+	path = designs/pong-chip
+	url = https://github.com/motius/pong-chip
