@@ -11,10 +11,16 @@ pipeline {
                 axes {
                     axis {
                         name "DESIGN";
-                        values 'FMAC FMAC_wrapper',
+                        values 'ExperiarSoC ExpSoc_CaravelHost',
+                               'ExperiarSoC ExpSoc_Flash',
+                               'ExperiarSoC ExpSoc_Video',
+                               'ExperiarSoC ExpSoc_WishboneInterconnect',
+                               'FMAC FMAC_wrapper',
                                'hack_soc_wrapper',
+                               'mpw6_hyperram',
                                'mpw6_microwatt Microwatt_FP_DFFRFile',
                                'mpw6_microwatt Microwatt_multiply_add',
+                               'pong-chip',
                                'qf100 qf_mkLanaiFrontend',
                                'qf100 qf_mkQF100Fabric',
                                'qf100 qf_mkQF100GPIO',
@@ -33,6 +39,7 @@ pipeline {
                                'secure-memory secure-memory-proj',
                                'secure-memory secure-memory-wrapper',
                                'secure-memory trng_wb_wrapper',
+                               'seven_segments',
                                'soc_io_expander',
                                'soric_project soric_soc',
                                'space_controller',
@@ -54,6 +61,7 @@ pipeline {
                                'yifive_a2 spi_master',
                                'yifive_a2 syntacore',
                                'yifive_a2 uart_i2cm_usb',
+                               'yonga-can-controller',
                                'yonga-lz4-decoder',
                                'yonga-100m-ethernet',
                                'yonga-serv-accelerator';
@@ -63,7 +71,7 @@ pipeline {
                 stages {
                     stage("Test") {
                         options {
-                            timeout(time: 3, unit: "HOURS");
+                            timeout(time: 4, unit: "HOURS");
                         }
                         agent any;
                         steps {

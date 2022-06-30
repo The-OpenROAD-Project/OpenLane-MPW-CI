@@ -2,3 +2,4 @@ OpenLane*
 *.lock
 *.done
 caravel
+*.swp

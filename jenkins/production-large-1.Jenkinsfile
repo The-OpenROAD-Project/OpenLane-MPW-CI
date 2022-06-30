@@ -12,14 +12,18 @@ pipeline {
                     axis {
                         name "DESIGN";
                         values 'crypto_accelerator accelerator_top',
+                               'ExperiarSoC ExpSoc_Peripherals_Flat',
+                               'ExperiarSoC ExperiarCore',
                                'FCNet_neuron',
                                'junga_soc_mpw5',
                                'marmot_asic',
                                'mpw5_raster_engine',
+                               'openram_openmpw',
                                'pwm_openmpw',
                                'riscduino rd_yifive',
                                'riscduino_qcore rdq_ycr4_iconnect',
                                'riscduino_qcore rdq_ycr_core_top',
+                               'SonarOnChip8',
                                'soric_project crypto_core',
                                'soric_project flexbex_core',
                                'treepram',
@@ -31,7 +35,7 @@ pipeline {
                 stages {
                     stage("Test") {
                         options {
-                            timeout(time: 8, unit: "HOURS");
+                            timeout(time: 12, unit: "HOURS");
                         }
                         agent any;
                         steps {
