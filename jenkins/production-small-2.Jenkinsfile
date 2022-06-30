@@ -11,8 +11,13 @@ pipeline {
                 axes {
                     axis {
                         name "DESIGN";
-                        values 'FMAC FMAC_wrapper',
+                        values 'ExperiarSoC ExpSoc_CaravelHost',
+                               'ExperiarSoC ExpSoc_Flash',
+                               'ExperiarSoC ExpSoc_Video',
+                               'ExperiarSoC ExpSoc_WishboneInterconnect',
+                               'FMAC FMAC_wrapper',
                                'hack_soc_wrapper',
+                               'mpw6_hyperram',
                                'mpw6_microwatt Microwatt_FP_DFFRFile',
                                'mpw6_microwatt Microwatt_multiply_add',
                                'pong-chip',
@@ -66,7 +71,7 @@ pipeline {
                 stages {
                     stage("Test") {
                         options {
-                            timeout(time: 3, unit: "HOURS");
+                            timeout(time: 4, unit: "HOURS");
                         }
                         agent any;
                         steps {

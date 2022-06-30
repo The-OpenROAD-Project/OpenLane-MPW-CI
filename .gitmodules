@@ -343,3 +343,15 @@
 [submodule "designs/pong-chip"]
 	path = designs/pong-chip
 	url = https://github.com/motius/pong-chip
+[submodule "designs/ExperiarSoC"]
+	path = designs/ExperiarSoC
+	url = https://github.com/Wevel/ExperiarSoC
+[submodule "designs/caravel_soc_now"]
+	path = designs/caravel_soc_now
+	url = https://github.com/merledu/caravel_soc_now
+[submodule "designs/mpw6_hyperram"]
+	path = designs/mpw6_hyperram
+	url = https://github.com/recepgunay/mpw6_hyperram
+[submodule "designs/openram_openmpw"]
+	path = designs/openram_openmpw
+	url = https://github.com/SerdarUnal132/openram_openmpw
