@@ -141,11 +141,10 @@ based designs details with following order:
 
 -   `caravel_NNgen`
     -   Project Name: Tensor Calculation using NNgen
-    -   Project Owner: Yinghao REN
+    -   Project Owner: Jayakumar Janarthanam
     -   Project Number: [1077](https://platform.efabless.com/projects/1077)
     -   Description: This Project use NNgen(A Fully-Customizable Hardware
-         Synthesis Compiler for Deep Neural Network) to generate a simple
-         circuit.
+         Synthesis Compiler for Deep Neural Network) to generate a simple circuit.
     -   Executable CI Script: [caravel_NNgen](../scripts/caravel_NNgen)
 
 -   `caravel_soc_now`
