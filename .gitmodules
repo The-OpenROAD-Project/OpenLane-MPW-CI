@@ -355,3 +355,21 @@
 [submodule "designs/openram_openmpw"]
 	path = designs/openram_openmpw
 	url = https://github.com/SerdarUnal132/openram_openmpw
+[submodule "designs/rvj1-caravel-soc"]
+	path = designs/rvj1-caravel-soc
+	url = https://github.com/jurevreca12/rvj1-caravel-soc
+[submodule "designs/riscduino_S3"]
+	path = designs/riscduino_S3
+	url = https://github.com/dineshannayya/riscduino
+[submodule "designs/acor_dct32"]
+	path = designs/acor_dct32
+	url = https://github.com/duchungle/acor_dct32
+[submodule "designs/figaro"]
+	path = designs/figaro
+	url = https://github.com/kayakod/figaro
+[submodule "designs/caravel_NNgen"]
+	path = designs/caravel_NNgen
+	url = https://github.com/Ricardo-Ren/Caravel__NNgen
+[submodule "designs/upb_natalius_soc"]
+	path = designs/upb_natalius_soc
+	url = https://github.com/fguzman82/upb_natalius_soc
