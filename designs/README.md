@@ -52,6 +52,16 @@ based designs details with following order:
          dropped for increased performance in terms of power, time etc.
     -   Executable CI Script: [APPROX_MULT](../scripts/APPROX_MULT)
 
+-   `acor_dct32`
+    -   Project Name: Adaptive CORDIC-based 32-point DCT
+    -   Project Owner: Lêc Hùng
+    -   Project Number: [1060](https://platform.efabless.com/projects/1060)
+    -   Description: We make implementation of a flexible 32-point 
+         Discrete Cosine Transform (DCT). The architecture is based
+         on the fixed-rotation adaptive COordinate Rotation DIgital
+         Computer (CORDIC) algorithm.
+    -   Executable CI Script: [acor_dct32](../scripts/acor_dct32)
+
 -   `asicle`
     -   Project Name: Asicle
     -   Project Owner: Tamas Hubai
@@ -128,6 +138,14 @@ based designs details with following order:
     -   Project Number: [180](https://platform.efabless.com/projects/180)
     -   Description: DSP Functions
     -   Executable CI Script: [caravel_dsp](../scripts/caravel_dsp)
+
+-   `caravel_NNgen`
+    -   Project Name: Tensor Calculation using NNgen
+    -   Project Owner: Yinghao REN
+    -   Project Number: [1077](https://platform.efabless.com/projects/1077)
+    -   Description: This Project use NNgen(A Fully-Customizable Hardware
+         Synthesis Compiler for Deep Neural Network) to generate a simple circuit.
+    -   Executable CI Script: [caravel_NNgen](../scripts/caravel_NNgen)
 
 -   `caravel_soc_now`
     -   Project Name: SoC_Now
@@ -330,13 +348,20 @@ based designs details with following order:
 
 -   `FPU`
     -   Project Name: Caravel_FPU
-    -   Project Owner:Komal Javed
+    -   Project Owner: Komal Javed
     -   Project Number: [109](https://platform.efabless.com/projects/109)
     -   Description: A floating-point unit (FPU), also referred to as
          numeric co-processor, is a dedicated processing unit that
          manipulates numbers more quickly than the basic microprocessor
          circuit.
     -   Executable CI Script: [FPU](../scripts/FPU)
+
+-   `figaro`
+    -   Project Name: Caravel_FPU
+    -   Project Owner: Kaya Demir
+    -   Project Number: [1063](https://platform.efabless.com/projects/1063)
+    -   Description: Ring oscillator and figaro
+    -   Executable CI Script: [figaro](../scripts/figaro)
 
 -   `fuserisc`
     -   Project Name: FuseRISC
@@ -738,6 +763,24 @@ based designs details with following order:
          Project
     -   Executable CI Script: [rd_yifive](../scripts/rd_yifive)
 
+-   `riscduino_S3`
+    -   Project Name: Riscduino-SCore(S3)
+    -   Project Owner: Dinesh Annaya
+    -   Project Number: [1047](https://platform.efabless.com/projects/1047)
+    -   Description: A arduino pin compatible Single RISCV 32 Bit core
+         Project
+    -   Executable CI Script: [rdS3_ycr_iconnect](../scripts/rdS3_ycr_iconnect) |
+         [rdS3_ycr_core_top](../scripts/rdS3_ycr_core_top) |
+         [rdS3_ycr_intf](../scripts/rdS3_ycr_intf)
+
+-   `rvj1-caravel-soc`
+    -   Project Name: rvj1-caravel-soc
+    -   Project Owner: jurevreca12
+    -   Project Number: [1043](https://platform.efabless.com/projects/1043)
+    -   Description: Integrates the riscv-jedro-1 processor into a very 
+         simple system-on-a-chip design.
+    -   Executable CI Script: [rvj1-caravel-soc](../scripts/rvj1-caravel-soc)
+
 -   `mpw5_riscduino_dcore`
     -   Project Name: Riscduino-DCore
     -   Project Owner: Dinesh Annaya
@@ -944,6 +987,15 @@ based designs details with following order:
     -   Project Number: [614](https://platform.efabless.com/projects/614)
     -   Description: A simple Updown counter for demo purpose
     -   Executable CI Script: [updown_caravel](../scripts/updown_caravel)
+
+-   `upb_natalius_soc`
+    -   Project Name: Natalius_SoC
+    -   Project Owner: Fabio Andres Guzman Figueroa
+    -   Project Number: [1095](https://platform.efabless.com/projects/1095)
+    -   Description: Natalius is a compact, capable and fully embedded
+         8 bit RISC processor core described 100% in Verilog. This 
+         processor includes a very tiny VGA Controller suitable for VideoGames.
+    -   Executable CI Script: [NSoC_dualport_sram](../scripts/NSoC_dualport_sram)
 
 -   `vsdbabysoc`
     -   Project Name: VSDBabySoC

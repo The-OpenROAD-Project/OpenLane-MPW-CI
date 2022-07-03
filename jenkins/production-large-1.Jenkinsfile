@@ -21,6 +21,7 @@ pipeline {
                                'openram_openmpw',
                                'pwm_openmpw',
                                'riscduino rd_yifive',
+                               'riscduino_S3 rdS3_ycr_intf',
                                'riscduino_qcore rdq_ycr4_iconnect',
                                'riscduino_qcore rdq_ycr_core_top',
                                'SonarOnChip8',

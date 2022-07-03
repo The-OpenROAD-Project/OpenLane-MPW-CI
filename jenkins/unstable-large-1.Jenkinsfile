@@ -15,7 +15,9 @@ pipeline {
                                'IIC_AudioDAC',
                                'ks-guitar',
                                'mpw6_prga',
-                               'qf100 qf_wrapper';
+                               'qf100 qf_wrapper',
+                               'riscduino_S3 rdS3_ycr_core_top',
+                               'upb_natalius_soc NSoC_dualport_sram';
                     }
                 }
 
