@@ -16,7 +16,7 @@ pipeline {
                                'azadi_soc_iii_dft',
                                'eFPGA_v3_wrapper',
                                'fuserisc core_sram',
-                               'GPS_Baseband GPS_Baseband_wrapper',
+                               'Ghazi_DFT',
                                'GPS_Baseband',
                                'keyvalue_caravel',
                                'ks-guitar-2s',

@@ -19,6 +19,7 @@ pipeline {
                                'marmot_asic',
                                'mpw5_raster_engine',
                                'openram_openmpw',
+                               'patmos_chip',
                                'pwm_openmpw',
                                'riscduino rd_yifive',
                                'riscduino_S3 rdS3_ycr_intf',

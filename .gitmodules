@@ -373,3 +373,66 @@
 [submodule "designs/upb_natalius_soc"]
 	path = designs/upb_natalius_soc
 	url = https://github.com/fguzman82/upb_natalius_soc
+[submodule "designs/FPU_half_precision"]
+	path = designs/FPU_half_precision
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = AirsFyp/caravel_FPU_half_precision
+[submodule "designs/rng_chaos_scroll"]
+	path = designs/rng_chaos_scroll
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = onurkrts/RNG-SCROLL
+[submodule "designs/FPU_Single_Precision"]
+	path = designs/FPU_Single_Precision
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = AirsFyp/caravel_FPU_Single_Precision
+[submodule "designs/FPU_Bfloat_16"]
+	path = designs/FPU_Bfloat_16
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = AirsFyp/caravel_FPU_Bfloat_16
+[submodule "designs/Ghazi_DFT"]
+	path = designs/Ghazi_DFT
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = merledu/Ghazi_DFT
+[submodule "designs/mpw6-leaf"]
+	path = designs/mpw6-leaf
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = daniel-santos-7/leaf-mpw6
+[submodule "designs/spectrometer_hyperspace"]
+	path = designs/spectrometer_hyperspace
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = milovanovic/spectrometer_user_project
+[submodule "designs/yonga_modbus_controller"]
+	path = designs/yonga_modbus_controller
+	url = https://github.com/yongatek/caravel_yonga-modbus-controller
+[submodule "designs/patmos_chip"]
+	path = designs/patmos_chip
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = os-chip-design/patmos-chip
+[submodule "designs/mpw6_alu_xor"]
+	path = designs/mpw6_alu_xor
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = Janavind/sel_set
+[submodule "designs/mpw6_alu_xor4"]
+	path = designs/mpw6_alu_xor4
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = Janavind/All_macros
+[submodule "designs/mpw6_REST_II"]
+	path = designs/mpw6_REST_II
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = sajjadahmed677/REST_II
+[submodule "designs/fossiAES"]
+	path = designs/fossiAES
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = Askartos/fossiAES
+[submodule "designs/hp35_core"]
+	path = designs/hp35_core
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = andylithia/MPWTRIAL
+[submodule "designs/mpw6_aes_rng"]
+	path = designs/mpw6_aes_rng
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = recepgunay/mpw6_aes_rng
+[submodule "designs/hsv_mixer"]
+	path = designs/hsv_mixer
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = proppy/caravel_hsv_mixer
