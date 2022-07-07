@@ -15,6 +15,9 @@ pipeline {
                                'ExperiarSoC ExpSoc_Peripherals_Flat',
                                'ExperiarSoC ExperiarCore',
                                'FCNet_neuron',
+                               'FPU_Bfloat_16',
+                               'FPU_Single_Precision',
+                               'FPU_half_precision',
                                'junga_soc_mpw5',
                                'marmot_asic',
                                'mpw5_raster_engine',
@@ -28,6 +31,7 @@ pipeline {
                                'SonarOnChip8',
                                'soric_project crypto_core',
                                'soric_project flexbex_core',
+                               'spectrometer_hyperspace',
                                'treepram',
                                'UETRV_Ecore UETRV_Wishbone_InterConnect',
                                'wishbone_CAN';
@@ -37,7 +41,7 @@ pipeline {
                 stages {
                     stage("Test") {
                         options {
-                            timeout(time: 12, unit: "HOURS");
+                            timeout(time: 14, unit: "HOURS");
                         }
                         agent any;
                         steps {
