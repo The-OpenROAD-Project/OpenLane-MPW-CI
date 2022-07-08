@@ -33,7 +33,6 @@ pipeline {
                                'soric_project flexbex_core',
                                'spectrometer_hyperspace',
                                'treepram',
-                               'UETRV_Ecore UETRV_Wishbone_InterConnect',
                                'wishbone_CAN';
                     }
                 }
