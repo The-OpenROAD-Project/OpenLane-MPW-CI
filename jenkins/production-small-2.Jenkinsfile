@@ -60,26 +60,7 @@ pipeline {
                                'sram_test',
                                'subservient',
                                'sudoku-accelerator',
-                               'systolic_array',
-                               'UETRV_Ecore UETRV_Core',
-                               'UETRV_Ecore UETRV_counter',
-                               'UETRV_Ecore UETRV_Motor_Top',
-                               'updown_caravel',
-                               'vsdbabysoc',
-                               'vsdbabysoc vsdbabysoc_wrapper',
-                               'vsdmemsoc rvmyth_core',
-                               'yifive_a2 clk_buf',
-                               'yifive_a2 clk_skew_adjust',
-                               'yifive_a2 glbl_cfg',
-                               'yifive_a2 sdram',
-                               'yifive_a2 spi_master',
-                               'yifive_a2 syntacore',
-                               'yifive_a2 uart_i2cm_usb',
-                               'yonga-can-controller',
-                               'yonga-lz4-decoder',
-                               'yonga_modbus_controller',
-                               'yonga-100m-ethernet',
-                               'yonga-serv-accelerator';
+                               'systolic_array';
                     }
                 }
 
