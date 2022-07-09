@@ -19,8 +19,16 @@ pipeline {
                                'acor_dct32',
                                'caravel_NNgen',
                                'figaro',
+                               'fossiAES',
                                'hack_soc_wrapper',
+                               'hp35_core',
+                               'hsv_mixer',
+                               'mpw6_aes_rng',
+                               'mpw6_alu_xor',
+                               'mpw6_alu_xor4',
+                               'mpw6_REST_II',
                                'mpw6_hyperram',
+                               'mpw6-leaf',
                                'mpw6_microwatt Microwatt_FP_DFFRFile',
                                'mpw6_microwatt Microwatt_multiply_add',
                                'pong-chip',
@@ -39,6 +47,7 @@ pipeline {
                                'riscduino_qcore rdq_uart_i2cm_usb_spi_top',
                                'riscduino_qcore rdq_ycr_intf',
                                'rng_chaos',
+                               'rng_chaos_scroll',
                                'rotfpga',
                                'rvj1-caravel-soc',
                                'secure-memory secure-memory-proj',
@@ -68,6 +77,7 @@ pipeline {
                                'yifive_a2 uart_i2cm_usb',
                                'yonga-can-controller',
                                'yonga-lz4-decoder',
+                               'yonga_modbus_controller',
                                'yonga-100m-ethernet',
                                'yonga-serv-accelerator';
                     }
@@ -76,7 +86,7 @@ pipeline {
                 stages {
                     stage("Test") {
                         options {
-                            timeout(time: 4, unit: "HOURS");
+                            timeout(time: 5, unit: "HOURS");
                         }
                         agent any;
                         steps {

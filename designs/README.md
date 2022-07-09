@@ -356,8 +356,35 @@ based designs details with following order:
          circuit.
     -   Executable CI Script: [FPU](../scripts/FPU)
 
+-   `FPU_Bfloat_16`
+    -   Project Name: Floating_Point_Unit_Bfloat16
+    -   Project Owner: merl dsu
+    -   Project Number: [993](https://platform.efabless.com/projects/993)
+    -   Description: This is the first ever Bfloat16 precision floating
+         point unit designed by undergraduate students of DHA Suffa 
+         University Pakistan.
+    -   Executable CI Script: [FPU_Bfloat_16](../scripts/FPU_Bfloat_16)
+
+-   `FPU_Single_Precision`
+    -   Project Name: Floating_Point_Unit_Single_Precision
+    -   Project Owner: merl dsu
+    -   Project Number: [981](https://platform.efabless.com/projects/981)
+    -   Description: This is the first ever Single Precision Floating 
+         Point Unit of IEEE-754 standard. It support all the basic floating
+         point instruction mention in RISC-V specs.
+    -   Executable CI Script: [FPU_Single_Precision](../scripts/FPU_Single_Precision)
+
+-   `FPU_half_precision`
+    -   Project Name: Floating_Point_Unit_Half_Precision
+    -   Project Owner: merl dsu
+    -   Project Number: [847](https://platform.efabless.com/projects/847)
+    -   Description: This is the first ever Half Precision Floating 
+         Point Unit of IEEE-754 standard. It support all the basic floating
+         point instruction mention in RISC-V specs.
+    -   Executable CI Script: [FPU_half_precision](../scripts/FPU_half_precision)
+
 -   `figaro`
-    -   Project Name: Caravel_FPU
+    -   Project Name: Figaro Oscillator
     -   Project Owner: Kaya Demir
     -   Project Number: [1063](https://platform.efabless.com/projects/1063)
     -   Description: Ring oscillator and figaro
@@ -375,6 +402,21 @@ based designs details with following order:
     -   Executable CI Script: [core_sram](../scripts/core_sram) |
          [wb_mem_split](../scripts/wb_mem_split) |
          [eFPGA_CPU_TOP](../scripts/eFPGA_CPU_TOP)
+
+-   `fossiAES`
+    -   Project Name: Free and open source silicon implementation of AES
+    -   Project Owner: Hanssel Enrique Morales Norato
+    -   Project Number: [1067](https://platform.efabless.com/projects/1067)
+    -   Description: Hardware accelerator that implements standard 
+         encryption algorithm AES ECB.
+    -   Executable CI Script: [fossiAES](../scripts/fossiAES)
+
+-   `Ghazi_DFT`
+    -   Project Name: Ghazi_DFT
+    -   Project Owner: Nimra Khan
+    -   Project Number: [1013](https://platform.efabless.com/projects/1013)
+    -   Description: DFT of ghazi Soc 
+    -   Executable CI Script: [Ghazi_DFT](../scripts/Ghazi_DFT)
 
 -   `GpioCtrl`
     -   Project Name: ToolTest gpioCtrl
@@ -401,6 +443,14 @@ based designs details with following order:
     -   Description: Hardware implementation of the Hack Computer from
          the Nand to Tetris courses
     -   Executable CI Script: [hack_soc_wrapper](../scripts/hack_soc_wrapper)
+
+-   `hp35_core`
+    -   Project Name: Patently-Obvious-ASIC
+    -   Project Owner: AndyLithia
+    -   Project Number: [1070](https://platform.efabless.com/projects/1070)
+    -   Description: This project is an RTL-level clone of the HP35 
+         calculator (CTC, ARC & ROM), based on RJW's prior art.
+    -   Executable CI Script: [hp35_core](../scripts/hp35_core)
 
 -   `IIC_AudioDAC`
     -   Project Name: delta-sigma audio DAC
@@ -582,6 +632,45 @@ based designs details with following order:
     -   Description: Resubmission of Steve Goldsmith's project.
     -   Executable CI Script: [mpw6_hyperram](../scripts/mpw6_hyperram)
 
+-   `mpw6-leaf`
+    -   Project Name: Leaf 
+    -   Project Owner: Daniel Santos
+    -   Project Number: [1015](https://platform.efabless.com/projects/1015)
+    -   Description: a small 32-bit RISC-V core for IoT applications.
+    -   Executable CI Script: [mpw6-leaf](../scripts/mpw6-leaf)
+
+-   `mpw6_REST_II`
+    -   Project Name: REST_II 
+    -   Project Owner: Sajjad Ahmed
+    -   Project Number: [1066](https://platform.efabless.com/projects/1066)
+    -   Description: REST(Resource efficient SRAM based TCAM) is test
+         project for exprimenting the SRAM based TCAMs in ASIC.
+    -   Executable CI Script: [mpw6_REST_II](../scripts/mpw6_REST_II)
+
+-   `mpw6_aes_rng`
+    -   Project Name: Cryptographically Secure RNG Slave 
+    -   Project Owner: Sajjad Ahmed
+    -   Project Number: [1079](https://platform.efabless.com/projects/1079)
+    -   Description: Cryptographically Secure RNG Slave. Integrates AES
+         cipher and double scroll chaotic RNG circuit to form a CSRNG. 
+         AES and Chaotic RNG can also be used separately.
+    -   Executable CI Script: [mpw6_aes_rng](../scripts/mpw6_aes_rng)
+
+-   `mpw6_alu_xor`
+    -   Project Name: Four-Bit ALU_XOR - MPW-6 
+    -   Project Owner: Janani Aravind
+    -   Project Number: [1053](https://platform.efabless.com/projects/1053)
+    -   Description: This is a digital 4-bit ALU_XOR design.
+    -   Executable CI Script: [mpw6_alu_xor](../scripts/mpw6_alu_xor)
+
+-   `mpw6_alu_xor4`
+    -   Project Name: SEL_SET 
+    -   Project Owner: Janani Aravind
+    -   Project Number: [1065](https://platform.efabless.com/projects/1065)
+    -   Description: Four-bit ALU that is hardened to mitigate 
+         Single-Event Latch-ups and Transients.
+    -   Executable CI Script: [mpw6_alu_xor4](../scripts/mpw6_alu_xor4)
+
 -   `mpw6_microwatt`
     -   Project Name: Microwatt MPW6
     -   Project Owner: Anton Blanchard
@@ -661,6 +750,14 @@ based designs details with following order:
     -   Description: This project was designed to be able to test the SRAM
          macros generated using OpenRAM flow.
     -   Executable CI Script: [openram_openmpw](../scripts/openram_openmpw)
+
+-   `patmos_chip`
+    -   Project Name: Patmos Real-Time Processor
+    -   Project Owner: Siva Prasad
+    -   Project Number: [1046](https://platform.efabless.com/projects/1046)
+    -   Description: A time-predictable processor called Patmos. This was
+         a 13-week project by 12 students at the Technical University of Denmark.
+    -   Executable CI Script: [patmos_chip](../scripts/patmos_chip)
 
 -   `peripheral_extender`
     -   Project Name: caravel_peripheral_extender
@@ -835,6 +932,14 @@ based designs details with following order:
          oscillators was implemented using the SKY130 process node.
     -   Executable CI Script: [rng_chaos](../scripts/rng_chaos)
 
+-   `rng_chaos_scroll`
+    -   Project Name: RNG MULTI SCROLL CHAOS
+    -   Project Owner: onurkrts
+    -   Project Number: [973](https://platform.efabless.com/projects/973)
+    -   Description: In this study, a digital RNG based on chaotic
+         oscillators was implemented using the SKY130 process node.
+    -   Executable CI Script: [rng_chaos_scroll](../scripts/rng_chaos_scroll)
+
 -   `rotfpga`
     -   Project Name: ROTFPGA
     -   Project Owner: Tamas Hubai
@@ -910,6 +1015,13 @@ based designs details with following order:
          system features triple redundancy in order to ensure that the
          commands are properly executed.
     -   Executable CI Script: [space_controller](../scripts/space_controller)
+
+-   `spectrometer_hyperspace`
+    -   Project Name: Hyperspace
+    -   Project Owner: Vladimir Milovanovi 
+    -   Project Number: [1018](https://platform.efabless.com/projects/1018)
+    -   Description: A hybride parameterizable radar signal processing accelerator
+    -   Executable CI Script: [spectrometer_hyperspace](../scripts/spectrometer_hyperspace)
 
 -   `sram_test`
     -   Project Name: Caravel SRAM Test
@@ -1061,6 +1173,15 @@ based designs details with following order:
     -   Description: YONGA-LZ4 Decoder is an implementation of the
          decoder of the popular LZ4 compression algorithm.
     -   Executable CI Script:  [yonga-lz4-decoder](../scripts/yonga-lz4-decoder)
+
+-   `yonga_modbus_controller`
+    -   Project Name: YONGA-Modbus Controller
+    -   Project Owner: Burak Yakup Çakar
+    -   Project Number: [1023](https://platform.efabless.com/projects/1023)
+    -   Description: A Modbus controller which has a read(03h) and a 
+         write(10h) function. The controller provides access to a 256x16 
+         register space.
+    -   Executable CI Script:  [yonga_modbus_controller](../scripts/yonga_modbus_controller)
 
 -   `yonga-serv-accelerator`
     -   Project Name: YONGA-SERV Accelerator

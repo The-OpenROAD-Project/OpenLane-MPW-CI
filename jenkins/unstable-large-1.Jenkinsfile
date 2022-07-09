@@ -17,6 +17,7 @@ pipeline {
                                'mpw6_prga',
                                'qf100 qf_wrapper',
                                'riscduino_S3 rdS3_ycr_core_top',
+                               'UETRV_Ecore UETRV_Wishbone_InterConnect',
                                'upb_natalius_soc NSoC_dualport_sram';
                     }
                 }
