@@ -383,6 +383,14 @@ based designs details with following order:
          point instruction mention in RISC-V specs.
     -   Executable CI Script: [FPU_half_precision](../scripts/FPU_half_precision)
 
+-   `fct_iot_biquad`
+    -   Project Name: digital biquad filter
+    -   Project Owner: Tiago Silva
+    -   Project Number: [1088](https://platform.efabless.com/projects/1088)
+    -   Description: This project contains a 16bit digital biquad filter.
+    -   Executable CI Script: [fct_iot_biquad](../scripts/fct_iot_biquad) |
+         [fct_iot_bqmain][../scripts/fct_iot_bqmain]
+
 -   `figaro`
     -   Project Name: Figaro Oscillator
     -   Project Owner: Kaya Demir
@@ -870,6 +878,13 @@ based designs details with following order:
          [rdS3_ycr_core_top](../scripts/rdS3_ycr_core_top) |
          [rdS3_ycr_intf](../scripts/rdS3_ycr_intf)
 
+-   `riscduino_hikaysici`
+    -   Project Name: Efabless_MPW6_riscduino
+    -   Project Owner: hikaysici
+    -   Project Number: [975](https://platform.efabless.com/projects/975)
+    -   Description: This is a clone project from dineshannayya/riscduino
+    -   Executable CI Script: [riscduino_hikaysici](../scripts/riscduino_hikaysici)
+
 -   `rvj1-caravel-soc`
     -   Project Name: rvj1-caravel-soc
     -   Project Owner: jurevreca12
@@ -1191,3 +1206,10 @@ based designs details with following order:
          SERV RISC-V processor with a matrix multiplication
          accelerator.
     -   Executable CI Script: [yonga-serv-accelerator](../scripts/yonga-serv-accelerator)
+
+-   `zero_to_asic_mpw6`
+    -   Project Name: Zero to ASIC Group submission MPW6
+    -   Project Owner: Matt Venn 
+    -   Project Number: [833](https://platform.efabless.com/projects/833)
+    -   Description: Zero to ASIC course group submission MPW6
+    -   Executable CI Script: [zero_to_asic_mpw6](../scripts/zero_to_asic_mpw6)

@@ -436,3 +436,14 @@
 	path = designs/hsv_mixer
 	url = https://github.com/The-OpenROAD-Project/caravel_user_project
 	branch = proppy/caravel_hsv_mixer
+[submodule "designs/fct_iot_biquad"]
+	path = designs/fct_iot_biquad
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = Durkhai/fct-iot-node-project
+[submodule "designs/zero_to_asic_mpw6"]
+	path = designs/zero_to_asic_mpw6
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = mattvenn/zero_to_asic_mpw6
+[submodule "designs/riscduino_hikaysici"]
+	path = designs/riscduino_hikaysici
+	url = https://github.com/hikaysici/Efabless_MPW6_riscduino
