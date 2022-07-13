@@ -5,3 +5,4 @@ sed -i '/::env(RT_MAX_LAYER)/d' ${design_dir}/openlane/user_project_wrapper/conf
 sed -i '/::env(ROUTING_CORES)/d' ${design_dir}/openlane/user_project_wrapper/config.tcl
 sed -i '/::env(GLB_RT_ADJUSTMENT)/d' ${design_dir}/openlane/user_project_wrapper/config.tcl
 sed -i 's/\$PDK_ROOT/\$::env(PDK_ROOT)/g' ${design_dir}/openlane/user_project_wrapper/config.tcl
+sed -i 's/FP_PDN_MACRO_HOOKS/HOOKS/g' ${design_dir}/openlane/user_project_wrapper/config.tcl
