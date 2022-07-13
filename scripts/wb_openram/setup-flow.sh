@@ -5,4 +5,5 @@ sed -i '/::env(FP_VERTICAL_HALO)/d' ${design_dir}/openlane/user_project_wrapper/
 sed -i '/::env(GLB_RT_MAXLAYER)/d' ${design_dir}/openlane/user_project_wrapper/config.tcl
 sed -i '/::env(RT_MAX_LAYER)/d' ${design_dir}/openlane/user_project_wrapper/config.tcl
 sed -i 's/logic/reg/g' ${design_dir}/wb_hyperram/src/wb_hyperram.v
-sed -i 's/vssd1 \\/vssd1, \\/g' ${design_dir}/openlane/user_project_wrapper/config.tcl
+sed -i 's/vssd1 \\/vssd1 vccd1 vssd1, \\/g' ${design_dir}/openlane/user_project_wrapper/config.tcl
+sed -i 's/vssd1 "/vssd1 vccd1 vssd1"/g' ${design_dir}/openlane/user_project_wrapper/config.tcl

@@ -8,3 +8,4 @@ sed -i '/::env(ROUTING_CORES)/d' ${design_dir}/openlane/user_project_wrapper/con
 sed -i '/::env(GLB_RESIZER_HOLD_SLACK_MARGIN)/d' ${design_dir}/openlane/user_project_wrapper/config.tcl
 sed -i '/::env(PL_RESIZER_HOLD_SLACK_MARGIN)/d' ${design_dir}/openlane/user_project_wrapper/config.tcl
 sed -i 's/vssd1 \\/vssd1, \\/g' ${design_dir}/openlane/user_project_wrapper/config.tcl
+sed -i 's/FP_PDN_MACRO_HOOKS/HOOKS/g' ${design_dir}/openlane/user_project_wrapper/config.tcl
