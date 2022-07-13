@@ -52,4 +52,4 @@ else
   echo "[INFO] Using OpenLane image ${OPENLANE_DOCKER_IMAGE} from environment."
 fi
 
-make -C OpenLane QUICK_RUN_DESIGN="${design}" quick_run
+make -C OpenLane ROUTING_CORES=$(nproc) QUICK_RUN_DESIGN="${design}" quick_run
