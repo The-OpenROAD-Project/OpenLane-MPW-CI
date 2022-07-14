@@ -293,6 +293,17 @@ based designs details with following order:
          security applications.
     -   Executable CI Script: [accelerator_top](../scripts/accelerator_top)
 
+-   `Elpis_Light`
+    -   Project Name: Elpis Light processor
+    -   Project Owner: Aurora Tomás
+    -   Project Number: [468](https://platform.efabless.com/projects/468)
+    -   Description: This project is a light version of the Elpis core, 
+         which is a 5-stage pipelined and multi-cycle in-order processor 
+         based on RISC-V architecture, mixed with some MIPS ideas. 
+    -   Executable CI Script: [Elpis_chip_controller](../scripts/Elpis_chip_controller) |
+         [Elpis_core](../scripts/Elpis_core) |
+         [Elpis_custom_sram](../scripts/Elpis_custom_sram)
+
 -   `ExperiarSoC`
     -   Project Name: Experiar SoC
     -   Project Owner: Wevel
@@ -536,13 +547,14 @@ based designs details with following order:
     -   Description: Two string version of Karplus-Strong Guitar
     -   Executable CI Script: [ks-guitar-2s](../scripts/ks-guitar-2s)
 
--   `logic_bist`
+-   `logic_bist_mpw4`
     -   Project Name: Logic BIST
     -   Project Owner: Dinesh Annaya
     -   Project Number: [566](https://platform.efabless.com/projects/566)
     -   Description: Logic BIST with Scan Chain to detect struck at
          fault
-    -   Executable CI Script:
+    -   Executable CI Script: [mbist1](../scripts/mbist1) |
+         [mbist2](../scripts/mbist2)
 
 -   `logic_bist`
     -   Project Name: LBIST-MBIST
@@ -1095,6 +1107,17 @@ based designs details with following order:
          cores.
     -   Executable CI Script: [treepram](../scripts/treepram)
 
+-   `treepram_red`
+    -   Project Name: TreePRAM-red
+    -   Project Owner: Tamas Hubai
+    -   Project Number: [508](https://platform.efabless.com/projects/508)
+    -   Description: Parallel random access machines (PRAM) are a 
+         model of computation used in theoretical computer science.
+         They consist of several independent processors (random 
+         access machines) communicating with each other by sharing
+         the same memory. 
+    -   Executable CI Script: [treepram_red](../scripts/treepram_red)
+
 -   `UETRV_Ecore`
     -   Project Name: UETRV-ECore
     -   Project Owner: Muhammad Tahir
@@ -1165,6 +1188,16 @@ based designs details with following order:
          [syntacore](../scripts/syntacore) |
          [uart_i2cm_usb](../scripts/uart_i2cm_usb)
 
+-   `yifive_r0`
+    -   Project Name: YiFive (Risc V Based SOC)
+    -   Project Owner: Dinesh Annaya
+    -   Project Number: [152](https://platform.efabless.com/projects/152)
+    -   Description: YiFive SOC Integrated Syntacore SCR1 Open-source 
+         RISC-V compatible MCU-class core + 8 bit SDRAM Memory 
+         Controller + Quad SPI. Both Risc V and SDRAM controller are 
+         silicon-proven IP.
+    -   Executable CI Script: [yifive_r0](../scripts/yifive_r0)
+
 -   `yonga-100m-ethernet`
     -   Project Name: YONGA-100M Ethernet
     -   Project Owner: Abdullah YILDIZ
@@ -1188,6 +1221,14 @@ based designs details with following order:
     -   Description: YONGA-LZ4 Decoder is an implementation of the
          decoder of the popular LZ4 compression algorithm.
     -   Executable CI Script:  [yonga-lz4-decoder](../scripts/yonga-lz4-decoder)
+
+-   `yonga_turbo_encoder`
+    -   Project Name: YONGA-Turbo Encoder
+    -   Project Owner: Abdullah YILDIZ
+    -   Project Number: [657](https://platform.efabless.com/projects/657)
+    -   Description: YONGA-Turbo Encoder is an implementation of a
+         high-performance forward error correction (FEC) coding technique.
+    -   Executable CI Script:  [yonga_turbo_encoder](../scripts/yonga_turbo_encoder)
 
 -   `yonga_modbus_controller`
     -   Project Name: YONGA-Modbus Controller
