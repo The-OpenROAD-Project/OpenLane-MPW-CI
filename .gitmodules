@@ -447,3 +447,16 @@
 [submodule "designs/riscduino_hikaysici"]
 	path = designs/riscduino_hikaysici
 	url = https://github.com/hikaysici/Efabless_MPW6_riscduino
+[submodule "designs/Elpis_Light"]
+	path = designs/Elpis_Light
+	url = https://github.com/theatomb/Elpis-Light-MPW3
+[submodule "designs/treepram_red"]
+	path = designs/treepram_red
+	url = https://github.com/htfab/treepram-red
+[submodule "designs/logic_bist_mpw4"]
+	path = designs/logic_bist_mpw4
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = dineshannayya/logic_bist
+[submodule "designs/yonga_turbo_encoder"]
+	path = designs/yonga_turbo_encoder
+	url = https://github.com/yongatek/caravel_yonga-turbo-encoder

@@ -11,7 +11,9 @@ pipeline {
                 axes {
                     axis {
                         name "DESIGN";
-                        values 'UETRV_Ecore UETRV_Core',
+                        values 'Elpis_Light Elpis_chip_controller',
+                               'Elpis_Light Elpis_core',
+                               'UETRV_Ecore UETRV_Core',
                                'UETRV_Ecore UETRV_counter',
                                'UETRV_Ecore UETRV_Motor_Top',
                                'fct_iot_biquad',
