@@ -20,6 +20,7 @@ pipeline {
                                'GPS_Baseband',
                                'keyvalue_caravel',
                                'ks-guitar-2s',
+                               'OpenFASOC_puplpino',
                                'mbist_ctrl wb_interconnect',
                                'mpw5_4ft4',
                                'mpw5_open_eFPGA',
@@ -37,7 +38,7 @@ pipeline {
                 stages {
                     stage("Test") {
                         options {
-                            timeout(time: 2, unit: "HOURS");
+                            timeout(time: 3, unit: "HOURS");
                         }
                         agent any;
                         steps {

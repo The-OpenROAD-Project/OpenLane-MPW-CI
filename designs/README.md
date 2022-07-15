@@ -763,6 +763,13 @@ based designs details with following order:
     -   Description: Small hand-drawn NAND flash array.
     -   Executable CI Script: [NAND_Flash5](../scripts/NAND_Flash5)
 
+-   `OpenFASOC_puplpino`
+    -   Project Name: Ibex Implementation
+    -   Project Owner: Ming Hung Chen
+    -   Project Number: [1085](https://platform.efabless.com/projects/1085)
+    -   Description: Ibex implementation for pulpino design 
+    -   Executable CI Script: [OpenFASOC_puplpino](../scripts/OpenFASOC_puplpino)
+
 -   `openram_openmpw`
     -   Project Name: OpenRAM Test Design
     -   Project Owner: Serdar Ünal
