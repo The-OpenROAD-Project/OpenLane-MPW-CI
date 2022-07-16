@@ -460,3 +460,7 @@
 [submodule "designs/yonga_turbo_encoder"]
 	path = designs/yonga_turbo_encoder
 	url = https://github.com/yongatek/caravel_yonga-turbo-encoder
+[submodule "designs/OpenFASOC_puplpino"]
+	path = designs/OpenFASOC_puplpino
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = minghungumich/OpenFASOC-RoT-IBEX-AES
