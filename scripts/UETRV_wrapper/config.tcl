@@ -9,4 +9,4 @@ set ::env(FP_PDN_MACRO_HOOKS) "\
 	m3 vccd1 vssd1 vccd1 vssd1, \
 	imem vccd1 vssd1 vccd1 vssd1, \
 	dmem vccd1 vssd1 vccd1 vssd1"
-source openlane/user_project_wrapper/config.tcl
+source $::env(DESIGN_DIR)/openlane/user_project_wrapper/config.tcl

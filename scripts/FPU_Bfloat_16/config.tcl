@@ -8,4 +8,4 @@ set ::env(CLOCK_NET) "FPU_Bfloat16_Precision_Top.clk"
 set ::env(CELL_PAD) 1
 set ::env(FP_CORE_UTIL) {25}
 set ::env(PL_TARGET_DENSITY) {0.30}
-source openlane/user_proj_example/config.tcl
+source $::env(DESIGN_DIR)/openlane/user_proj_example/config.tcl

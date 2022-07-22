@@ -6,4 +6,4 @@ set ::env(CLOCK_PERIOD) "130.0"
 set ::env(CELL_PAD) 2
 set ::env(GLB_RESIZER_TIMING_OPTIMIZATIONS) 1
 set ::env(PL_TIME_DRIVEN) 1
-source openlane/user_proj_example/config.tcl
+source $::env(DESIGN_DIR)/openlane/user_proj_example/config.tcl

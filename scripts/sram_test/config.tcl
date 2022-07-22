@@ -5,4 +5,4 @@ set ::env(QUIT_ON_MAGIC_DRC) "0"
 set ::env(FP_PDN_MACRO_HOOKS) "\
 	mprj vccd1 vssd1 vccd1 vssd1, \
 	SRAM0 vccd1 vssd1 vccd1 vssd1"
-source openlane/user_project_wrapper/config.tcl
+source $::env(DESIGN_DIR)/openlane/user_project_wrapper/config.tcl

@@ -1,4 +1,4 @@
 cd [file dirname [file normalize [info script]]]
 set ::env(CARAVEL_ROOT) "[pwd]/caravel"
 set ::env(DESIGN_IS_CORE) 1
-source openlane/pinmux/config.tcl
+source $::env(DESIGN_DIR)/openlane/pinmux/config.tcl

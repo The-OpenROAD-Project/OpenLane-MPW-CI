@@ -6,4 +6,4 @@ set ::env(FP_PDN_MACRO_HOOKS) "SRAM0 vccd1 vssd1 vccd1 vssd1, \
 			       SRAM1 vccd1 vssd1 vccd1 vssd1, \
 			       SRAM2 vccd1 vssd1 vccd1 vssd1, \ 
 			       SRAM3 vccd1 vssd1 vccd1 vssd1"
-source openlane/user_project_wrapper/config.tcl
+source $::env(DESIGN_DIR)/openlane/user_project_wrapper/config.tcl

@@ -4,4 +4,4 @@ set ::env(DESIGN_IS_CORE) 1
 set ::env(FP_CORE_UTIL) 0.01
 set ::env(CELL_PAD) 1
 set ::env(PL_TARGET_DENSITY) 0.1
-source openlane/user_proj_example/config.tcl
+source $::env(DESIGN_DIR)/openlane/user_proj_example/config.tcl
