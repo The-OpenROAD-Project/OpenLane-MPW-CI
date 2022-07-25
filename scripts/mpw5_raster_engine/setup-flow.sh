@@ -5,3 +5,4 @@ sed -i '/::env(RT_MAX_LAYER)/d' ${design_dir}/openlane/user_proj_example/config.
 sed -i '/::env(TAKE_LAYOUT_SCROT)/d' ${design_dir}/openlane/user_proj_example/config.tcl
 sed -i '/::env(DRT_OPT_ITERS)/d' ${design_dir}/openlane/user_proj_example/config.tcl
 sed -i '/::env(PL_TARGET_DENSITY)/d' ${design_dir}/openlane/user_proj_example/config.tcl
+sed -i 's/GLB_RT/GRT/g' ${design_dir}/openlane/user_proj_example/config.tcl

@@ -6,3 +6,4 @@ sed -i '/::env(CLOCK_PERIOD)/d' ${design_dir}/openlane/user_proj_example/config.
 sed -i '/::env(CLOCK_PORT)/d' ${design_dir}/openlane/user_proj_example/config.tcl
 sed -i '/::env(CLOCK_NET)/d' ${design_dir}/openlane/user_proj_example/config.tcl
 sed -i '/::env(CELL_PAD)/d' ${design_dir}/openlane/user_proj_example/config.tcl
+sed -i 's/GLB_RT/GRT/g' ${design_dir}/openlane/user_proj_example/config.tcl

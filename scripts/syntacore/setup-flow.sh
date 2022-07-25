@@ -6,3 +6,4 @@ sed -i '/::env(DIE_AREA)/d' ${design_dir}/openlane/syntacore/config.tcl
 sed -i '/::env(FP_PIN_ORDER_CFG)/d' ${design_dir}/openlane/syntacore/config.tcl
 sed -i '/::env(PL_TARGET_DENSITY)/d' ${design_dir}/openlane/syntacore/config.tcl
 sed -i '/::env(GLB_RT_MAXLAYER)/d' ${design_dir}/openlane/syntacore/config.tcl
+sed -i 's/GLB_RT/GRT/g' ${design_dir}/openlane/syntacore/config.tcl

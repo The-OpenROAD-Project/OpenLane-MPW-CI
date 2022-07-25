@@ -7,5 +7,5 @@ set ::env(FP_PDN_MACRO_HOOKS) "\
 	temp1 vccd1 vssd1, \
 	temp2 vccd1 vssd1, \
 	temp3 vccd1 vssd1"
-set ::env(GLB_RT_ADJUSTMENT) {0}
+set ::env(GRT_ADJUSTMENT) {0}
 source $::env(DESIGN_DIR)/openlane/user_project_wrapper/config.tcl

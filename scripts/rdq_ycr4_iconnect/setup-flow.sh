@@ -6,3 +6,4 @@ sed -i '/::env(FP_PDN_CORE_RING)/d' ${design_dir}/openlane/ycr4_iconnect/config.
 sed -i '/::env(FP_PIN_ORDER_CFG)/d' ${design_dir}/openlane/ycr4_iconnect/config.tcl
 sed -i '/::env(ROUTING_CORES)/d' ${design_dir}/openlane/ycr4_iconnect/config.tcl
 sed -i '/::env(CELL_PAD)/d' ${design_dir}/openlane/ycr4_iconnect/config.tcl
+sed -i 's/GLB_RT/GRT/g' ${design_dir}/openlane/ycr4_iconnect/config.tcl
