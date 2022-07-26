@@ -4,4 +4,5 @@ set ::env(DESIGN_IS_CORE) 1
 set ::env(FP_IO_MIN_DISTANCE) 2
 set ::env(GRT_ADJUSTMENT) "0.15"
 set ::env(PL_ROUTABILITY_DRIVEN) 0
+set ::env(QUIT_ON_MAGIC_DRC) 0
 source $::env(DESIGN_DIR)/openlane/ycr4_iconnect/config.tcl
