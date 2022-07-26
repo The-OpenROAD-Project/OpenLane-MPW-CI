@@ -7,4 +7,3 @@ sed -i '/::env(FP_PIN_ORDER_CFG)/d' ${design_dir}/openlane/ycr_iconnect/config.t
 sed -i '/::env(ROUTING_CORES)/d' ${design_dir}/openlane/ycr_iconnect/config.tcl
 sed -i 's/GLB_RT/GRT/g' ${design_dir}/openlane/ycr_iconnect/config.tcl
 sed -i '/::env(CELL_PAD)/d' ${design_dir}/openlane/ycr_iconnect/config.tcl
-sed -i '/::env(QUIT_ON_LVS_ERROR)/d' ${design_dir}/openlane/ycr_iconnect/config.tcl
