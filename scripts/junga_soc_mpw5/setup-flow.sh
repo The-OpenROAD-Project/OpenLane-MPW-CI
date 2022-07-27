@@ -4,3 +4,4 @@ sed -i '/::env(GLB_RT_MAXLAYER)/d' ${design_dir}/openlane/user_proj/config.tcl
 sed -i '/::env(ROUTING_CORES)/d' ${design_dir}/openlane/user_proj/config.tcl
 sed -i '/::env(FP_PDN_CORE_RING)/d' ${design_dir}/openlane/user_proj/config.tcl
 sed -i '/::env(GLB_RT_ADJUSTMENT)/d' ${design_dir}/openlane/user_proj/config.tcl
+sed -i 's/GLB_RT/GRT/g' ${design_dir}/openlane/user_proj/config.tcl

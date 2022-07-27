@@ -1,4 +1,4 @@
 cd [file dirname [file normalize [info script]]]
-set ::env(CARAVEL_ROOT) "[pwd]/caravel"
+set ::env(CARAVEL_ROOT) "$::env(DESIGN_DIR)/caravel"
 set ::env(DESIGN_IS_CORE) 1
-source openlane/mbist_top2/config.tcl
+source $::env(DESIGN_DIR)/openlane/mbist_top2/config.tcl

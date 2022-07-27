@@ -1,5 +1,5 @@
 cd [file dirname [file normalize [info script]]]
-set ::env(CARAVEL_ROOT) "[pwd]/caravel"
+set ::env(CARAVEL_ROOT) "$::env(DESIGN_DIR)/caravel"
 set ::env(FP_PDN_MACRO_HOOKS) "\
 	sram vccd1 vssd1 vccd1 vssd1, \
 	sram1 vccd1 vssd1 vccd1 vssd1, \
@@ -7,4 +7,4 @@ set ::env(FP_PDN_MACRO_HOOKS) "\
 	dut vccd1 vssd1 vccd1 vssd1, \
 	dut1 vccd1 vssd1 vccd1 vssd1, \
 	dut2 vccd1 vssd1 vccd1 vssd1"
-source openlane/user_project_wrapper/config.tcl
+source $::env(DESIGN_DIR)/openlane/user_project_wrapper/config.tcl

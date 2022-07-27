@@ -7,3 +7,4 @@ sed -i '/::env(SYNTH_STRATEGY)/d' ${design_dir}/openlane/user_proj_example/confi
 sed -i '/::env(PL_RESIZER_ALLOW_SETUP_VIOS)/d' ${design_dir}/openlane/user_proj_example/config.tcl
 sed -i '/::env(GLB_RESIZER_ALLOW_SETUP_VIOS)/d' ${design_dir}/openlane/user_proj_example/config.tcl
 sed -i '/::env(PL_TARGET_DENSITY)/d' ${design_dir}/openlane/user_proj_example/config.tcl
+sed -i 's/GLB_RT/GRT/g' ${design_dir}/openlane/user_proj_example/config.tcl

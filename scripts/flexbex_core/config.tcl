@@ -1,5 +1,5 @@
 cd [file dirname [file normalize [info script]]]
-set ::env(CARAVEL_ROOT) "[pwd]/caravel"
+set ::env(CARAVEL_ROOT) "$::env(DESIGN_DIR)/caravel"
 set ::env(DESIGN_IS_CORE) 1
 set ::env(SYNTH_STRATEGY) "DELAY 1"
-source openlane/flexbex_core/config.tcl
+source $::env(DESIGN_DIR)/openlane/flexbex_core/config.tcl

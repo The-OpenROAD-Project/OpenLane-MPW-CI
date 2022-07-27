@@ -5,3 +5,4 @@ sed -i '/::env(RT_MAX_LAYER)/d' ${design_dir}/openlane/prga/config.tcl
 sed -i '/::env(DRT_MAX_LAYER)/d' ${design_dir}/openlane/prga/config.tcl
 sed -i '/::env(ROUTING_CORES)/d' ${design_dir}/openlane/prga/config.tcl
 sed -i '/::env(BASE_SDC_FILE)/d' ${design_dir}/openlane/prga/config.tcl
+sed -i 's/GLB_RT/GRT/g' ${design_dir}/openlane/prga/config.tcl

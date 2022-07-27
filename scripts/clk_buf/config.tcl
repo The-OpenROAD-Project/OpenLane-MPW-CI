@@ -1,4 +1,4 @@
 cd [file dirname [file normalize [info script]]]
-set ::env(CARAVEL_ROOT) "[pwd]/caravel"
+set ::env(CARAVEL_ROOT) "$::env(DESIGN_DIR)/caravel"
 set ::env(CLOCK_PORT) "clk_i"
-source openlane/clk_buf/config.tcl
+source $::env(DESIGN_DIR)/openlane/clk_buf/config.tcl
