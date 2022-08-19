@@ -18,7 +18,10 @@ pipeline {
                                'FPU_Bfloat_16',
                                'FPU_Single_Precision',
                                'FPU_half_precision',
+                               'IIC_AudioDAC',
+                               'UETRV_Ecore UETRV_Wishbone_InterConnect',
                                'junga_soc_mpw5',
+                               'ks-guitar',
                                'marmot_asic',
                                'mpw5_raster_engine',
                                'openram_openmpw',
@@ -26,6 +29,7 @@ pipeline {
                                'pwm_openmpw',
                                'riscduino rd_yifive',
                                'riscduino_S3 rdS3_ycr_intf',
+                               'riscduino_S3 rdS3_ycr_core_top',
                                'riscduino_qcore rdq_ycr4_iconnect',
                                'riscduino_qcore rdq_ycr_core_top',
                                'SonarOnChip8',
@@ -33,7 +37,8 @@ pipeline {
                                'soric_project flexbex_core',
                                'spectrometer_hyperspace',
                                'treepram',
-                               'wishbone_CAN';
+                               'wishbone_CAN',
+                               'yonga_turbo_encoder';
                     }
                 }
 

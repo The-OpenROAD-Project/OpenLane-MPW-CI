@@ -13,15 +13,18 @@ pipeline {
                         name "DESIGN";
                         values 'Elpis_Light Elpis_chip_controller',
                                'Elpis_Light Elpis_core',
+                               'SHA1_engine',
                                'UETRV_Ecore UETRV_Core',
                                'UETRV_Ecore UETRV_counter',
                                'UETRV_Ecore UETRV_Motor_Top',
                                'fct_iot_biquad',
                                'fct_iot_biquad fct_iot_bqmain',
+                               'keyvalue_caravel',
                                'riscduino_hikaysici',
                                'updown_caravel',
                                'vsdbabysoc',
                                'vsdbabysoc vsdbabysoc_wrapper',
+                               'vsdmemsoc',
                                'vsdmemsoc rvmyth_core',
                                'yifive_a2 clk_buf',
                                'yifive_a2 clk_skew_adjust',
@@ -41,7 +44,7 @@ pipeline {
                 stages {
                     stage("Test") {
                         options {
-                            timeout(time: 5, unit: "HOURS");
+                            timeout(time: 6, unit: "HOURS");
                         }
                         agent any;
                         steps {
