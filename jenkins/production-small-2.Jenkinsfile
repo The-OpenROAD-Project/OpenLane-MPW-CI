@@ -46,6 +46,7 @@ pipeline {
                                'riscduino_qcore rdq_qspim_top',
                                'riscduino_qcore rdq_uart_i2cm_usb_spi_top',
                                'riscduino_qcore rdq_ycr_intf',
+                               'riscduino riscduino_wrapper',
                                'rng_chaos',
                                'rng_chaos_scroll',
                                'rotfpga',
@@ -67,7 +68,7 @@ pipeline {
                 stages {
                     stage("Test") {
                         options {
-                            timeout(time: 5, unit: "HOURS");
+                            timeout(time: 6, unit: "HOURS");
                         }
                         agent any;
                         steps {

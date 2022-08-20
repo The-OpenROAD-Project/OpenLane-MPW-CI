@@ -50,6 +50,7 @@ pipeline {
                                'mbist_ctrl mbist1',
                                'mbist_ctrl mbist2',
                                'mbist_ctrl wb_host',
+                               'mbist_ctrl wb_interconnect',
                                'mpw-5c-C0',
                                'mpw5_L1cache',
                                'mpw6_prga mpw6_prga_tile_clb',

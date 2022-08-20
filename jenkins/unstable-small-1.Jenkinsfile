@@ -18,19 +18,14 @@ pipeline {
                                'fuserisc core_sram',
                                'Ghazi_DFT',
                                'GPS_Baseband',
-                               'keyvalue_caravel',
                                'ks-guitar-2s',
                                'OpenFASOC_puplpino',
-                               'mbist_ctrl wb_interconnect',
                                'mpw5_4ft4',
                                'mpw5_open_eFPGA',
                                'multi_encoder',
                                'radiation_harden',
-                               'riscduino riscduino_wrapper',
-                               'SHA1_engine',
                                'subservient_SOC',
                                'UETRV_Ecore UETRV_wrapper',
-                               'vsdmemsoc',
                                'wb_openram';
                     }
                 }
