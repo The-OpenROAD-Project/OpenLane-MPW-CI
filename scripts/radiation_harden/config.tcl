@@ -5,5 +5,5 @@ set ::env(FP_PDN_MACRO_HOOKS) "\
 	mprj vccd2 vssd2 vccd2 vssd2, \
 	mprj vdda1 vssa1 vdda1 vssa1, \
 	mprj vdda2 vssa2 vdda2 vssa2"
-set ::env(GLB_RT_LAYER_ADJUSTMENTS) {0.99,0.99,0,0,0,0}
+set ::env(GRT_LAYER_ADJUSTMENTS) {0.99,0.99,0,0,0,0}
 source $::env(DESIGN_DIR)/openlane/user_project_wrapper/config.tcl

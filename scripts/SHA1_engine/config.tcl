@@ -9,6 +9,6 @@ set ::env(FP_PDN_MACRO_HOOKS) "\
 	wrapper_fibonacci vccd2 vssd2 vccd2 vssd2, \
 	wrapper_fibonacci vdda1 vssa1 vdda1 vssa1, \
 	wrapper_fibonacci vdda2 vssa2 vdda2 vssa2"
-set ::env(GLB_RT_LAYER_ADJUSTMENTS) "0.99,0.7,0,0,0,0"
+set ::env(GRT_LAYER_ADJUSTMENTS) "0.99,0.7,0,0,0,0"
 set ::env(QUIT_ON_MAGIC_DRC) 0
 source $::env(DESIGN_DIR)/openlane/user_project_wrapper/config.tcl
