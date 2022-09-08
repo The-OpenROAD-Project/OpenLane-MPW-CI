@@ -15,14 +15,15 @@ pipeline {
                                'Elpis_Light Elpis_custom_sram',
                                'mpw6_prga',
                                'qf100 qf_wrapper',
-                               'upb_natalius_soc NSoC_dualport_sram';
+                               'upb_natalius_soc NSoC_dualport_sram',
+                               'yifive_a2 syntacore';
                     }
                 }
 
                 stages {
                     stage("Test") {
                         options {
-                            timeout(time: 8, unit: "HOURS");
+                            timeout(time: 10, unit: "HOURS");
                         }
                         agent any;
                         steps {
