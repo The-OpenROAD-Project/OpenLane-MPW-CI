@@ -8,3 +8,4 @@ sed -i 's/\/home.*_project_wrapper/$script_dir/g' ${design_dir}/openlane/user_pr
 sed -i 's/\/home.*pdks/$::env(PDK_ROOT)/g' ${design_dir}/openlane/user_project_wrapper/config.tcl
 sed -i 's/FP_PDN_MACRO_HOOKS/HOOKS/g' ${design_dir}/openlane/user_project_wrapper/config.tcl
 sed -i 's/GLB_RT/GRT/g' ${design_dir}/openlane/user_project_wrapper/config.tcl
+sed -i 's/SYNTH_CLOCK_UNCERTAINITY/SYNTH_CLOCK_UNCERTAINTY/g' ${design_dir}/openlane/user_project_wrapper/base.sdc
