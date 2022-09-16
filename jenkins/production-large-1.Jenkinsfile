@@ -22,7 +22,6 @@ pipeline {
                                'UETRV_Ecore UETRV_Wishbone_InterConnect',
                                'junga_soc_mpw5',
                                'ks-guitar',
-                               'marmot_asic',
                                'mpw5_raster_engine',
                                'openram_openmpw',
                                'patmos_chip',
@@ -37,8 +36,7 @@ pipeline {
                                'soric_project flexbex_core',
                                'spectrometer_hyperspace',
                                'treepram',
-                               'wishbone_CAN',
-                               'yonga_turbo_encoder';
+                               'wishbone_CAN';
                     }
                 }
 
