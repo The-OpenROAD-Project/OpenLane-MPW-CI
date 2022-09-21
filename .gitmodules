@@ -464,3 +464,21 @@
 	path = designs/OpenFASOC_puplpino
 	url = https://github.com/The-OpenROAD-Project/caravel_user_project
 	branch = minghungumich/OpenFASOC-RoT-IBEX-AES
+[submodule "designs/rocket_alpha"]
+	path = designs/rocket_alpha
+	url = https://github.com/Nguyen-C-Dao/caravel_rocket_alpha
+[submodule "designs/mpw7_microwatt"]
+	path = designs/mpw7_microwatt
+	url = https://github.com/antonblanchard/microwatt-mpw7
+[submodule "designs/riscduino_S4"]
+	path = designs/riscduino_S4
+	url = https://github.com/dineshannayya/riscduino
+[submodule "designs/miranda_fpga"]
+	path = designs/miranda_fpga
+	url = https://github.com/egorxe/miranda_fpga_openmpw
+[submodule "designs/waveform_generator"]
+	path = designs/waveform_generator
+	url = https://github.com/semify-eda/caravel_wfg
+[submodule "designs/rioschip"]
+	path = designs/rioschip
+	url = https://github.com/b224hisl/rioschip

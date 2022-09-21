@@ -609,6 +609,14 @@ based designs details with following order:
          [wb_host](../scripts/wb_host) |
          [wb_interconnect](../scripts/wb_interconnect)
 
+-   `miranda_fpga`
+    -   Project Name: Miranda FPGA MPW7
+    -   Project Owner: Alexander Monakhov
+    -   Project Number: [1184](https://platform.efabless.com/projects/1184)
+    -   Description: MPW7 attempt to tapeout our Miranda FPGA. Fract. LUT
+         added. Advanced clock tree resources are in progress.
+    -   Executable CI Script: [miranda_fpga](../scripts/miranda_fpga)
+
 -   `mpw5_4ft4`
     -   Project Name: 4ft4
     -   Project Owner: Andrew Foote
@@ -704,6 +712,20 @@ based designs details with following order:
     -   Executable CI Script:
          [Microwatt_FP_DFFRFile](../scripts/Microwatt_FP_DFFRFile) |
          [Microwatt_multiply_add](../scripts/Microwatt_multiply_add)
+
+-   `mpw7_microwatt`
+    -   Project Name: Microwatt MPW7
+    -   Project Owner: Anton Blanchard
+    -   Project Number: [1165](https://platform.efabless.com/projects/1165)
+    -   Description: Microwatt is a 64 bit OpenPOWER core written in
+         VHDL. It includes an IEEE 754 double-precision binary
+         floating-point unit as well as supervisor support that allows
+         it to run Linux. There are hard macros for the 2 multipliers
+         (integer and floating point), the 2 cache RAMs (icache and
+         dcache) and the 4kB main RAM.
+    -   Executable CI Script:
+         [mpw7_Microwatt_FP_DFFRFile](../scripts/mpw7_Microwatt_FP_DFFRFile) |
+         [mpw7_Microwatt_multiply_add](../scripts/mpw7_Microwatt_multiply_add)
 
 -   `mpw5_open_eFPGA`
     -   Project Name: FABulous_eFPGA
@@ -879,6 +901,14 @@ based designs details with following order:
          [digitalcore_macro](../scripts/digitalcore_macro) |
          [ringosc_macro](../scripts/ringosc_macro)
 
+-   `rioschip`
+    -   Project Name: hehecore
+    -   Project Owner: Yifei Zhu
+    -   Project Number: [1232](https://platform.efabless.com/projects/1232)
+    -   Description: We come from RIOS Lab, TsingHua university, we 
+         designed a 64-bit dual-issue, out-of-order RISC-V processor.
+    -   Executable CI Script: [rioschip](../scripts/rioschip)
+
 -   `riscduino`
     -   Project Name: riscduino-SCore(S2)
     -   Project Owner: Dinesh Annaya
@@ -896,6 +926,21 @@ based designs details with following order:
     -   Executable CI Script: [rdS3_ycr_iconnect](../scripts/rdS3_ycr_iconnect) |
          [rdS3_ycr_core_top](../scripts/rdS3_ycr_core_top) |
          [rdS3_ycr_intf](../scripts/rdS3_ycr_intf)
+
+-   `riscduino_S4`
+    -   Project Name: Riscduino-SCore(S4)
+    -   Project Owner: Dinesh Annaya
+    -   Project Number: [1166](https://platform.efabless.com/projects/1166)
+    -   Description: A arduino pin compatible Single RISCV 32 Bit core
+         Project
+    -   Executable CI Script: [rdS4_ycr_iconnect](../scripts/rdS4_ycr_iconnect) |
+         [rdS4_ycr_core_top](../scripts/rdS4_ycr_core_top) |
+         [rdS4_ycr_intf](../scripts/rdS4_ycr_intf) |
+         [rdS4_pinmux_top](../scripts/rdS4_pinmux_top) |
+         [rdS4_qspim_top](../scripts/rdS4_qspim_top) |
+         [rdS4_uart_i2cm_usb_spi_top](../scripts/rdS4_uart_i2cm_usb_spi_top) |
+         [rdS4_wb_interconnect](../scripts/rdS4_wb_interconnect) |
+         [rdS4_wb_host](../scripts/rdS4_wb_host)
 
 -   `riscduino_hikaysici`
     -   Project Name: Efabless_MPW6_riscduino
@@ -1171,6 +1216,17 @@ based designs details with following order:
          processor named RVMYTH and an external 1kB SRAM Instruction
          Memory (IMem) to separate the processor core and the IMem.
     -   Executable CI Script: [rvmyth_core](../scripts/rvmyth_core)
+
+-   `waveform_generator`
+    -   Project Name: Waveform Generator
+    -   Project Owner: Leo Moser
+    -   Project Number: [1202](https://platform.efabless.com/projects/1202)
+    -   Description: A generic waveform generator divided into stimulus
+         and driver units that can be arbitrarily interconnected.
+    -   Executable CI Script: [wfg_merge_memory](../scripts/wfg_merge_memory) |
+         [wfg_wb_memory](../scripts/wfg_wb_memory) |
+         [wfg_wb_mux](../scripts/wfg_wb_mux) |
+         [wfg_top](../scripts/wfg_top) |
 
 -   `wishbone_CAN`
     -   Project Name: wishbone_CAN
