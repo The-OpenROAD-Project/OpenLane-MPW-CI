@@ -24,7 +24,7 @@ pipeline {
                                'ks-guitar',
                                'mpw5_raster_engine',
                                'openram_openmpw',
-                               'patmos_chip',
+                               //'patmos_chip',//long runtime
                                'pwm_openmpw',
                                'riscduino rd_yifive',
                                'riscduino_S4 rdS4_ycr_intf',

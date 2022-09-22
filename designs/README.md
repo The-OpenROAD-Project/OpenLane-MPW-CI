@@ -402,12 +402,27 @@ based designs details with following order:
     -   Executable CI Script: [fct_iot_biquad](../scripts/fct_iot_biquad) |
          [fct_iot_bqmain][../scripts/fct_iot_bqmain]
 
+-   `biquad_mpw7`
+    -   Project Name: Digital Biquad Filter - mpw7
+    -   Project Owner: Tiago Silva
+    -   Project Number: [1243](https://platform.efabless.com/projects/1243)
+    -   Description: 12 bit data, 16 bit coefficients. Tested in FPGA.
+    -   Executable CI Script: [biquad_mpw7](../scripts/biquad_mpw7)
+
 -   `figaro`
     -   Project Name: Figaro Oscillator
     -   Project Owner: Kaya Demir
     -   Project Number: [1063](https://platform.efabless.com/projects/1063)
     -   Description: Ring oscillator and figaro
     -   Executable CI Script: [figaro](../scripts/figaro)
+
+-   `figaro_mpw7`
+    -   Project Name: RNG based on a Figaro Oscillator
+    -   Project Owner: Kaya Demir
+    -   Project Number: [1235](https://platform.efabless.com/projects/1235)
+    -   Description: A random number generator that uses the chaotic
+         signals from a figaro based ring oscillator to generate bits.
+    -   Executable CI Script: [figaro_mpw7](../scripts/figaro_mpw7)
 
 -   `fuserisc`
     -   Project Name: FuseRISC
@@ -593,6 +608,15 @@ based designs details with following order:
          completed in March, 2022. ber of the same year, the ASIC will be
          integrated into the logic board on the flexible board.
     -   Executable CI Script: [marmot_asic](../scripts/marmot_asic)
+
+-   `marmot_asic_v2`
+    -   Project Name: Marmot RISC-V ASIC large memory and Motor Control
+    -   Project Owner: Shumpei Kawasaki
+    -   Project Number: [1288](https://platform.efabless.com/projects/1288)
+    -   Description: Increased features (plus 8KB D-Cache and 3ch PWM) 
+         and improved clocking (25MHz > 50MHz) by mastering tools since
+         MPW-6 MARMOT RISC-V, three months ago.
+    -   Executable CI Script: [marmot_asic_v2](../scripts/marmot_asic_v2)
 
 -   `mbist_ctrl`
     -   Project Name: MBIST Controller
@@ -949,13 +973,30 @@ based designs details with following order:
     -   Description: This is a clone project from dineshannayya/riscduino
     -   Executable CI Script: [riscduino_hikaysici](../scripts/riscduino_hikaysici)
 
+-   `rvcore_chip1`
+    -   Project Name: RVcore Chip1 
+    -   Project Owner: Kenji Kise
+    -   Project Number: [1293](https://platform.efabless.com/projects/1293)
+    -   Description: We are developing an optimized RV32I processor 
+         named RVCoreP, adopting five-stage pipelining targetting both
+         FPGAs and ASICs. 
+    -   Executable CI Script: [rvcore_chip1](../scripts/rvcore_chip1)
+
 -   `rvj1-caravel-soc`
     -   Project Name: rvj1-caravel-soc
-    -   Project Owner: jurevreca12
+    -   Project Owner: Jure Vreca
     -   Project Number: [1043](https://platform.efabless.com/projects/1043)
     -   Description: Integrates the riscv-jedro-1 processor into a very 
          simple system-on-a-chip design.
     -   Executable CI Script: [rvj1-caravel-soc](../scripts/rvj1-caravel-soc)
+
+-   `rvj1-caravel-soc_mpw7`
+    -   Project Name: rvj1-caravel-soc-mpw7
+    -   Project Owner: Jure Vreca
+    -   Project Number: [1249](https://platform.efabless.com/projects/1249)
+    -   Description: A simple SoC using the custom riscv-jedro-1
+         processor design.
+    -   Executable CI Script: [rvj1-caravel-soc_mpw7](../scripts/rvj1-caravel-soc_mpw7)
 
 -   `mpw5_riscduino_dcore`
     -   Project Name: Riscduino-DCore

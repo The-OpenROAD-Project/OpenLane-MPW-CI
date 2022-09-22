@@ -482,3 +482,18 @@
 [submodule "designs/rioschip"]
 	path = designs/rioschip
 	url = https://github.com/b224hisl/rioschip
+[submodule "designs/figaro_mpw7"]
+	path = designs/figaro_mpw7
+	url = https://github.com/kayakod/figaro
+[submodule "designs/biquad_mpw7"]
+	path = designs/biquad_mpw7
+	url = https://github.com/Durkhai/biquad_mpw7
+[submodule "designs/rvj1-caravel-soc_mpw7"]
+	path = designs/rvj1-caravel-soc_mpw7
+	url = https://github.com/jurevreca12/rvj1-caravel-soc-mpw7
+[submodule "designs/marmot_asic_v2"]
+	path = designs/marmot_asic_v2
+	url = https://github.com/Hagiwara-shc/marmot_asic_v2
+[submodule "designs/rvcore_chip1"]
+	path = designs/rvcore_chip1
+	url = https://github.com/kisek/rvcore_chip1
