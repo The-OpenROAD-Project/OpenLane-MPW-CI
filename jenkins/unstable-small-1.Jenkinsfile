@@ -24,7 +24,6 @@ pipeline {
                                'mpw5_open_eFPGA',
                                'multi_encoder',
                                'radiation_harden',
-                               'rioschip',
                                'subservient_SOC',
                                'UETRV_Ecore UETRV_wrapper',
                                'wb_openram';

@@ -54,6 +54,7 @@ pipeline {
                                'mpw-5c-C0',
                                'mpw5_L1cache',
                                'mpw6_prga mpw6_prga_tile_clb',
+                               'mpw7_prga mpw7_prga_tile_clb',
                                'peripheral_extender',
                                'picorF0',
                                'PSRAM_PRANG',

@@ -785,6 +785,16 @@ based designs details with following order:
     -   Executable CI Script: [mpw6_prga](../scripts/mpw6_prga) |
          [mpw6_prga_tile_clb](../scripts/mpw6_prga_tile_clb)
 
+-   `mpw7_prga`
+    -   Project Name: PRGA-test
+    -   Project Owner: Sam Lim
+    -   Project Number: [1343](https://platform.efabless.com/projects/1343)
+    -   Description: This repository is a branch of the 
+         caravel_user_project repository, modified for the tapeout of 
+         a 512-LUT4 FPGA generated using PRGA.
+    -   Executable CI Script: [mpw7_prga](../scripts/mpw7_prga) |
+         [mpw7_prga_tile_clb](../scripts/mpw7_prga_tile_clb)
+
 -   `mpw5_raster_engine`
     -   Project Name: Raster_engine
     -   Project Owner: Mehmet Fatih Gülakar
@@ -924,6 +934,14 @@ based designs details with following order:
     -   Executable CI Script: [collapsering_macro](../scripts/collapsering_macro) |
          [digitalcore_macro](../scripts/digitalcore_macro) |
          [ringosc_macro](../scripts/ringosc_macro)
+
+-   `rift2core`
+    -   Project Name: Rift2Go_2300
+    -   Project Owner: Ruige Lee
+    -   Project Number: [1342](https://platform.efabless.com/projects/1342)
+    -   Description: This is a real Rift2Core CPU now, I remove L2-cache,
+         and implement the L1-ICache L1-Dcache with Flip-flop.
+    -   Executable CI Script: [rift2core](../scripts/rift2core)
 
 -   `rioschip`
     -   Project Name: hehecore
@@ -1317,6 +1335,14 @@ based designs details with following order:
     -   Description: YONGA-CAN Controller is a partial implementation of 
          CAN 2.0B standard.
     -   Executable CI Script:  [yonga-can-controller](../scripts/yonga-can-controller)
+
+-   `yonga-can-controller_mpw7`
+    -   Project Name: YONGA-CAN Controller
+    -   Project Owner: Abdullah YILDIZ
+    -   Project Number: [1321](https://platform.efabless.com/projects/1321)
+    -   Description: YONGA-CAN Controller is a partial implementation of 
+         CAN 2.0B standard.
+    -   Executable CI Script:  [yonga-can-controller_mpw7](../scripts/yonga-can-controller_mpw7)
 
 -   `yonga-lz4-decoder`
     -   Project Name: YONGA-LZ4 Decoder

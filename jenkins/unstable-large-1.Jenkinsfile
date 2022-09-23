@@ -14,7 +14,7 @@ pipeline {
                         values 'azadi_soc',
                                'Elpis_Light Elpis_custom_sram',
                                'mpw6_prga',
-                               'marmot_asic_v2',
+                               'mpw7_prga',
                                'qf100 qf_wrapper',
                                'upb_natalius_soc NSoC_dualport_sram',
                                'yonga_turbo_encoder',
