@@ -497,3 +497,12 @@
 [submodule "designs/rvcore_chip1"]
 	path = designs/rvcore_chip1
 	url = https://github.com/kisek/rvcore_chip1
+[submodule "designs/yonga-can-controller_mpw7"]
+	path = designs/yonga-can-controller_mpw7
+	url = https://github.com/yongatek/caravel_yonga-can-controller
+[submodule "designs/rift2core"]
+	path = designs/rift2core
+	url = https://github.com/whutddk/Rift2Go_2300
+[submodule "designs/mpw7_prga"]
+	path = designs/mpw7_prga
+	url = https://github.com/cmfbook/PRGA-test

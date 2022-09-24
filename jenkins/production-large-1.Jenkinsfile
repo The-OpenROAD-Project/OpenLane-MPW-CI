@@ -22,10 +22,12 @@ pipeline {
                                'UETRV_Ecore UETRV_Wishbone_InterConnect',
                                'junga_soc_mpw5',
                                'ks-guitar',
+                               'marmot_asic_v2',
                                'mpw5_raster_engine',
                                'openram_openmpw',
-                               //'patmos_chip',//long runtime
+                               'patmos_chip',
                                'pwm_openmpw',
+                               'rift2core',
                                'riscduino rd_yifive',
                                'riscduino_S4 rdS4_ycr_intf',
                                'riscduino_S4 rdS4_ycr_core_top',
@@ -34,7 +36,7 @@ pipeline {
                                'SonarOnChip8',
                                'soric_project crypto_core',
                                'soric_project flexbex_core',
-                               'spectrometer_hyperspace',
+                               //'spectrometer_hyperspace',//long run time
                                'treepram',
                                'wishbone_CAN';
                     }
