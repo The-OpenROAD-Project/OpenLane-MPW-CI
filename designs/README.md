@@ -72,6 +72,14 @@ based designs details with following order:
          it on raw silicon yet?
     -   Executable CI Script: [asicle](../scripts/asicle)
 
+-   `ASU_GP22`
+    -   Project Name: Linux capable SoC
+    -   Project Owner: Mohamed Ali Younis
+    -   Project Number: [1250](https://platform.efabless.com/projects/1250)
+    -   Description: This is a graduation project in ASU 22 building
+         Linux-capable RISCV core integrated with OpenPiton SoC.
+    -   Executable CI Script: [ASU_GP22](../scripts/ASU_GP22)
+
 -   `async_fib2`
     -   Project Name: Asynchronous Fibonacci counter
     -   Project Owner: Gal Nadrag
@@ -562,6 +570,13 @@ based designs details with following order:
     -   Description: Two string version of Karplus-Strong Guitar
     -   Executable CI Script: [ks-guitar-2s](../scripts/ks-guitar-2s)
 
+-   `leros_chip`
+    -   Project Name: Leros
+    -   Project Owner: Martin Schoeberl
+    -   Project Number: [1262](https://platform.efabless.com/projects/1262)
+    -   Description: The open-source Leros processor.
+    -   Executable CI Script: [leros_chip](../scriptsleros_chip/)
+
 -   `logic_bist_mpw4`
     -   Project Name: Logic BIST
     -   Project Owner: Dinesh Annaya
@@ -633,6 +648,13 @@ based designs details with following order:
          [wb_host](../scripts/wb_host) |
          [wb_interconnect](../scripts/wb_interconnect)
 
+-   `memory_array_8x64`
+    -   Project Name: Memory array
+    -   Project Owner: Binoy B
+    -   Project Number: [1203](https://platform.efabless.com/projects/1203)
+    -   Description: Implementation of an 8x64 memory array
+    -   Executable CI Script: [memory_array_8x64](../scripts/memory_array_8x64)
+
 -   `miranda_fpga`
     -   Project Name: Miranda FPGA MPW7
     -   Project Owner: Alexander Monakhov
@@ -701,8 +723,9 @@ based designs details with following order:
 
 -   `mpw6_aes_rng`
     -   Project Name: Cryptographically Secure RNG Slave 
-    -   Project Owner: Sajjad Ahmed
-    -   Project Number: [1079](https://platform.efabless.com/projects/1079)
+    -   Project Owner: RECEP GÜNAY
+    -   Project Number: [1079](https://platform.efabless.com/projects/1079) |
+         [1182](https://platform.efabless.com/projects/1182)
     -   Description: Cryptographically Secure RNG Slave. Integrates AES
          cipher and double scroll chaotic RNG circuit to form a CSRNG. 
          AES and Chaotic RNG can also be used separately.
@@ -836,8 +859,9 @@ based designs details with following order:
 
 -   `patmos_chip`
     -   Project Name: Patmos Real-Time Processor
-    -   Project Owner: Siva Prasad
-    -   Project Number: [1046](https://platform.efabless.com/projects/1046)
+    -   Project Owner: Martin Schoeberl
+    -   Project Number: [1046](https://platform.efabless.com/projects/1046) |
+         [1164](https://platform.efabless.com/projects/1164)
     -   Description: A time-predictable processor called Patmos. This was
          a 13-week project by 12 students at the Technical University of Denmark.
     -   Executable CI Script: [patmos_chip](../scripts/patmos_chip)
@@ -1161,6 +1185,13 @@ based designs details with following order:
     -   Description: A hybride parameterizable radar signal processing accelerator
     -   Executable CI Script: [spectrometer_hyperspace](../scripts/spectrometer_hyperspace)
 
+-   `spectrometer_hyperspace_mpw7`
+    -   Project Name: Hyperspace-resubmission
+    -   Project Owner: Vladimir Milovanovi 
+    -   Project Number: [1174](https://platform.efabless.com/projects/1174)
+    -   Description: A hybride parameterizable radar signal processing accelerator
+    -   Executable CI Script: [spectrometer_hyperspace_mpw7](../scripts/spectrometer_hyperspace_mpw7)
+
 -   `sram_test`
     -   Project Name: Caravel SRAM Test
     -   Project Owner: mtomlinson
@@ -1242,6 +1273,18 @@ based designs details with following order:
          [UETRV_Motor_Top](../scripts/UETRV_Motor_Top) |
          [UETRV_Wishbone_InterConnect](../scripts/UETRV_Wishbone_InterConnect)
 
+-   `uP16_ISA`
+    -   Project Name: ISA 16-bit Microprocessor
+    -   Project Owner: Aloke Das
+    -   Project Number: [1189](https://platform.efabless.com/projects/1189)
+    -   Description: This is simple microprocessor. Instruction Set
+         Architecture (ISA). The data bus is 16 bits wide. Address bus
+         is 12 bits wide. The instructions are like old 8086 microprocessors.
+         This tape-out has 8KB on-chip RAM. Targeted for calculator, 
+         display board and small application.
+    -   Executable CI Script: [uP16_cpu](../scripts/uP16_cpu) |
+         [uP16_soc_config](../scripts/uP16_soc_config)
+
 -   `updown_caravel`
     -   Project Name: Updown Counter (Test)
     -   Project Owner: PRANAV LULU
@@ -1257,6 +1300,15 @@ based designs details with following order:
          8 bit RISC processor core described 100% in Verilog. This 
          processor includes a very tiny VGA Controller suitable for VideoGames.
     -   Executable CI Script: [NSoC_dualport_sram](../scripts/NSoC_dualport_sram)
+
+-   `uMotorSequencer`
+    -   Project Name: MicroMotorSequencer
+    -   Project Owner: Joshua Stevens
+    -   Project Number: [1275](https://platform.efabless.com/projects/1275)
+    -   Description: A phased PWM controller for micro motor control.
+    -   Executable CI Script: [ums_controller_core](../scripts/ums_controller_core) |
+         [ums_driver_core](scripts/ums_driver_core) | 
+         [ums_spi_controller](scripts/ums_spi_controller)
 
 -   `vsdbabysoc`
     -   Project Name: VSDBabySoC

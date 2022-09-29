@@ -11,7 +11,8 @@ pipeline {
                 axes {
                     axis {
                         name "DESIGN";
-                        values 'crypto_accelerator accelerator_top',
+                        values 'ASU_GP22',
+                               'crypto_accelerator accelerator_top',
                                'ExperiarSoC ExpSoc_Peripherals_Flat',
                                'ExperiarSoC ExperiarCore',
                                'FCNet_neuron',
@@ -36,7 +37,7 @@ pipeline {
                                'SonarOnChip8',
                                'soric_project crypto_core',
                                'soric_project flexbex_core',
-                               //'spectrometer_hyperspace',//long run time
+                               'spectrometer_hyperspace_mpw7',
                                'treepram',
                                'wishbone_CAN';
                     }

@@ -506,3 +506,27 @@
 [submodule "designs/mpw7_prga"]
 	path = designs/mpw7_prga
 	url = https://github.com/cmfbook/PRGA-test
+[submodule "designs/spectrometer_hyperspace_mpw7"]
+	path = designs/spectrometer_hyperspace_mpw7
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = milovanovic/spectrometer_user_project_mpw7
+[submodule "designs/uP16_ISA"]
+	path = designs/uP16_ISA
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = alokerdas/uP16_efabless
+[submodule "designs/memory_array_8x64"]
+	path = designs/memory_array_8x64
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = binoy01/Implementation-of-8x64-memory-array
+[submodule "designs/ASU_GP22"]
+	path = designs/ASU_GP22
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = MohamedAliYounis/ASU_GP22
+[submodule "designs/leros_chip"]
+	path = designs/leros_chip
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = leros-dev/leros-chip
+[submodule "designs/uMotorSequencer"]
+	path = designs/uMotorSequencer
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = jasteve4/MicroMotorSequencer
