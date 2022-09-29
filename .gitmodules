@@ -530,6 +530,7 @@
 	path = designs/uMotorSequencer
 	url = https://github.com/The-OpenROAD-Project/caravel_user_project
 	branch = jasteve4/MicroMotorSequencer
+<<<<<<< HEAD
 [submodule "designs/riscv_cpu_mpw7"]
 	path = designs/riscv_cpu_mpw7
 	url = https://github.com/The-OpenROAD-Project/caravel_user_project
@@ -550,3 +551,5 @@
 	path = designs/RV_1Cycle_CPU_Core
 	url = https://github.com/The-OpenROAD-Project/caravel_user_project
 	branch = gbotkin3/RISC-V-Single-Cycle-CPU-Core
+=======
+>>>>>>> origin/main

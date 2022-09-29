@@ -22,8 +22,11 @@ pipeline {
                                'leros_chip',
                                'biquad_mpw7',
                                'keyvalue_caravel',
+<<<<<<< HEAD
                                'mpw7_waprv warpv_core',
                                'mpw7_waprv warpv_wb_interface',
+=======
+>>>>>>> origin/main
                                'memory_array_8x64',
                                'miranda_fpga',
                                'riscv_cpu_mpw7',

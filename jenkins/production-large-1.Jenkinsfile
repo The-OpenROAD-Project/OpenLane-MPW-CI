@@ -12,7 +12,10 @@ pipeline {
                     axis {
                         name "DESIGN";
                         values 'ASU_GP22',
+<<<<<<< HEAD
                                'crypto_aes128',
+=======
+>>>>>>> origin/main
                                'crypto_accelerator accelerator_top',
                                'ExperiarSoC ExpSoc_Peripherals_Flat',
                                'ExperiarSoC ExperiarCore',
