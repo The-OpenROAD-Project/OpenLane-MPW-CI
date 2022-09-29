@@ -530,3 +530,23 @@
 	path = designs/uMotorSequencer
 	url = https://github.com/The-OpenROAD-Project/caravel_user_project
 	branch = jasteve4/MicroMotorSequencer
+[submodule "designs/riscv_cpu_mpw7"]
+	path = designs/riscv_cpu_mpw7
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = steve-aurifexlabs/mpw7
+[submodule "designs/SystolicArray"]
+	path = designs/SystolicArray
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = IanBoyanZhang/SystolicArrayMPW7a
+[submodule "designs/mpw7_waprv"]
+	path = designs/mpw7_waprv
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = ALI11-2000/mpw-waprv
+[submodule "designs/crypto_aes128"]
+	path = designs/crypto_aes128
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = urielcho/crypto_aes128
+[submodule "designs/RV_1Cycle_CPU_Core"]
+	path = designs/RV_1Cycle_CPU_Core
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = gbotkin3/RISC-V-Single-Cycle-CPU-Core

@@ -301,6 +301,13 @@ based designs details with following order:
          security applications.
     -   Executable CI Script: [accelerator_top](../scripts/accelerator_top)
 
+-   `crypto_aes128`
+    -   Project Name: crypto_aes128  
+    -   Project Owner: Uriel Jaramillo Toral 
+    -   Project Number: [1291](https://platform.efabless.com/projects/1291)
+    -   Description: AES128 project test
+    -   Executable CI Script: [crypto_aes128](../scripts/crypto_aes128)
+
 -   `Elpis_Light`
     -   Project Name: Elpis Light processor
     -   Project Owner: Aurora Tomás
@@ -709,8 +716,10 @@ based designs details with following order:
 -   `mpw6-leaf`
     -   Project Name: Leaf 
     -   Project Owner: Daniel Santos
-    -   Project Number: [1015](https://platform.efabless.com/projects/1015)
-    -   Description: a small 32-bit RISC-V core for IoT applications.
+    -   Project Number: [1015](https://platform.efabless.com/projects/1015) |
+         [1277](https://platform.efabless.com/projects/1277)
+    -   Description: Leaf is a small 32-bit RISC-V core for IoT applications.
+         Leaf is a small 32-bit RISC core for simple applications.
     -   Executable CI Script: [mpw6-leaf](../scripts/mpw6-leaf)
 
 -   `mpw6_REST_II`
@@ -825,6 +834,19 @@ based designs details with following order:
     -   Description: An implementation of a rasterization engine using
          Skywater 130 nm PDK.
     -   Executable CI Script: [mpw5_raster_engine](../scripts/mpw5_raster_engine)
+
+-   `mpw7_waprv`
+    -   Project Name: WARP-V 
+    -   Project Owner: Ali Imran
+    -   Project Number: [1287](https://platform.efabless.com/projects/1287)
+    -   Description: WARP-V is an open-source CPU core generator
+         written in TL-Verilog with support for RISC-V and MIPS I. 
+         It is a demonstration and exploration vehicle for the 
+         flexibility that is possible using the emerging 
+         "transaction-level design" methodology. This submission 
+         involves a 4-stage RISC-V CPU version of WARP-V.
+    -   Executable CI Script: [warpv_core](../scripts/warpv_core) |
+         [warpv_wb_interface](../scripts/warpv_wb_interface)
 
 -   `multi_encoder`
     -   Project Name: Caravel_Multi_encoder
@@ -949,6 +971,14 @@ based designs details with following order:
          by radiation etc. and assure reliable functionality.
     -   Executable CI Script: [RAD_HARD_ALU](../scripts/RAD_HARD_ALU)
 
+-   `RV_1Cycle_CPU_Core`
+    -   Project Name: RISC-V Single Cycle Core
+    -   Project Owner: Garrett Botkin
+    -   Project Number: [1292](https://platform.efabless.com/projects/1292)
+    -   Description: First attempt at creating a RISC-V Single Cycle
+         Core. Known issues are listed in the GitHub read me. 
+    -   Executable CI Script: [RV_1Cycle_CPU_Core](../scripts/RV_1Cycle_CPU_Core) 
+
 -   `randsack`
     -   Project Name: Randsack
     -   Project Owner: Harrison Pham
@@ -962,7 +992,8 @@ based designs details with following order:
 -   `rift2core`
     -   Project Name: Rift2Go_2300
     -   Project Owner: Ruige Lee
-    -   Project Number: [1342](https://platform.efabless.com/projects/1342)
+    -   Project Number: [1342](https://platform.efabless.com/projects/1342) |
+         [1283](https://platform.efabless.com/projects/1283)
     -   Description: This is a real Rift2Core CPU now, I remove L2-cache,
          and implement the L1-ICache L1-Dcache with Flip-flop.
     -   Executable CI Script: [rift2core](../scripts/rift2core)
@@ -1014,6 +1045,14 @@ based designs details with following order:
     -   Project Number: [975](https://platform.efabless.com/projects/975)
     -   Description: This is a clone project from dineshannayya/riscduino
     -   Executable CI Script: [riscduino_hikaysici](../scripts/riscduino_hikaysici)
+
+-   `riscv_cpu_mpw7`
+    -   Project Name: RISC-V CPU
+    -   Project Owner: Steven Goldsmith
+    -   Project Number: [1285](https://platform.efabless.com/projects/1285)
+    -   Description: It's a simple risc-v cpu.
+    -   Executable CI Script: [riscv_cpu_mpw7](../scripts/riscv_cpu_mpw7) |
+         [riscv_cpu_counter](../scripts/riscv_cpu_counter)
 
 -   `rvcore_chip1`
     -   Project Name: RVcore Chip1 
@@ -1226,6 +1265,19 @@ based designs details with following order:
          running an 'only candidate' pass in 23 cycles and a 'naked
          singles' pass in 108 cycles.
     -   Executable CI Script: [sudoku-accelerator](../scripts/sudoku-accelerator)
+
+-   `SystolicArray`
+    -   Project Name: Systolic Array Matrix Multiplier 
+    -   Project Owner: Ian Zhang 
+    -   Project Number: [1286](https://platform.efabless.com/projects/1286)
+    -   Description: Systolic Array is a classical architecture that is
+         recently revitalized among Neural Network accelerator designs.
+         It is the heart of Google's TPUs and major workhorses of DSP
+         engines. In this project, we manually build a 3x3 matrix 
+         multiplier with Multiply-Accumulate Units that support two 
+         popular data formats used in modern machine learning or neural
+         networks applications.
+    -   Executable CI Script: [SystolicArray](../scripts/SystolicArray)
 
 -   `systolic_array`
     -   Project Name: Systolic_array
