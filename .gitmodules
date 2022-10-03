@@ -550,3 +550,39 @@
 	path = designs/RV_1Cycle_CPU_Core
 	url = https://github.com/The-OpenROAD-Project/caravel_user_project
 	branch = gbotkin3/RISC-V-Single-Cycle-CPU-Core
+[submodule "designs/caravel_PISO"]
+	path = designs/caravel_PISO
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = mahati-basavaraju/caravel_iiitb_piso
+[submodule "designs/caravel_freqdiv"]
+	path = designs/caravel_freqdiv
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = DantuNandiniDevi/iiitb_freqdiv_caravel
+[submodule "designs/caravel_rtc"]
+	path = designs/caravel_rtc
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = Bandaanusha/iiitb_rtc_caravel
+[submodule "designs/caravel_rv32i"]
+	path = designs/caravel_rv32i
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = vinayrayapati/iiitb_rv32i
+[submodule "designs/graphics_controller"]
+	path = designs/graphics_controller
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = vijayank88/graphics_controller
+[submodule "designs/caravel_r2_4bit_bm"]
+	path = designs/caravel_r2_4bit_bm
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = YASHWANT98/Caravel_iiitb_r2_4bit_bm
+[submodule "designs/bitcoin_asic"]
+	path = designs/bitcoin_asic
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = WebKingdom/bitcoin_asic
+[submodule "designs/rhythmIC"]
+	path = designs/rhythmIC
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = 3x10e8/fossi_cochlea
+[submodule "designs/mpw7_open_eFPGA"]
+	path = designs/mpw7_open_eFPGA
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = nguyendao-uom/FABulous_eFPGA_wb

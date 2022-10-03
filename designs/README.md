@@ -140,12 +140,30 @@ based designs details with following order:
          communicating with other devices.
     -   Executable CI Script: [azadi_soc_iii_dft](../scripts/azadi_soc_iii_dft)
 
+-   `bitcoin_asic`
+    -   Project Name: Bitcoin Mining Asic
+    -   Project Owner: Constantine Mantas
+    -   Project Number: [1318](https://platform.efabless.com/projects/1318)
+    -   Description: This ASIC takes as an input the header of a 
+         Blockchain and simulates the bitcoin mining process.
+    -   Executable CI Script: [bc_sha1_top](../scripts/bc_sha1_top) |
+         [btc_miner_top](../scripts/btc_miner_top)
+
 -   `caravel_dsp`
     -   Project Name: caravel_dsp2
     -   Project Owner: Jayakumar Janarthanam
     -   Project Number: [180](https://platform.efabless.com/projects/180)
     -   Description: DSP Functions
     -   Executable CI Script: [caravel_dsp](../scripts/caravel_dsp)
+
+-   `caravel_freqdiv`
+    -   Project Name: iiitb_freqdiv
+    -   Project Owner: Dantu Nandini Devi
+    -   Project Number: [1299](https://platform.efabless.com/projects/1299)
+    -   Description: This is a model of a Freqency Divider. This 
+         model will contain a 4 bit number lines to select by which 
+         factor does the input frequency has to be divided.
+    -   Executable CI Script: [caravel_freqdiv](../scripts/caravel_freqdiv)
 
 -   `caravel_NNgen`
     -   Project Name: Tensor Calculation using NNgen
@@ -154,6 +172,44 @@ based designs details with following order:
     -   Description: This Project use NNgen(A Fully-Customizable Hardware
          Synthesis Compiler for Deep Neural Network) to generate a simple circuit.
     -   Executable CI Script: [caravel_NNgen](../scripts/caravel_NNgen)
+
+-   `caravel_PISO`
+    -   Project Name: iiitb_piso
+    -   Project Owner: Mahati Basavaraju
+    -   Project Number: [1298](https://platform.efabless.com/projects/1298)
+    -   Description: 4-bit Parallel In Serial Out Shift Register 
+    -   Executable CI Script: [caravel_PISO](../scripts/caravel_PISO)
+
+-   `caravel_r2_4bit_bm`
+    -   Project Name: Radix-2 4-bit Booths Multiplier
+    -   Project Owner: Yashwant Moses
+    -   Project Number: [1314](https://platform.efabless.com/projects/1314)
+    -   Description: Booth's Multiplier is based on Booth's 
+         Multiplication Algorithm. It proposes an efficient way for
+         multiplying two signed integers in there 2's complement form
+         such that the number of partial products is reduced which
+         ultimately lead to the reduction of number of addition
+         operation required for generating the final result. 
+    -   Executable CI Script: [caravel_r2_4bit_bm](../scripts/caravel_r2_4bit_bm)
+
+-   `caravel_rtc`
+    -   Project Name: iiitb_rtc
+    -   Project Owner: BANDA ANUSHA
+    -   Project Number: [1300](https://platform.efabless.com/projects/1300)
+    -   Description: Real-Time Clock 
+    -   Executable CI Script: [caravel_rtc](../scripts/caravel_rtc)
+
+-   `caravel_rv32i`
+    -   Project Name: iiitb_rv32i
+    -   Project Owner: Vinay Rayapati
+    -   Project Number: [1301](https://platform.efabless.com/projects/1301)
+    -   Description: This project provides an insight into the working
+         of a few important instructions of the instruction set of a
+         Single cycle Reduced Instruction Set Computer - Five(RISC-V)
+         Instruction Set Architecture suitable for use across
+         wide-spectrum of Applications from low power embedded devices
+         to high performance Cloud based Server processors. 
+    -   Executable CI Script: [caravel_rv32i](../scripts/caravel_rv32i)
 
 -   `caravel_soc_now`
     -   Project Name: SoC_Now
@@ -485,6 +541,15 @@ based designs details with following order:
          sensor.
     -   Executable CI Script: [GPS_Baseband](../scripts/GPS_Baseband)
 
+-   `graphics_controller`
+    -   Project Name: Graphics Controller
+    -   Project Owner: Vijayan Krishnan
+    -   Project Number: [1303](https://platform.efabless.com/projects/1303)
+    -   Description: The openGFX430 is a synthesizable Graphic 
+         controller written in Verilog and tailored for the 
+         openMSP430 core.
+    -   Executable CI Script: [graphics_controller](../scripts/graphics_controller)
+
 -   `hack_soc_wrapper`
     -   Project Name: Hack SoC
     -   Project Owner: Maximo Balestrini
@@ -789,6 +854,15 @@ based designs details with following order:
     -   Project Number: [769](https://platform.efabless.com/projects/769)
     -   Description: Demonstration of the open FABulous eFPGA using the
          OpenLane flow.
+    -   Executable CI Script: [mpw5_open_eFPGA](../scripts/mpw5_open_eFPGA)
+
+-   `mpw7_open_eFPGA`
+    -   Project Name: FABulous_eFPGA_wb
+    -   Project Owner: Nguyen Dao
+    -   Project Number: [1335](https://platform.efabless.com/projects/1335)
+    -   Description: This project demonstrates open source eFPGA generated
+         by FABulous. This version is to support wishbone interface 
+         with updated DSP tiles.
     -   Executable CI Script: [mpw5_open_eFPGA](../scripts/mpw5_open_eFPGA)
 
 -   `mpw5_prga`
@@ -1124,6 +1198,13 @@ based designs details with following order:
          [rdq_ycr4_iconnect](../scripts/rdq_ycr4_iconnect) |
          [rdq_ycr_core_top](../scripts/rdq_ycr_core_top) |
          [rdq_ycr_intf](../scripts/rdq_ycr_intf) 
+
+-   `rhythmIC`
+    -   Project Name: RhythmIC
+    -   Project Owner: Abhinav Uppal
+    -   Project Number: [1319](https://platform.efabless.com/projects/1319)
+    -   Description: Switched-cap based wavelet processor in sky130B.
+    -   Executable CI Script: [rhythmIC](../scripts/rhythmIC)
 
 -   `rng_chaos`
     -   Project Name: RNG CHAOS
