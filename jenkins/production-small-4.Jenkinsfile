@@ -11,29 +11,22 @@ pipeline {
                 axes {
                     axis {
                         name "DESIGN";
-                        values 'asicle',
-                               'axi_dma_wrapper',
-                               'azadi_soc_iii_dft',
-                               'eFPGA_v3_wrapper',
-                               'fuserisc core_sram',
-                               'Ghazi_DFT',
-                               'GPS_Baseband',
-                               'ks-guitar-2s',
-                               'OpenFASOC_puplpino',
-                               'mpw5_4ft4',
-                               'mpw7_open_eFPGA',
-                               'multi_encoder',
-                               'radiation_harden',
-                               'subservient_SOC',
-                               'UETRV_Ecore UETRV_wrapper',
-                               'wb_openram';
+                        values 'bitcoin_asic bc_sha1_top',
+                               'bitcoin_asic btc_miner_top',
+                               'caravel_PISO',
+                               'caravel_freqdiv',
+                               'caravel_rtc',
+                               'caravel_r2_4bit_bm',
+                               'caravel_rv32i',
+                               'graphics_controller',
+                               'rhythmIC';
                     }
                 }
 
                 stages {
                     stage("Test") {
                         options {
-                            timeout(time: 3, unit: "HOURS");
+                            timeout(time: 6, unit: "HOURS");
                         }
                         agent any;
                         steps {
@@ -61,7 +54,19 @@ pipeline {
     post {
         failure {
             script {
-                EMAIL_TO = sh (returnStdout: true, script: "git --no-pager show -s --format='%ae'").trim();
+                try {
+                    COMMIT_AUTHOR_EMAIL = sh (returnStdout: true, script: "git --no-pager show -s --format='%ae'").trim();
+                    if ( env.BRANCH_NAME == "main" ) {
+                        echo("Main development branch: report to stakeholders and commit author.");
+                        EMAIL_TO="$COMMIT_AUTHOR_EMAIL, \$DEFAULT_RECIPIENTS";
+                    } else {
+                        echo("Feature development branch: report only to commit author.");
+                        EMAIL_TO="$COMMIT_AUTHOR_EMAIL";
+                    }
+                } catch (Exception e) {
+                    echo "Exception occurred: " + e.toString();
+                    EMAIL_TO="\$DEFAULT_RECIPIENTS";
+                }
                 emailext(
                         to: "$EMAIL_TO",
                         subject: '$DEFAULT_SUBJECT',
