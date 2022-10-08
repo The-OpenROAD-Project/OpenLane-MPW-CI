@@ -26,6 +26,7 @@ pipeline {
                                'ks-guitar',
                                'marmot_asic_v2',
                                'mpw5_raster_engine',
+                               'mpw7_SoomRV',
                                'openram_openmpw',
                                'patmos_chip',
                                'pwm_openmpw',

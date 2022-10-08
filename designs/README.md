@@ -922,6 +922,43 @@ based designs details with following order:
     -   Executable CI Script: [warpv_core](../scripts/warpv_core) |
          [warpv_wb_interface](../scripts/warpv_wb_interface)
 
+-   `mpw7_AI_chip`
+    -   Project Name: AI-CHIP-4-IN-1
+    -   Project Owner: Taehyun Kim
+    -   Project Number: [1338](https://platform.efabless.com/projects/1338)
+    -   Description: In this chip there are four macros : 1. b-float
+         FMA (16bit multiplication and 32bit accumulation) 2. 2x2 
+         output stationary systolic array 3. 8x8 signed booth 
+         multiplier 4. 16 carry propagation adder 
+    -   Executable CI Script: [mpw7_AI_chip](../scripts/mpw7_AI_chip)
+
+-   `mpw7_projtes`
+    -   Project Name: Observability Project
+    -   Project Owner: Akshaykumar Mehta
+    -   Project Number: [1348](https://platform.efabless.com/projects/1348)
+    -   Description: A step towards making silicon to application 
+         layer operate in discrete boxed functions. 
+    -   Executable CI Script: [mpw7_projtes](../scripts/mpw7_projtes)
+
+-   `mpw7_RTCClock`
+    -   Project Name: RTCClock 
+    -   Project Owner: Filippo Carastro
+    -   Project Number: [1349](https://platform.efabless.com/projects/1349)
+    -   Description: RTCClock is an open source IP used to have a 
+         clock inside microcontroller for project that need 
+         hours/day information.
+    -   Executable CI Script: [mpw7_RTCClock](../scripts/mpw7_RTCClock)
+
+-   `mpw7_SoomRV`
+    -   Project Name: SoomRV
+    -   Project Owner: Mathis Salmen
+    -   Project Number: [1351](https://platform.efabless.com/projects/1351)
+    -   Description: SoomRV is a simple superscalar Out-of-Order 
+         RISC-V microprocessor. It can execute 2 Instructions per
+         cycle completely out of order, and also supports speculative
+         execution and precise exceptions.
+    -   Executable CI Script: [mpw7_SoomRV](../scripts/mpw7_SoomRV)
+
 -   `multi_encoder`
     -   Project Name: Caravel_Multi_encoder
     -   Project Owner: Manikandan Nagarajan
