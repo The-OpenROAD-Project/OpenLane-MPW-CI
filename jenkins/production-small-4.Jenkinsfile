@@ -19,6 +19,9 @@ pipeline {
                                'caravel_r2_4bit_bm',
                                'caravel_rv32i',
                                'graphics_controller',
+                               'mpw7_AI_chip',
+                               'mpw7_RTCClock',
+                               'mpw7_projtes',
                                'rhythmIC';
                     }
                 }

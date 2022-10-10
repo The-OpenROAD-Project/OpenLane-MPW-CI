@@ -586,3 +586,19 @@
 	path = designs/mpw7_open_eFPGA
 	url = https://github.com/The-OpenROAD-Project/caravel_user_project
 	branch = nguyendao-uom/FABulous_eFPGA_wb
+[submodule "designs/mpw7_AI_chip"]
+	path = designs/mpw7_AI_chip
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = thkim2031/efabless_mpw
+[submodule "designs/mpw7_projtes"]
+	path = designs/mpw7_projtes
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = aimehta/otainfo_user_project
+[submodule "designs/mpw7_RTCClock"]
+	path = designs/mpw7_RTCClock
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = filippocarastro/Project1
+[submodule "designs/mpw7_SoomRV"]
+	path = designs/mpw7_SoomRV
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = git-mathis/CaravelSoomRV
