@@ -909,19 +909,6 @@ based designs details with following order:
          Skywater 130 nm PDK.
     -   Executable CI Script: [mpw5_raster_engine](../scripts/mpw5_raster_engine)
 
--   `mpw7_waprv`
-    -   Project Name: WARP-V 
-    -   Project Owner: Ali Imran
-    -   Project Number: [1287](https://platform.efabless.com/projects/1287)
-    -   Description: WARP-V is an open-source CPU core generator
-         written in TL-Verilog with support for RISC-V and MIPS I. 
-         It is a demonstration and exploration vehicle for the 
-         flexibility that is possible using the emerging 
-         "transaction-level design" methodology. This submission 
-         involves a 4-stage RISC-V CPU version of WARP-V.
-    -   Executable CI Script: [warpv_core](../scripts/warpv_core) |
-         [warpv_wb_interface](../scripts/warpv_wb_interface)
-
 -   `mpw7_AI_chip`
     -   Project Name: AI-CHIP-4-IN-1
     -   Project Owner: Taehyun Kim
@@ -931,6 +918,22 @@ based designs details with following order:
          output stationary systolic array 3. 8x8 signed booth 
          multiplier 4. 16 carry propagation adder 
     -   Executable CI Script: [mpw7_AI_chip](../scripts/mpw7_AI_chip)
+
+-   `mpw7_accelerator_core`
+    -   Project Name: LABS Search
+    -   Project Owner: Wouter van Verre
+    -   Project Number: [1353](https://platform.efabless.com/projects/1353)
+    -   Description: An accelerator core for finding binary sequence
+         with low autocorellation values 
+    -   Executable CI Script: [mpw7_accelerator_core](../scripts/mpw7_accelerator_core)
+
+-   `mpw7_ICG`
+    -   Project Name: iiitb_icg
+    -   Project Owner: Vasanthi D R
+    -   Project Number: [1361](https://platform.efabless.com/projects/1361)
+    -   Description: The project design is based on Integrated 
+         Clock Gating using SKY 130nm technology node.
+    -   Executable CI Script: [mpw7_ICG](../scripts/mpw7_ICG)
 
 -   `mpw7_projtes`
     -   Project Name: Observability Project
@@ -958,6 +961,30 @@ based designs details with following order:
          cycle completely out of order, and also supports speculative
          execution and precise exceptions.
     -   Executable CI Script: [mpw7_SoomRV](../scripts/mpw7_SoomRV)
+
+-   `mpw7_waprv`
+    -   Project Name: WARP-V 
+    -   Project Owner: Ali Imran
+    -   Project Number: [1287](https://platform.efabless.com/projects/1287)
+    -   Description: WARP-V is an open-source CPU core generator
+         written in TL-Verilog with support for RISC-V and MIPS I. 
+         It is a demonstration and exploration vehicle for the 
+         flexibility that is possible using the emerging 
+         "transaction-level design" methodology. This submission 
+         involves a 4-stage RISC-V CPU version of WARP-V.
+    -   Executable CI Script: [warpv_core](../scripts/warpv_core) |
+         [warpv_wb_interface](../scripts/warpv_wb_interface)
+
+-   `mpw7_yonga_soc`
+    -   Project Name: YONGA-MCU
+    -   Project Owner: Burak Aykenar
+    -   Project Number: [1331](https://platform.efabless.com/projects/1331)
+    -   Description: Yonga-MCU is a 32-bit RISCV-IMC instruction set
+         compatible SoC design with peripherals like UART, SPI and I2C.
+         The design is based on famous pulp team's pulpino.
+    -   Executable CI Script: [yonga_mcu_axi_node_intf_wrap](../scripts/yonga_mcu_axi_node_intf_wrap) |
+         [yonga_mcu_mba_core_region_2](../scripts/yonga_mcu_mba_core_region_2) |
+         [yonga_mcu_peripherals_2](../scripts/yonga_mcu_peripherals_2)
 
 -   `multi_encoder`
     -   Project Name: Caravel_Multi_encoder
