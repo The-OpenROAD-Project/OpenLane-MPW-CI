@@ -602,3 +602,15 @@
 	path = designs/mpw7_SoomRV
 	url = https://github.com/The-OpenROAD-Project/caravel_user_project
 	branch = git-mathis/CaravelSoomRV
+[submodule "designs/mpw7_yonga_soc"]
+	path = designs/mpw7_yonga_soc
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = mbaykenar/mpw7_yonga_soc
+[submodule "designs/mpw7_accelerator_core"]
+	path = designs/mpw7_accelerator_core
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = vvvverre/caravel_labs_search
+[submodule "designs/mpw7_ICG"]
+	path = designs/mpw7_ICG
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = drvasanthi/caravel_iiitb_icg

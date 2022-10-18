@@ -20,8 +20,11 @@ pipeline {
                                'caravel_rv32i',
                                'graphics_controller',
                                'mpw7_AI_chip',
+                               'mpw7_accelerator_core',
+                               'mpw7_ICG',
                                'mpw7_RTCClock',
                                'mpw7_projtes',
+                               'mpw7_yonga_soc yonga_mcu_peripherals_2',
                                'rhythmIC';
                     }
                 }
