@@ -18,8 +18,8 @@ pipeline {
                                'qf100 qf_wrapper',
                                'upb_natalius_soc NSoC_dualport_sram',
                                'yonga_turbo_encoder',
-                               'mpw7_yonga_soc axi_node_intf_wrap',
-                               'mpw7_yonga_soc mba_core_region_2',
+                               'mpw7_yonga_soc yonga_axi_node_intf_wrap',
+                               'mpw7_yonga_soc yonga_mba_core_region_2',
                                'yifive_a2 syntacore';
                     }
                 }

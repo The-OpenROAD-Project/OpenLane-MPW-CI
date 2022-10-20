@@ -4,5 +4,8 @@ sed -i '/::env(GLB_RT_MAXLAYER)/d' ${design_dir}/openlane/user_project/config.tc
 sed -i '/::env(RT_MAX_LAYER)/d' ${design_dir}/openlane/user_project/config.tcl
 sed -i '/::env(FP_CORE_UTIL)/d' ${design_dir}/openlane/user_project/config.tcl
 sed -i '/::env(FP_ASPECT_RATIO)/d' ${design_dir}/openlane/user_project/config.tcl
+sed -i '/::env(FP_SIZING)/d' ${design_dir}/openlane/user_project/config.tcl
 sed -i '/::env(PL_TARGET_DENSITY)/d' ${design_dir}/openlane/user_project/config.tcl
+sed -i '/::env(CLOCK_PERIOD)/d' ${design_dir}/openlane/user_project/config.tcl
+sed -i '/::env(FP_PIN_ORDER_CFG)/d' ${design_dir}/openlane/user_project/config.tcl
 sed -i 's/GLB_RT/GRT/g' ${design_dir}/openlane/user_project/config.tcl

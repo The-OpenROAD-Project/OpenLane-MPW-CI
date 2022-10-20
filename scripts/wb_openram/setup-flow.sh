@@ -8,3 +8,4 @@ sed -i '/::env(RT_MAX_LAYER)/d' ${design_dir}/openlane/user_project_wrapper/conf
 sed -i 's/logic/reg/g' ${design_dir}/wb_hyperram/src/wb_hyperram.v
 sed -i 's/FP_PDN_MACRO_HOOKS/HOOKS/g' ${design_dir}/openlane/user_project_wrapper/config.tcl
 sed -i 's/GLB_RT_/GRT_/g' ${design_dir}/openlane/user_project_wrapper/config.tcl
+sed -i 's/SYNTH_TOP_LEVEL/SYNTH_ELABORATE_ONLY/g' ${design_dir}/openlane/user_project_wrapper/config.tcl
