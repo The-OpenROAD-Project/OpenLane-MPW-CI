@@ -7,5 +7,6 @@ sed -i '/::env(FP_ASPECT_RATIO)/d' ${design_dir}/openlane/user_project/config.tc
 sed -i '/::env(FP_SIZING)/d' ${design_dir}/openlane/user_project/config.tcl
 sed -i '/::env(PL_TARGET_DENSITY)/d' ${design_dir}/openlane/user_project/config.tcl
 sed -i '/::env(CLOCK_PERIOD)/d' ${design_dir}/openlane/user_project/config.tcl
+sed -i '/::env(PL_RESIZER_HOLD_SLACK_MARGIN)/d' ${design_dir}/openlane/user_project/config.tcl
 sed -i '/::env(FP_PIN_ORDER_CFG)/d' ${design_dir}/openlane/user_project/config.tcl
 sed -i 's/GLB_RT/GRT/g' ${design_dir}/openlane/user_project/config.tcl
