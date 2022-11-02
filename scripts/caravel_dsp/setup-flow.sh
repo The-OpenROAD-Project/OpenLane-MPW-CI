@@ -5,3 +5,4 @@ sed -i '/::env(GLB_RT_MAXLAYER)/d' ${design_dir}/openlane/user_proj_example/conf
 sed -i '/::env(FP_PDN_CORE_RING)/d' ${design_dir}/openlane/user_proj_example/config.tcl
 sed -i '/::env(CELL_PAD)/d' ${design_dir}/openlane/user_proj_example/config.tcl
 sed -i '/::env(ROUTING_CORES)/d' ${design_dir}/openlane/user_proj_example/config.tcl
+sed -i '/::env(SYNTH_MAX_FANOUT)/d' ${design_dir}/openlane/user_proj_example/config.tcl
