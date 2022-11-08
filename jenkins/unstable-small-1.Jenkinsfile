@@ -26,7 +26,10 @@ pipeline {
                                'multi_encoder',
                                'radiation_harden',
                                'riscduino_S4 rdS4_uart_i2cm_usb_spi_top',
+                               'riscduino_S4 rdS4_wb_host',
+                               'riscduino_qcore rdq_uart_i2cm_usb_spi_top',
                                'subservient_SOC',
+                               'secure-memory secure-memory-wrapper',
                                'UETRV_Ecore UETRV_wrapper',
                                'wb_openram',
                                'yifive_a2 uart_i2cm_usb';
