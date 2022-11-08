@@ -43,7 +43,6 @@ pipeline {
                                'riscduino_dcore rdd_ycr2_iconnect',
                                'riscduino_S4 rdS4_pinmux_top',
                                'riscduino_S4 rdS4_qspim_top',
-                               'riscduino_S4 rdS4_uart_i2cm_usb_spi_top',
                                'riscduino_S4 rdS4_wb_host',
                                'riscduino_S4 rdS4_ycr_iconnect',
                                'riscduino_qcore rdq_pinmux',
