@@ -17,6 +17,7 @@ pipeline {
                                'mpw6_prga',
                                'mpw7_prga',
                                'qf100 qf_wrapper',
+                               'qf100 qf_mkLanaiCPU',
                                'riscduino_S4 rdS4_ycr_core_top',
                                'spectrometer_hyperspace_mpw7',
                                'yonga_turbo_encoder',
