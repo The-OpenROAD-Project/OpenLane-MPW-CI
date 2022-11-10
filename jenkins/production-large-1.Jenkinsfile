@@ -24,7 +24,6 @@ pipeline {
                                'UETRV_Ecore UETRV_Wishbone_InterConnect',
                                'junga_soc_mpw5',
                                'ks-guitar',
-                               'marmot_asic_v2',
                                'mpw5_raster_engine',
                                'mpw7_SoomRV',
                                'openram_openmpw',
@@ -35,11 +34,9 @@ pipeline {
                                'riscduino_S4 rdS4_ycr_intf',
                                'riscduino_S4 rdS4_ycr_core_top',
                                'riscduino_qcore rdq_ycr4_iconnect',
-                               'riscduino_qcore rdq_ycr_core_top',
                                'SonarOnChip8',
                                'soric_project crypto_core',
                                'soric_project flexbex_core',
-                               'spectrometer_hyperspace_mpw7',
                                'treepram',
                                'wishbone_CAN';
                     }

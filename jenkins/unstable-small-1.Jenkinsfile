@@ -20,13 +20,19 @@ pipeline {
                                'GPS_Baseband',
                                'ks-guitar-2s',
                                'OpenFASOC_puplpino',
+                               'mbist_ctrl wb_host',
                                'mpw5_4ft4',
                                'mpw7_open_eFPGA',
                                'multi_encoder',
                                'radiation_harden',
+                               'riscduino_S4 rdS4_uart_i2cm_usb_spi_top',
+                               'riscduino_S4 rdS4_wb_host',
+                               'riscduino_qcore rdq_uart_i2cm_usb_spi_top',
                                'subservient_SOC',
+                               'secure-memory secure-memory-wrapper',
                                'UETRV_Ecore UETRV_wrapper',
-                               'wb_openram';
+                               'wb_openram',
+                               'yifive_a2 uart_i2cm_usb';
                     }
                 }
 

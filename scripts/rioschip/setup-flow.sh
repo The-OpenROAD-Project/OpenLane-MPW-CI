@@ -7,3 +7,4 @@ sed -i 's/\$::env(DESIGN_DIR)\/fixed/\$::env(DESIGN_DIR)\/openlane\/user_project
 sed -i 's/\$proj_dir\/..\/../\$::env(DESIGN_DIR)/g' ${design_dir}/openlane/user_project_wrapper/config.tcl
 sed -i 's/\$proj_dir\/base/\$::env(DESIGN_DIR)\/openlane\/user_project_wrapper\/base/g' ${design_dir}/openlane/user_project_wrapper/config.tcl
 sed -i 's/\$proj_dir\/macro/\$::env(DESIGN_DIR)\/openlane\/user_project_wrapper\/macro/g' ${design_dir}/openlane/user_project_wrapper/config.tcl
+sed -i 's/SYNTH_TOP_LEVEL/SYNTH_ELABORATE_ONLY/g' ${design_dir}/openlane/user_project_wrapper/config.tcl

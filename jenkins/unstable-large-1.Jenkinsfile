@@ -13,13 +13,18 @@ pipeline {
                         name "DESIGN";
                         values 'azadi_soc',
                                'Elpis_Light Elpis_custom_sram',
+                               'marmot_asic_v2',
                                'mpw6_prga',
                                'mpw7_prga',
                                'qf100 qf_wrapper',
+                               'qf100 qf_mkLanaiCPU',
+                               'riscduino_S4 rdS4_ycr_core_top',
+                               'spectrometer_hyperspace_mpw7',
+                               'yonga_turbo_encoder',
                                'upb_natalius_soc NSoC_dualport_sram',
                                'yonga_turbo_encoder',
-                               'mpw7_yonga_soc axi_node_intf_wrap',
-                               'mpw7_yonga_soc mba_core_region_2',
+                               'mpw7_yonga_soc yonga_mcu_axi_node_intf_wrap',
+                               'mpw7_yonga_soc yonga_mcu_mba_core_region_2',
                                'yifive_a2 syntacore';
                     }
                 }
