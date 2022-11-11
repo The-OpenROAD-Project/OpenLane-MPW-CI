@@ -28,7 +28,6 @@ pipeline {
                                'miranda_fpga',
                                'riscv_cpu_mpw7',
                                'riscv_cpu_mpw7 riscv_cpu_counter',
-                               'rioschip',
                                'riscduino_hikaysici',
                                'uP16_ISA uP16_cpu',
                                'uP16_ISA uP16_soc_config',
