@@ -6,3 +6,5 @@ gzip -d ${design_dir}/gds/user_proj_example.gds.gz
 gzip -d ${design_dir}/gds/avsddac.gds.gz
 gzip -d ${design_dir}/gds/avsdpll.gds.gz
 sed -i 's/SYNTH_TOP_LEVEL/SYNTH_ELABORATE_ONLY/g' ${design_dir}/openlane/user_project_wrapper/config.tcl
+sed -i 's/TAP_DECAP/RUN_TAP_DECAP/g' ${design_dir}/openlane/user_project_wrapper/config.tcl
+sed -i 's/FILL_/RUN_FILL_/g' ${design_dir}/openlane/user_project_wrapper/config.tcl
