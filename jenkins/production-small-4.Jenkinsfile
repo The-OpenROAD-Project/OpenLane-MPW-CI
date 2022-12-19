@@ -19,12 +19,16 @@ pipeline {
                                'caravel_r2_4bit_bm',
                                'caravel_rv32i',
                                'graphics_controller',
+                               'ks-guitar-2s',
                                'mpw7_accelerator_core',
                                'mpw7_ICG',
                                'mpw7_RTCClock',
                                'mpw7_projtes',
                                'mpw7_yonga_soc yonga_mcu_peripherals_2',
-                               'rhythmIC';
+                               'rhythmIC',
+                               'riscduino_S4 rdS4_uart_i2cm_usb_spi_top',
+                               'riscduino_S4 rdS4_wb_host',
+                               'riscduino_qcore rdq_uart_i2cm_usb_spi_top';
                     }
                 }
 

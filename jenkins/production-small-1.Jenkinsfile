@@ -49,6 +49,7 @@ pipeline {
                                'logic_bist LBIST_mbist_top2',
                                'mbist_ctrl mbist1',
                                'mbist_ctrl mbist2',
+                               'mbist_ctrl wb_host',
                                'mbist_ctrl wb_interconnect',
                                'mpw-5c-C0',
                                'mpw5_L1cache',
