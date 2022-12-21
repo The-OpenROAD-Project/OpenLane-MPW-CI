@@ -19,6 +19,7 @@ pipeline {
                                'mpw7_yonga_soc yonga_mcu_axi_node_intf_wrap',
                                'mpw7_yonga_soc yonga_mcu_mba_core_region_2',
                                'qf100 qf_wrapper',
+                               'rift2core',
                                'spectrometer_hyperspace_mpw7',
                                'upb_natalius_soc NSoC_dualport_sram',
                                'yonga_turbo_encoder';
@@ -28,7 +29,7 @@ pipeline {
                 stages {
                     stage("Test") {
                         options {
-                            timeout(time: 10, unit: "HOURS");
+                            timeout(time: 8, unit: "HOURS");
                         }
                         agent any;
                         steps {

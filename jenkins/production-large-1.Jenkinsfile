@@ -30,7 +30,6 @@ pipeline {
                                'patmos_chip',
                                'pwm_openmpw',
                                'qf100 qf_mkLanaiCPU',
-                               'rift2core',
                                'riscduino rd_yifive',
                                'riscduino_S4 rdS4_ycr_intf',
                                'riscduino_S4 rdS4_ycr_core_top',
