@@ -29,7 +29,7 @@ pipeline {
                                'openram_openmpw',
                                'patmos_chip',
                                'pwm_openmpw',
-                               'rift2core',
+                               'qf100 qf_mkLanaiCPU',
                                'riscduino rd_yifive',
                                'riscduino_S4 rdS4_ycr_intf',
                                'riscduino_S4 rdS4_ycr_core_top',
@@ -38,7 +38,8 @@ pipeline {
                                'soric_project crypto_core',
                                'soric_project flexbex_core',
                                'treepram',
-                               'wishbone_CAN';
+                               'wishbone_CAN',
+                               'yifive_a2 syntacore';
                     }
                 }
 
