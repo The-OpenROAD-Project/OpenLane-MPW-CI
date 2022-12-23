@@ -1046,6 +1046,22 @@ based designs details with following order:
          Connected to caravel for memory interfacing and I/O usage
     -   Executable CI Script: [picorF0](../scripts/picorF0)
 
+-   `ppcpu`
+    -   Project Name: ppcpu
+    -   Project Owner: Piotr Wegrzyn
+    -   Project Number: [1378](https://platform.efabless.com/projects/1378)
+    -   Description: Pipelined 16 bit cpu with custom architecture
+    -   Executable CI Script: [ppcpu_clk_div](../scripts/ppcpu_clk_div) |
+         [ppcpu_core](../scripts/ppcpu_core) |
+         [ppcpu_dcache](../scripts/ppcpu_dcache) |
+         [ppcpu_icache](../scripts/ppcpu_icache) |
+         [ppcpu_top_cw_logic](../scripts/ppcpu_top_cw_logic) |
+         [ppcpu_upper_core_logic](../scripts/ppcpu_upper_core_logic) |
+         [ppcpu_uprj_w_const](../scripts/ppcpu_uprj_w_const) |
+         [ppcpu_wb_compressor](../scripts/ppcpu_wb_compressor) |
+         [ppcpu_wb_cross_clk](../scripts/ppcpu_wb_cross_clk) |
+         [ppcpu_wishbone_arbiter](../scripts/ppcpu_wishbone_arbiter)
+
 -   `PSRAM_PRANG`
     -   Project Name: PSRAM Interface with PRNG
     -   Project Owner: Steven Goldsmith
