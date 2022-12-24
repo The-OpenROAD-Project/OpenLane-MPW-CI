@@ -614,3 +614,6 @@
 	path = designs/mpw7_ICG
 	url = https://github.com/The-OpenROAD-Project/caravel_user_project
 	branch = drvasanthi/caravel_iiitb_icg
+[submodule "designs/ppcpu"]
+	path = designs/ppcpu
+	url = https://github.com/piotro888/ppcpu_caravel
