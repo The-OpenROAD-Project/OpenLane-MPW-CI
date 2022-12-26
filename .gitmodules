@@ -617,3 +617,19 @@
 [submodule "designs/ppcpu"]
 	path = designs/ppcpu
 	url = https://github.com/piotro888/ppcpu_caravel
+[submodule "designs/mpw7_sd"]
+	path = designs/mpw7_sd
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = AjayKumar-Gandi/Caravel_iiitbsd
+[submodule "designs/mpw7_trainable_nn"]
+	path = designs/mpw7_trainable_nn
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = htfab/trainable-nn
+[submodule "designs/mpw7_4USR"]
+	path = designs/mpw7_4USR
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = DebanganaMukherjee/caravel_iiitb_usr
+[submodule "designs/mpw7_rioschip"]
+	path = designs/mpw7_rioschip
+	url = https://github.com/The-OpenROAD-Project/caravel_user_project
+	branch = b224hisl/rioschip_resubmission
