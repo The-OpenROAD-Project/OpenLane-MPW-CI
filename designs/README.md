@@ -1170,14 +1170,12 @@ based designs details with following order:
          [digitalcore_macro](../scripts/digitalcore_macro) |
          [ringosc_macro](../scripts/ringosc_macro)
 
--   `rift2core`
-    -   Project Name: Rift2Go_2300
+-   `Rift2Fake`
+    -   Project Name: Rift2Fake
     -   Project Owner: Ruige Lee
-    -   Project Number: [1342](https://platform.efabless.com/projects/1342) |
-         [1283](https://platform.efabless.com/projects/1283)
-    -   Description: This is a real Rift2Core CPU now, I remove L2-cache,
-         and implement the L1-ICache L1-Dcache with Flip-flop.
-    -   Executable CI Script: [rift2core](../scripts/rift2core)
+    -   Project Number: [1283](https://platform.efabless.com/projects/1283)
+    -   Description: This is a Fake Rift2Core. There is a LFSR and Multiplier in it!
+    -   Executable CI Script: [Rift2Fake](../scripts/Rift2Fake)
 
 -   `rioschip`
     -   Project Name: hehecore
@@ -1286,6 +1284,15 @@ based designs details with following order:
          efabless Shuttle program.
     -   Executable CI Script: [rdd_ycr2_iconnect](../scripts/rdd_ycr2_iconnect)
 
+-   `riscduino_D3`
+    -   Project Name: Riscduino-DCore(D3)
+    -   Project Owner: Dinesh Annaya
+    -   Project Number: [1167](https://platform.efabless.com/projects/1167)
+    -   Description: Riscduino is a Dual 32 bit RISC V based SOC design
+         pin compatible to arudino platform and this soc targeted for
+         efabless Shuttle program.
+    -   Executable CI Script: [rdD3_ycr2_iconnect](../scripts/rdD3_ycr2_iconnect)
+
 -   `mpw5_riscduino_qcore`
     -   Project Name: Riscduino-QCore
     -   Project Owner: Dinesh Annaya
@@ -1313,6 +1320,15 @@ based designs details with following order:
          [rdq_ycr4_iconnect](../scripts/rdq_ycr4_iconnect) |
          [rdq_ycr_core_top](../scripts/rdq_ycr_core_top) |
          [rdq_ycr_intf](../scripts/rdq_ycr_intf) 
+
+-   `riscduino_Q2`
+    -   Project Name: Riscduino-QCore(Q2)
+    -   Project Owner: Dinesh Annaya
+    -   Project Number: [1168](https://platform.efabless.com/projects/1168)
+    -   Description: Riscduino is a Dual 32 bit RISC V based SOC design
+         pin compatible to arudino platform and this soc targeted for
+         efabless Shuttle program.
+    -   Executable CI Script: [rdQ2_ycr4_iconnect](../scripts/rdQ2_ycr4_iconnect)
 
 -   `rhythmIC`
     -   Project Name: RhythmIC

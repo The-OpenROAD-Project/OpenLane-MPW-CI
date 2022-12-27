@@ -633,3 +633,12 @@
 	path = designs/mpw7_rioschip
 	url = https://github.com/The-OpenROAD-Project/caravel_user_project
 	branch = b224hisl/rioschip_resubmission
+[submodule "designs/Rift2Fake"]
+	path = designs/Rift2Fake
+	url = https://github.com/whutddk/Rift2Fake_sky130_resubmission
+[submodule "designs/riscduino_D3"]
+	path = designs/riscduino_D3
+	url = https://github.com/dineshannayya/riscduino_dcore
+[submodule "designs/riscduino_Q2"]
+	path = designs/riscduino_Q2
+	url = https://github.com/dineshannayya/riscduino_qcore

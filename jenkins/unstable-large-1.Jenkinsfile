@@ -20,7 +20,7 @@ pipeline {
                                'mpw7_yonga_soc yonga_mcu_mba_core_region_2',
                                'ppcpu ppcpu_dcache',
                                'qf100 qf_wrapper',
-                               'rift2core',
+                               'riscduino_Q2 rdQ2_ycr4_iconnect',
                                'spectrometer_hyperspace_mpw7',
                                'upb_natalius_soc NSoC_dualport_sram',
                                'yonga_turbo_encoder';
