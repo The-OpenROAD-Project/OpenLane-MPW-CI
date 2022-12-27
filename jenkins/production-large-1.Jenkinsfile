@@ -26,6 +26,7 @@ pipeline {
                                'ks-guitar',
                                'mpw5_raster_engine',
                                'mpw7_SoomRV',
+                               'mpw7_rioschip',
                                'openram_openmpw',
                                'patmos_chip',
                                'pwm_openmpw',

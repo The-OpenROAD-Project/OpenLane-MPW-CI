@@ -962,6 +962,33 @@ based designs details with following order:
          execution and precise exceptions.
     -   Executable CI Script: [mpw7_SoomRV](../scripts/mpw7_SoomRV)
 
+-   `mpw7_sd`
+    -   Project Name: iiitb_sdm
+    -   Project Owner: Anshul Mdurwar
+    -   Project Number: [1367](https://platform.efabless.com/projects/1367)
+    -   Description: This project simulates the design of a Sequence
+         Detector built using the MOORE FSM logic. We can detect
+         a pre-decided 4 bit sequence and provide an output high 
+         when the sequence is detected. 
+    -   Executable CI Script: [mpw7_sd](../scripts/mpw7_sd)
+
+-   `mpw7_trainable_nn`
+    -   Project Name: Trainable NN
+    -   Project Owner: Tamas Hubai
+    -   Project Number: [1372](https://platform.efabless.com/projects/1372)
+    -   Description: Implements a simple neural network that supports
+         on-chip training in addition to inference. The two hidden
+         layers use leaky ReLU as their activation function while
+         the output layer uses a rough approximation of softmax. 
+    -   Executable CI Script: [mpw7_trainable_nn](../scripts/mpw7_trainable_nn)
+
+-   `mpw7_4USR`
+    -   Project Name: iiitb_usr
+    -   Project Owner: Debangana Mukherjee
+    -   Project Number: [1377](https://platform.efabless.com/projects/1377)
+    -   Description: 4-bit Universal Shift Register 
+    -   Executable CI Script: [mpw7_4USR](../scripts/mpw7_4USR)
+
 -   `mpw7_waprv`
     -   Project Name: WARP-V 
     -   Project Owner: Ali Imran
@@ -1156,6 +1183,14 @@ based designs details with following order:
     -   Project Name: hehecore
     -   Project Owner: Yifei Zhu
     -   Project Number: [1232](https://platform.efabless.com/projects/1232)
+    -   Description: We come from RIOS Lab, TsingHua university, we 
+         designed a 64-bit dual-issue, out-of-order RISC-V processor.
+    -   Executable CI Script: [rioschip](../scripts/rioschip)
+
+-   `mpw7_rioschip`
+    -   Project Name: hehecore_resubmission
+    -   Project Owner: Yifei Zhu
+    -   Project Number: [1557](https://platform.efabless.com/projects/1557)
     -   Description: We come from RIOS Lab, TsingHua university, we 
          designed a 64-bit dual-issue, out-of-order RISC-V processor.
     -   Executable CI Script: [rioschip](../scripts/rioschip)

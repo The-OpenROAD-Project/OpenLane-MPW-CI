@@ -24,6 +24,7 @@ pipeline {
                                'mpw7_ICG',
                                'mpw7_RTCClock',
                                'mpw7_projtes',
+                               'mpw7_sd',
                                'mpw7_yonga_soc yonga_mcu_peripherals_2',
                                'ppcpu ppcpu_clk_div',
                                'ppcpu ppcpu_core',
