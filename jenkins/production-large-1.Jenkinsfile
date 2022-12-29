@@ -28,7 +28,6 @@ pipeline {
                                'mpw7_SoomRV',
                                'mpw7_rioschip',
                                'openram_openmpw',
-                               'patmos_chip',
                                'pwm_openmpw',
                                'qf100 qf_mkLanaiCPU',
                                'Rift2Fake',
