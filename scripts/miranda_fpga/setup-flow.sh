@@ -7,3 +7,4 @@ sed -i '/::env(FP_PDN_CORE_RING)/d' ${design_dir}/openlane/fpga_struct_block/con
 sed -i 's/GLB_RT/GRT/g' ${design_dir}/openlane/fpga_struct_block/config.tcl
 sed -i 's/0.7/1.2/g' ${design_dir}/openlane/fpga_struct_block/fpga_struct_block.sdc
 sed -i 's/0.9/1.2/g' ${design_dir}/openlane/fpga_struct_block/fpga_struct_block.sdc
+sed -i 's/set_input_delay 0.0/set_input_delay 0.05/g' ${design_dir}/openlane/fpga_struct_block/fpga_struct_block.sdc

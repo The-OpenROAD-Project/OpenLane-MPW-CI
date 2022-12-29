@@ -19,6 +19,7 @@ pipeline {
                                'mpw7_yonga_soc yonga_mcu_axi_node_intf_wrap',
                                'mpw7_yonga_soc yonga_mcu_mba_core_region_2',
                                'ppcpu ppcpu_dcache',
+                               'patmos_chip',
                                'qf100 qf_wrapper',
                                'riscduino_Q2 rdQ2_ycr4_iconnect',
                                'spectrometer_hyperspace_mpw7',

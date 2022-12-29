@@ -29,8 +29,8 @@ pipeline {
                                'mpw6_REST_II',
                                'mpw6_hyperram',
                                'mpw6-leaf',
-                               'mpw7_microwatt mpw7_Microwatt_FP_DFFRFile',
-                               'mpw7_microwatt mpw7_Microwatt_multiply_add',
+                               //'mpw7_microwatt mpw7_Microwatt_FP_DFFRFile',//json format
+                               //'mpw7_microwatt mpw7_Microwatt_multiply_add',//json format
                                'pong-chip',
                                'qf100 qf_mkLanaiFrontend',
                                'qf100 qf_mkQF100Fabric',
