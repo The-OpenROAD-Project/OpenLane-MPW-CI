@@ -1241,6 +1241,14 @@ based designs details with following order:
     -   Executable CI Script: [riscv_cpu_mpw7](../scripts/riscv_cpu_mpw7) |
          [riscv_cpu_counter](../scripts/riscv_cpu_counter)
 
+-   `rocket_alpha`
+    -   Project Name: RocketAlpha
+    -   Project Owner: Nguyen Dao
+    -   Project Number: [1162](https://platform.efabless.com/projects/1162)
+    -   Description: This project demonstrates a customized Rocket 
+         Chip SoC, generated from Chipyard.
+    -   Executable CI Script: [rocket_alpha](../scripts/rocket_alpha)
+
 -   `rvcore_chip1`
     -   Project Name: RVcore Chip1 
     -   Project Owner: Kenji Kise
