@@ -22,6 +22,7 @@ pipeline {
                                'patmos_chip',
                                'qf100 qf_wrapper',
                                'riscduino_Q2 rdQ2_ycr4_iconnect',
+                               'rocket_alpha',
                                'spectrometer_hyperspace_mpw7',
                                'upb_natalius_soc NSoC_dualport_sram',
                                'yonga_turbo_encoder';
