@@ -2,6 +2,8 @@
 [![CI-Large-Job-1](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/production-large-1/job/main/badge/icon?subject=CI-Large-Job-1)](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/production-large-1/job/main/)
 [![CI-Small-Job-1](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/production-small-1/job/main/badge/icon/?subject=CI-Small-Job-1)](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/production-small-1/job/main/)
 [![CI-Small-Job-2](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/production-small-2/job/main/badge/icon/?subject=CI-Small-Job-2)](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/production-small-2/job/main/)
+[![CI-Small-Job-3](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/production-small-3/job/main/badge/icon/?subject=CI-Small-Job-3)](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/production-small-3/job/main/)
+[![CI-Small-Job-4](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/production-small-4/job/main/badge/icon/?subject=CI-Small-Job-4)](https://jenkins.openroad.tools/job/OpenLane-MPW-CI-Public/job/production-small-4/job/main/)
 
 ## Description
 The OpenLane MPW CI repo contains a regression test to ensure that new versions of OpenLane and OpenROAD continue to work on the efabless MPW designs.
