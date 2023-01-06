@@ -11,10 +11,13 @@ The OpenLane MPW CI repo contains a regression test to ensure that new versions 
 part of macro hardening`(user_proj_example)` or design wrapping`(user_project_wrapper)`.
 
 Following MPW shuttle designs included as part of CI:
-[MPW-2](https://platform.efabless.com/projects/shuttle_name/MPW-2) |
-[MPW-3](https://platform.efabless.com/projects/shuttle_name/MPW-3) |
-[MPW-4](https://platform.efabless.com/projects/shuttle_name/MPW-4) |
-[MPW-5](https://platform.efabless.com/projects/shuttle_name/MPW-5)
+[MPW-2](https://platform.efabless.com/shuttles/MPW-2) |
+[MPW-3](https://platform.efabless.com/shuttles/MPW-3) |
+[MPW-4](https://platform.efabless.com/shuttles/MPW-4) |
+[MPW-5](https://platform.efabless.com/shuttles/MPW-5) |
+[MPW-6](https://platform.efabless.com/shuttles/MPW-6) |
+[MPW-7](https://platform.efabless.com/shuttles/MPW-7) |
+[MPW-8](https://platform.efabless.com/shuttles/MPW-8) 
 
 
 Also you can view current CI design description [here](./designs/README.md).
