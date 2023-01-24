@@ -42,8 +42,7 @@ pipeline {
                                'soric_project crypto_core',
                                'soric_project flexbex_core',
                                'treepram',
-                               'wishbone_CAN',
-                               'yifive_a2 syntacore';
+                               'wishbone_CAN';
                     }
                 }
 

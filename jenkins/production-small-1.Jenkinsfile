@@ -42,7 +42,6 @@ pipeline {
                                'fuserisc wb_mem_split',
                                'GpioCtrl',
                                'jacaranda8',
-                               'junga_soc',
                                'kasirga_k0 c0_system_macro',
                                'koggestone_adder',
                                'logic_bist LBIST_mbist_top1',

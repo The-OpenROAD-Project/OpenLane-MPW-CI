@@ -22,6 +22,7 @@ pipeline {
                                'rocket_alpha',
                                'spectrometer_hyperspace_mpw7',
                                'upb_natalius_soc NSoC_dualport_sram',
+                               'yifive_a2 syntacore',
                                'yonga_turbo_encoder';
                     }
                 }
