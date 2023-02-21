@@ -1,9 +1,7 @@
 # Design Description
 
-Refer [design description](./MPW_Design_Description.md), which consists of a
-description of the Efabless MPW shuttle design list currently in
-the CI. This [list](./MPW_Design_Description.md) have MPW shuttle
-based designs details with following order:
+This file consists of the Efabless shuttle digital design list currently
+in the CI. The designs in this list have the following structure:
 
 -   `CI Design Name`
     -   `Project Name:`
