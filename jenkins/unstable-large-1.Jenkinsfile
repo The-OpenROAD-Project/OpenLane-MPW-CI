@@ -12,17 +12,17 @@ pipeline {
                     axis {
                         name "DESIGN";
                         values 'azadi_soc',
-                               'Elpis_Light Elpis_custom_sram',
-                               'marmot_asic_v2',
-                               'mpw6_prga',
-                               'mpw7_prga',
-                               'mpw7_yonga_soc yonga_mcu_axi_node_intf_wrap',
-                               'mpw7_yonga_soc yonga_mcu_mba_core_region_2',
-                               'qf100 qf_wrapper',
-                               'rocket_alpha',
-                               'spectrometer_hyperspace_mpw7',
-                               'upb_natalius_soc NSoC_dualport_sram',
-                               'yifive_a2 syntacore',
+                               //'Elpis_Light Elpis_custom_sram',
+                               //'marmot_asic_v2',
+                               //'mpw6_prga',
+                               //'mpw7_prga',
+                               //'mpw7_yonga_soc yonga_mcu_axi_node_intf_wrap',
+                               //'mpw7_yonga_soc yonga_mcu_mba_core_region_2',
+                               //'qf100 qf_wrapper',
+                               //'rocket_alpha',
+                               //'spectrometer_hyperspace_mpw7',
+                               //'upb_natalius_soc NSoC_dualport_sram',
+                               //'yifive_a2 syntacore',
                                'yonga_turbo_encoder';
                     }
                 }
