@@ -33,7 +33,7 @@ pipeline {
                                'ppcpu ppcpu_upper_core_logic',
                                //'ppcpu ppcpu_uprj_w_const',
                                'ppcpu ppcpu_wb_compressor',
-                               //'ppcpu ppcpu_wb_cross_clk',
+                               'ppcpu ppcpu_wb_cross_clk',
                                //'rhythmIC',
                                //'riscduino_S4 rdS4_uart_i2cm_usb_spi_top',
                                //'riscduino_S4 rdS4_wb_host',
